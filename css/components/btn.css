@@ -1,0 +1,115 @@
+.btn-facebook{
+	background: #1877F2;
+	border-radius: 6px;
+	padding: 7px 10px;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+.btn-google{
+	background: #ffffff;
+	border-radius: 6px;
+	padding: 7px 10px;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #212121;
+	border: 1px solid #E0E0E0;
+}
+.btn-facebook img,
+.btn-google img{
+	margin-right: 10px;
+}
+/*****buttons****/
+.btn-outline{
+  border: 1px solid #6A9586;
+  border-radius: 6px;
+  align-items: center;
+  padding: 11px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #4F8C77;
+}
+.btn-outline:hover{
+  color: #4F8C77;
+}
+.btn-outline-violet{
+  border: 1px solid #707FDA;
+  border-radius: 6px;
+  align-items: center;
+  padding: 11px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #5B69BD;
+}
+.btn-outline-violet:hover{
+  color: #5B69BD;
+}
+.btn-solid{
+  border: 1px solid #6A9586;
+  background: #6A9586;
+  border-radius: 6px;
+  padding: 11px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.btn-solid-grey{
+  background: #F4F5F9;
+  border-radius: 6px;
+  align-items: center;
+  padding: 11px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #4F8C77;
+}
+.btn-outline-white{
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 11px 20px;
+}
+.btn-outline-white:hover{
+  color: #ffffff;
+}
+.btn-solid-white{
+  background: #ffffff;
+  border-radius: 6px;
+  align-items: center;
+  padding: 11px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #707fda;
+}
+.btn-solid-violet{
+  border: 1px solid #707FDA;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  background-color: #707FDA;
+  color: #FFFFFF;
+  padding: 11px 20px;
+}
+.btn-solid-violet:hover{
+  color: #ffffff;
+}
+[type='button'],
+[type='submit'] {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+
+ }

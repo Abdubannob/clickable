@@ -1,0 +1,130 @@
+.service-report-card{
+	margin-top: 30px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+}
+.service-report-card .item{
+	display: flex;
+	align-items: center;
+}
+.service-report-card .item img{
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+}
+.service-report-card .item h4{
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	color: #212121;
+}
+.service-report-card .item p{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	color: #757575;
+}
+.service-report-card .item-big{
+	align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+	padding: 40px;
+}
+.service-report-card .item-big img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.service-report-card .item-big h4{
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	color: #212121;
+	margin-bottom: 10px;
+}
+.service-report-card .item-big p{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	color: #757575;
+}
+.service-report-card .item-table{
+	grid-column: 2/4;
+}
+.service-report-card tr th{
+	padding: 30px 20px 20px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	color: #212121;
+}
+.service-report-card .box:nth-child(3){
+	height: fit-content;
+}
+.service-report-card tr td{
+	padding: 15px 20px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	color: #757575;
+}
+.service-report-card tr td:first-child{
+	font-weight: bold
+}
+.service-report-card tbody tr:last-child{
+	border-bottom: none;
+}
+.service-report-card .item.item-big-small{
+	display: none;
+}
+
+
+/***service statistics***/
+.service-statistics .item{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.service-statistics .item img{
+	margin-right: 10px;
+}
+.service-statistics .item h1{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	color: #212121;
+	margin-bottom: 5px;
+}
+.service-statistics .item p{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #757575;
+}
+
+/**************************/
+@media(max-width: 1300px){
+	.service-report-card .item-table{
+		grid-column: 1/3;
+	}
+	.service-report-card{
+		grid-template-columns: repeat(2, 1fr);
+	}
+/*	.service-report-card .item-big{
+		display: none;
+	}
+	.service-report-card .item.item-big-small{
+		display: flex;
+	}*/
+}
+@media (max-width: 767.98px) {
+	.service-report-card .item-table{
+		grid-column: auto;
+	}
+	.service-report-card{
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

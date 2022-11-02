@@ -1,0 +1,17 @@
+.card-select h2{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #212121;
+	margin: 20px 0 10px;
+}
+.card-select p{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #757575;
+	margin-bottom: 40px;
+}
+.purchase-service{
+	margin-top: 20px;
+}

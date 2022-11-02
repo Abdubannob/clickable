@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="../../css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../../static/js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+    <nav class="navbar justify-content-between fixed-top violet">
+        <div class="row ">
+            <div class="col">
+                <a class="navbar-brand">MNWHO</a>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">
+                <form>
+                    <input class="form-control mr-sm-2 nav-search header-search violet" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+            <div class="col">
+                <span><img src="../../images/icons/nav-bell.svg" alt="Bell"></span>
+            </div>
+            <div class="col">
+                <span><img src="../../images/icons/nav-bookmark.svg" alt="Bookmark"></span>
+            </div>
+        </div>
+    </nav>
+    <div class="sidenav" id="sidenav">
+        <div class="social violet">
+            <li><a class="active-sidenav-violet" href=""><img src="../../images/icons/home.svg" alt=""></a></li>
+            <li><a href=""><img src="../../images/icons/youtube.svg" alt="yt"></a></li>
+            <li><a href=""><img src="../../images/icons/instagram.svg" alt="ins"></a></li>
+            <li><a href=""><img src="../../images/icons/facebook.svg" alt="fb"></a></li>
+            <li><a href=""><img src="../../images/icons/twitter.svg" alt="tw"></a></li>
+            <li><a href=""><img src="../../images/icons/tiktok.svg" alt="tt"></a></li>
+            <li><a href=""><img src="../../images/icons/linkedin.svg" alt="in"></a></li>
+            <li><a href=""><img src="../../images/icons/github.svg" alt="git"></a></li>
+            <li><a href=""><img src="../../images/icons/soundcloud.svg" alt="sc"></a></li>
+            <div class="menu-avatar">
+                <a href="#" class="sms">
+                    <img class="menu-avatar__image" src="../../images/icons/message.svg" alt="sms">
+                </a>
+                <a href="#" class="profile">
+                    <img class="menu-avatar__image" src="../../images/icons/profile.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="menu" id="menu">
+            <h1 class="title">Edit profile</h1>
+            <li><a href="#" class="active"><img src="../../images/profile/icons-settings.svg" alt="icon">Edit profile</a></li>
+            <li><a href="#"><img src="../../images/profile/icons-password.svg" alt="icon">Email & password</a></li>
+            <li><a href="#"><img src="../../images/profile/icons-card_payment.svg" alt="icon">Payment method</a></li>
+            <li><a href="#"><img src="../../images/profile/icons-star.svg" alt="icon">Subscription</a></li>
+        </div>
+    </div>
+    <main id="main">
+        <div class="main-section">
+            <div class="nav-title">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="dashboard-banner violet">
+                <div class="subscribe-time">
+                    <div class="d-flex align-items-center">
+                        <img src="../../images/icons/star-round-violet.svg" alt="icon">
+                        <p>Your 1 year subscription will end after <span>234</span> days</p>
+                    </div>
+                    <button class="btn btn-solid-violet">Get Pro</button>
+                </div>
+            </div>
+            <div class="dashboard-banner violet">
+                <div class="greeting">
+                    <p>Welcome back Jimmi</p>
+                </div>
+            </div>
+            <div class="dashboard-statistics">
+                <div class="title"><h3>Campaigns</h3></div>
+                <div class="dash-stats-list">
+                    <div class="item block-container">
+                        <img src="../../images/profile/save-round-violet.svg" alt="icon">
+                        <div class="d-flex" style="align-items: center;">
+                            <h2>4</h2>
+                            <div class="d-flex">
+                                <p>Saved <br>Campaigns</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item block-container">
+                        <img src="../../images/profile/pending-round-violet.svg" alt="icon">
+                        <div class="d-flex" style="align-items: center;">
+                            <h2>4</h2>
+                            <div class="d-flex">
+                                <p>Pending <br>Campaigns</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item block-container">
+                        <img src="../../images/profile/pay-round-violet.svg" alt="icon">
+                        <div class="d-flex" style="align-items: center;">
+                            <h2>4</h2>
+                            <div class="d-flex">
+                                <p>Waiting for Pay <br>Campaigns</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item block-container">
+                        <img src="../../images/profile/zipper-round-violet.svg" alt="icon">
+                        <div class="d-flex" style="align-items: center;">
+                            <h2>4</h2>
+                            <div class="d-flex">
+                                <p>Campaigns <br>In Progress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item block-container item1">
+                        <img src="../../images/profile/done-round-violet.svg" alt="icon">
+                        <div class="d-flex" style="align-items: center;">
+                            <h2>4</h2>
+                            <div class="d-flex">
+                                <p>Completed <br>Campaigns</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard-statistics">
+                <div class="title"><h3>Services</h3></div>
+                <div class="dash-stats-list">
+                    <div class="item block-container">
+                        <img src="../../images/profile/pending-round-violet.svg" alt="icon">
+                        <div class="d-flex" style="align-items: center;">
+                            <h2>3</h2>
+                            <div class="d-flex">
+                                <p>Pending <br>Services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item block-container">
+                        <img src="../../images/profile/service-round-violet.svg" alt="icon">
+                        <div class="d-flex" style="align-items: center;">
+                            <h2>4</h2>
+                            <div class="d-flex">
+                                <p>Services <br>In Progress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item block-container">
+                        <img src="../../images/profile/done-round-violet.svg" alt="icon">
+                        <div class="d-flex" style="align-items: center;">
+                            <h2>25</h2>
+                            <div class="d-flex">
+                                <p>Completed <br>Services</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../js/index.js"></script>
+    <script>
+        function openCity(cityName, link) {
+            let i;
+            const x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(cityName).style.display = "flex";
+            // document.getElementById(link).className= "cool-link-active";
+        }
+    </script>
+    
+
+</body>
+
+</html>

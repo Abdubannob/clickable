@@ -1,0 +1,43 @@
+.rate-card{
+	margin-top: 30px;
+}
+.rate-card .pricing-card p.text{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	color: #757575;
+}
+.rate-card .pricing-card p.title{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	color: #757575;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.rate-list{
+	margin-top: 25px;
+	margin-bottom: 100px;
+}
+.rate-list li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.rate-list li p{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	color: #212121;
+}
+.rate-list li span{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #707FDA;
+}

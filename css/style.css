@@ -207,7 +207,7 @@ h1.block-title{
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #707FDA;
-  height: 120px;
+  min-height: 120px;
   margin-bottom: 20px;
   border-radius: 0 0 12px 12px;
   align-items: center;

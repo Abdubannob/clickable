@@ -5,19 +5,15 @@
     flex-direction: column;
 }
 
-.nav-title {
-    display: flex;
-    margin-bottom: 30px;
-    justify-content: space-between;
-}
-.nav-title-back{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
-.nav-title img {
+.nav-title-back img {
     margin-right: 10px;
+}
+.nav-title-back a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
 }
 ul.chips{
     display: flex;

@@ -102,6 +102,13 @@ h1.title{
   color: #7E847F;
   margin-bottom: 20px;
 }
+.nav-title h1{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #212121;
+  margin-bottom: 20px;
+}
 /*.title {
   font-weight: bold;
   font-size: 24px;
@@ -212,6 +219,7 @@ h1.block-title{
   border-radius: 0 0 12px 12px;
   align-items: center;
   padding: 20px 8px;
+  --bs-gutter-x: 0;
 }
 .banner-title .title{
   display: flex;

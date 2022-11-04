@@ -276,7 +276,84 @@
 	color: #757575;
 }
 .todo-body{
-	padding: 20px;
+	padding: 0 20px;
+}
+.todo-body .checkbox-group{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	border-bottom: 1px solid #E5E5E5;
+}
+.todo-body .checkbox-group:last-child{
+	border-bottom: none;
+}
+.todo-body .checkbox-group label{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #5B69BD;
+}
+.todo-body .checkbox-group.checked label{
+	text-decoration: line-through;
+}
+.todo-body .checkbox-group .check-status p{
+	display: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #4CAF50;
+}
+.todo-body .checkbox-group.checked .check-status p{
+	display: initial;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.todo-body input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.todo-body label {
+  position: relative;
+  cursor: pointer;
+}
+.todo-body label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #C7CBE0;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 15px;
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+}
+.todo-body input:checked + label:before{
+	border: 2px solid #4CAF50;
+}
+.todo-body input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  border: solid #4CAF50;
+  top: 7px;
+  left: 11px;
+  width: 7px;
+  height: 12px;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 .revenue-growth .completed{
 	display: grid;

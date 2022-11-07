@@ -11,11 +11,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../css/main.css">
 
+
+<!-- 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="../../vendor/js/bootstrap.min.js"></script>
-    <script src="../../js/index.js"></script>
+    <script src="../../js/index.js"></script> -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
 </head>
 
 <body>
@@ -174,378 +179,506 @@
                 </div>
             </div>
             <div class="nav-title">
-                <h1>Dashboard</h1>
+                <h1>Orders</h1>
             </div>
-            <!-- <div class="welcome">
-                <h1>Welcome back, Jimmi!</h1>
+            <section class="splide" aria-label="Splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
+                                </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                            </div>
+                            <hr>
+                            <div class="items">
+                                <div class="item">
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
+                                </div>
+                                <div class="item">
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
+                                </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                            </div>
+                            <hr>
+                            <div class="items">
+                                <div class="item">
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
+                                </div>
+                                <div class="item">
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
+                                </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                            </div>
+                            <hr>
+                            <div class="items">
+                                <div class="item">
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
+                                </div>
+                                <div class="item">
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
+                                </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                            </div>
+                            <hr>
+                            <div class="items">
+                                <div class="item">
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
+                                </div>
+                                <div class="item">
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
+                                </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                            </div>
+                            <hr>
+                            <div class="items">
+                                <div class="item">
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
+                                </div>
+                                <div class="item">
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
+                                </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                            </div>
+                            <hr>
+                            <div class="items">
+                                <div class="item">
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
+                                </div>
+                                <div class="item">
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="alert dashboard-alert blue">
-                <div class="d-flex">
-                    <img src="../../images/dashboard/dashboard-alert.svg" alt="icon">
-                    <div>
-                        <h3>Your 1 year subscription will end after 234 days</h3>
-                        <p>To renew subscription please visit <a href="#">upgrade and renwal page.</a></p>
-                    </div>
-                </div>
-                <button class="btn" type="button" data-dismiss="alert">
-                    <img src="../../images/dashboard/alert-close.svg" alt="alert-close" style="margin-right: 0;">
-                </button>
+            </section>
+            <div class="nav-title">
+                <h1>Services</h1>
             </div>
-            <div class="nav-black">
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-link active" id="nav-activities-tab" data-toggle="tab" href="#nav-activities" role="tab" aria-controls="nav-activities" aria-selected="true">Activities</a>
-                    <a class="nav-link" id="nav-status-tab" data-toggle="tab" href="#nav-status" role="tab" aria-controls="nav-status" aria-selected="false">Status</a>
-                </div>
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-activities" role="tabpanel" aria-labelledby="nav-activities-tab">
-                        <div class="dashboard-deals">
-                            <div class="box item">
-                                <div class="box-body deal-top">
-                                    <img src="../../images/icons/img-order.png" alt="img">
-                                    <div class="name">
-                                        <h2>Custom Service name</h2>
-                                        <p>In maecenas vestibulum nunc praesent est sit egestas volutpat. Faucibus scelerisque pharetra, a eget libero velit. Mauris ut urna tellus lacinia libero nulla nunc praesent est sit egestas volutpat. Faucibus scelerisque pharetra, a eget libero velit. Mauris ut urna tellus lacinia libero nulla nunc praesent est sit egestas volutpat.</p>
-                                    </div>
+            <section class="splide" aria-label="Splide2">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
                                 </div>
-                                <div class="box-footer deal-body">
-                                    <div class="deal-top-left">
-                                        <h1>Campaign:</h1>
-                                        <p>Campaign name</p>
-                                    </div>
-                                    <div class="deal-top-center">
-                                        <div class="divider"></div>
-                                        <img src="../../images/icons/youtube.svg" alt="icon">
-                                        <div class="divider"></div>
-                                        <div class="item">
-                                            <h6>Due In</h6>
-                                            <p>3 days</p>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="price">
-                                            <h2>AED 350</h2>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <span class="green">27 left</span>
-                                    </div>
-                                    <div class="deal-top-right">
-                                        <div class="d-flex status status-pending">
-                                            <p>Pending</p>
-                                        </div>
-                                        <button class="btn btn-solid-violet ml-3">Accept</button>
-                                    </div>
-                                </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
                             </div>
-                            <div class="box item">
-                                <div class="box-body deal-top">
-                                    <img src="../../images/icons/img-order.png" alt="img">
-                                    <div class="name">
-                                        <h2>Custom Service name</h2>
-                                        <p>In maecenas vestibulum nunc praesent est sit egestas volutpat. Faucibus scelerisque pharetra, a eget libero velit. Mauris ut urna tellus lacinia libero nulla nunc praesent est sit egestas volutpat. Faucibus scelerisque pharetra, a eget libero velit. Mauris ut urna tellus lacinia libero nulla nunc praesent est sit egestas volutpat.</p>
-                                    </div>
-                                </div>
-                                <div class="box-footer deal-body">
-                                    <div class="deal-top-left">
-                                        <h1>Campaign:</h1>
-                                        <p>Campaign name</p>
-                                    </div>
-                                    <div class="deal-top-center">
-                                        <div class="divider"></div>
-                                        <img src="../../images/icons/youtube.svg" alt="icon">
-                                        <div class="divider"></div>
-                                        <div class="item">
-                                            <h6>Due In</h6>
-                                            <p>3 days</p>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="price">
-                                            <h2>AED 350</h2>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <span class="green">27 left</span>
-                                    </div>
-                                    <div class="deal-top-right">
-                                        <div class="d-flex status status-pending">
-                                            <p>Pending</p>
-                                        </div>
-                                        <button class="btn btn-solid-violet ml-3">Accept</button>
-                                    </div>
-                                </div>
-                            </div>
-                            
                         </div>
-                        <div class="dashboard-title">
-                            <div class="divider"></div>
-                            <p>Services & Campaigns Orders</p>
-                        </div>
-                        <div class="dashboard-deals">
-                            <div class="box item">
-                                <div class="box-body deal-top">
-                                    <img src="../../images/icons/img-order.png" alt="img">
-                                    <div class="name">
-                                        <h2>Custom Service name</h2>
-                                        <p>In maecenas vestibulum nunc praesent est sit egestas volutpat. Faucibus scelerisque pharetra, a eget libero velit. Mauris ut urna tellus lacinia libero nulla nunc praesent est sit egestas volutpat. Faucibus scelerisque pharetra, a eget libero velit. Mauris ut urna tellus lacinia libero nulla nunc praesent est sit egestas volutpat.</p>
-                                    </div>
-                                </div>
-                                <div class="box-footer deal-body">
-                                    <div class="deal-top-left">
-                                        <h1>Campaign:</h1>
-                                        <p>Campaign name</p>
-                                    </div>
-                                    <div class="deal-top-center">
-                                        <div class="divider"></div>
-                                        <img src="../../images/icons/youtube.svg" alt="icon">
-                                        <div class="divider"></div>
-                                        <div class="item">
-                                            <h6>Due In</h6>
-                                            <p>3 days</p>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="price">
-                                            <h2>AED 350</h2>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <span class="green">27 left</span>
-                                    </div>
-                                    <div class="deal-top-right">
-                                        <div class="d-flex status status-pending">
-                                            <p>Pending</p>
-                                        </div>
-                                        <button class="btn btn-solid-violet ml-3">Accept</button>
-                                    </div>
-                                </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
                             </div>
-                            
-                            <div class="box item">
-                                <div class="box-body deal-top">
-                                    <img src="../../images/icons/img-order.png" alt="img">
-                                    <div class="name">
-                                        <h2>Custom Service name</h2>
-                                        <p>In maecenas vestibulum nunc praesent est sit egestas volutpat. Faucibus scelerisque pharetra, a eget libero velit. Mauris ut urna tellus lacinia libero nulla nunc praesent est sit egestas volutpat. Faucibus scelerisque pharetra, a eget libero velit. Mauris ut urna tellus lacinia libero nulla nunc praesent est sit egestas volutpat.</p>
-                                    </div>
+                            <hr>
+                            <div class="items">
+                                <div class="item">
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
                                 </div>
-                                <div class="box-footer deal-body">
-                                    <div class="deal-top-left">
-                                        <h1>Campaign:</h1>
-                                        <p>Campaign name</p>
-                                    </div>
-                                    <div class="deal-top-center">
-                                        <div class="divider"></div>
-                                        <img src="../../images/icons/youtube.svg" alt="icon">
-                                        <div class="divider"></div>
-                                        <div class="item">
-                                            <h6>Due In</h6>
-                                            <p>3 days</p>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="price">
-                                            <h2>AED 350</h2>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <span class="green">27 left</span>
-                                    </div>
-                                    <div class="deal-top-right">
-                                        <div class="d-flex status status-pending">
-                                            <p>Pending</p>
-                                        </div>
-                                        <button class="btn btn-solid-violet ml-3">Accept</button>
-                                    </div>
+                                <div class="item">
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
+                                </div>
+                                <div class="item">
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-status" role="tabpanel" aria-labelledby="nav-status-tab">
-                        <div class="dashboard-stats">
-                            <div class="box">
-                                <div class="box-body">
-                                    <h1 class="title">Service</h1>
-                                    <div class="dashboard-stats-info">
-                                        <div class="item">
-                                            <img src="../../images/dashboard/saved.svg" alt="icon">
-                                            <div>
-                                                <h3>Saved</h3>
-                                                <p>876 667</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="../../images/dashboard/pending.svg" alt="icon">
-                                            <div>
-                                                <h3>Pending</h3>
-                                                <p>667</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="../../images/dashboard/rejected.svg" alt="icon">
-                                            <div>
-                                                <h3>Rejected</h3>
-                                                <p>876 667</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="../../images/dashboard/active.svg" alt="icon">
-                                            <div>
-                                                <h3>Active</h3>
-                                                <p>876 667</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="../../images/dashboard/completed.svg" alt="icon">
-                                            <div>
-                                                <h3>Completed</h3>
-                                                <p>2 876 667</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </li>
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
                                 </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
                             </div>
-                            <div class="box">
-                                <div class="box-body">
-                                    <h1 class="title">Services Orders</h1>
-                                    <div class="dashboard-stats-info">
-                                        <div class="item">
-                                            <img src="../../images/dashboard/pending.svg" alt="icon">
-                                            <div>
-                                                <h3>Pending</h3>
-                                                <p>667</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="../../images/dashboard/rejected.svg" alt="icon">
-                                            <div>
-                                                <h3>Rejected</h3>
-                                                <p>876 667</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="../../images/dashboard/completed.svg" alt="icon">
-                                            <div>
-                                                <h3>Completed</h3>
-                                                <p>2 876 667</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                            </div>
+                            <hr>
+                            <div class="items">
+                                <div class="item">
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
                                 </div>
-                            </div>
-                            <div class="box">
-                                <div class="box-body">
-                                    <h1 class="title">Deals Orders</h1>
-                                    <div class="dashboard-stats-info">
-                                        <div class="item">
-                                            <img src="../../images/dashboard/inprogress.svg" alt="icon">
-                                            <div>
-                                                <h3>Inprogress</h3>
-                                                <p>876 667</p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="../../images/dashboard/completed.svg" alt="icon">
-                                            <div>
-                                                <h3>Completed</h3>
-                                                <p>2 876 667</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="item">
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
+                                </div>
+                                <div class="item">
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="dashboard-title">
-                            <div class="divider"></div>
-                            <p>revenue and growth</p>
-                        </div>
-                        <div class="revenue-growth">
-                            <div class="completed">
-                                <div class="item">
-                                    <img src="../../images/dashboard/revenue-growth-done.svg" alt="icon">
-                                    <h1>100$</h1>
-                                    <p>Completed campain Orders</p>
+                    </li>
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
                                 </div>
-                                <div class="item">
-                                    <img src="../../images/dashboard/revenue-growth-done.svg" alt="icon">
-                                    <h1>500$</h1>
-                                    <p>Completed Service Orders</p>
-                                </div>
-                                <div class="item">
-                                    <img src="../../images/dashboard/revenue-growth-done.svg" alt="icon">
-                                    <h1>735$</h1>
-                                    <p>Completed Deal Orders</p>
-                                </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
                             </div>
-                            <div class="statistics">
+                        </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                            </div>
+                            <hr>
+                            <div class="items">
                                 <div class="item">
-                                    <h2 class="title">yearly revenue</h2>
-                                    <div class="card yearly-revenue">
-                                        <p>2021</p>
-                                        <div class="d-flex" style="margin: 12px 0; align-items: flex-end;"><h2>$13,859</h2><img src="../../images/dashboard/up.svg" alt="icon" style="margin-bottom: 6px;"><span class="green">10%</span></div>
-                                        <p>Compared to $11,345 last year</p>
-                                        <div class="card-progress">
-                                            <div class="d-flex justify-content-between">
-                                                <p>January</p>
-                                                <p>8273</p>
-                                            </div>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                        <div class="card-progress">
-                                            <div class="d-flex justify-content-between">
-                                                <p>February</p>
-                                                <p>9284</p>
-                                            </div>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                        <div class="card-progress">
-                                            <div class="d-flex justify-content-between">
-                                                <p>March</p>
-                                                <p>5234</p>
-                                            </div>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                        <div class="card-progress">
-                                            <div class="d-flex justify-content-between">
-                                                <p>April</p>
-                                                <p>8273</p>
-                                            </div>
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
                                 </div>
                                 <div class="item">
-                                    <h2 class="title">Channel Growth</h2>
-                                    <div class="card channel-growth">
-                                        <p>2021</p>
-                                        <div class="d-flex" style="margin: 12px 0; align-items: flex-end;"><h2>92%</h2> <img src="../../images/dashboard/down.svg" alt="icon" style="margin-bottom: 6px;"><span class="red ">-20%</span></div>
-                                        <p>Compared to $11,345 last year</p>
-                                    <div class="myLineChart">
-                                        <canvas id="myLineChart"></canvas>
-                                    </div>
-                                    </div>
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
                                 </div>
                                 <div class="item">
-                                    <h2 class="title">revenue by channel</h2>
-                                    <div class="card revenue-channel">
-                                        <div>
-                                          <canvas id="myChart"></canvas>
-                                        </div>
-                                        <div class="social-net">
-                                            <ul>
-                                                <li class="green"><span>Facebook</span></li>
-                                                <li class="yellow"><span>tik tok</span></li>
-                                                <li class="grey"><span>YouTube</span></li>
-                                                <li class="blue"><span>Instagram</span></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div> -->
+                    </li>
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
+                                </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                            </div>
+                            <hr>
+                            <div class="items">
+                                <div class="item">
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
+                                </div>
+                                <div class="item">
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
+                                </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                            </div>
+                            <hr>
+                            <div class="items">
+                                <div class="item">
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
+                                </div>
+                                <div class="item">
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide box service-card">
+                        <div class="top">
+                            <img src="../../images/dashboard/service-card.png" alt="service-card">
+                            <div class="top-right">
+                                <div class="d-flex status status-in-progress">
+                                    <p>Active</p>
+                                </div>
+                                <h4>Order title quis consectetur lacus, diam.</h4>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                            </div>
+                            <hr>
+                            <div class="items">
+                                <div class="item">
+                                    <p>Price:</p>
+                                    <span>3000,00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Account</p>
+                                    <span>smotraTV</span>
+                                </div>
+                                <div class="item">
+                                    <p>Income:</p>
+                                    <span>13,234.00 AED</span>
+                                </div>
+                                <div class="item">
+                                    <p>Views:</p>
+                                    <span>2034</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </section>
+            <div class="nav-title">
+                <h1>Channels</h1>
+            </div>
+            <section class="splide" aria-label="Splide2">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide box account-card">
+                        <div class="box-body">
+                            <div class="account-info">
+                                <div class="account-status">
+                                    <div class="d-flex status status-in-progress" style="align-items: center;">
+                                        <p>Active</p>
+                                    </div>
+                                    <div class="dropleft tree-dot dropdown show">
+                                        <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="../../images/icons/three-dot.svg" alt="icon">
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Edit</a>
+                                            <a class="dropdown-item" href="#">Disable</a>
+                                            <a class="dropdown-item" href="#">Enable</a>
+                                            <a class="dropdown-item" href="#">Delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="account-head">
+                                    <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava">
+                                    <div>
+                                        <h2 class="title">LabelCom<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 13C10.0899 13 13 10.0899 13 6.5C13 2.91015 10.0899 0 6.5 0C2.91015 0 0 2.91015 0 6.5C0 10.0899 2.91015 13 6.5 13ZM9.57617 5.48014C9.84134 5.16193 9.79835 4.68901 9.48014 4.42383C9.16193 4.15866 8.68901 4.20165 8.42383 4.51986L5.63977 7.86074L4.55287 6.67502C4.27297 6.36969 3.79855 6.34906 3.49321 6.62895C3.18787 6.90885 3.16724 7.38327 3.44713 7.68861L5.1138 9.50679C5.26003 9.66631 5.46803 9.7549 5.68437 9.74979C5.90071 9.74468 6.1043 9.64638 6.24283 9.48014L9.57617 5.48014Z" fill="#707FDA"/>
+                                        </svg>
+                                        </h2>
+                                        <h3 class="sub-title">Influencer Name</h3>
+                                    </div>
+                                </a>
+                                <div class="account-stats">
+                                    <div class="d-flex align-items-center flex-wrap">
+                                        <div class="item">
+                                            <h3>343</h3>
+                                            <p>Videos</p>
+                                        </div>
+                                        <div class="item">
+                                            <h3>112M</h3>
+                                            <p>Subscribers</p>
+                                        </div>
+                                        <div class="item">
+                                            <h3>112M</h3>
+                                            <p>Views</p>
+                                        </div>
+                                        <div class="item">
+                                            <h3>46K</h3>
+                                            <p>Comments</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <p class="description">This is a description of the channel I use for social media influencing brand promotions...This is a description of the channel I use for social media influencing brand promotions... This is a description of the channel I use for social media influencing brand promotions.</p> 
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </section>
         </div>
         <footer>
             <div class="container">
@@ -606,6 +739,25 @@
         </footer>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="../../js/index.js"></script>
+
+
+    <script>
+        document.querySelectorAll('.splide').forEach(carousel => new Splide( carousel, {
+          perPage: 3,
+          perMove: 1,
+          fixedWidth: 340,
+          gap: 20,
+          arrows: false,
+          pagination: false 
+        } ).mount());
+    </script>
+
   <script>
     let btn = document.querySelector("#sidebtn");    
     let sidebar = document.querySelector(".sidebar");    
@@ -628,7 +780,9 @@
                     this.closest(".checkbox-group").classList.remove("checked");
                 }
             }
-    </script>   
+    </script>
+
+    
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="../../js/custom-chart.js"></script>
 </body>

@@ -29,34 +29,35 @@
 
 
 .custom-nav-tab .nav-tabs{
-	margin-bottom: 30px;
-	border-bottom: 1px solid #E9EBF3;
+	border-bottom: 1px solid #e9ebf34d
+;
 }
 .custom-nav-tab .nav-tabs .nav-link{
 	padding: 10px 0;
     margin-right: 40px;
 	border-radius: 0;
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 15px;
 	line-height: 18px;
-	color: #757575;
+	color: #FFFFFF;
+	opacity: 0.8;
 	border: none;
 }
 .custom-nav-tab .nav-tabs .nav-item.show .nav-link, 
 .custom-nav-tab .nav-tabs .nav-link.active{
-	font-weight: normal;
+	font-weight: 700;
 	font-size: 15px;
 	line-height: 18px;
-	color: #212121;
+	color: #FFFFFF;
 	border: none;
-	border-bottom: 2px solid #707FDA;
+	border-bottom: 2px solid #ffffff;
 	background-color: transparent;
 }
 .custom-nav-tab.violet .nav-tabs .nav-item.show .nav-link, 
 .custom-nav-tab.violet .nav-tabs .nav-link.active{
-	border-bottom: 2px solid #707FDA;
+	border-bottom: 2px solid #ffffff;
 }
 .custom-nav-tab.brand .nav-tabs .nav-item.show .nav-link, 
 .custom-nav-tab.brand .nav-tabs .nav-link.active{
-	border-bottom: 2px solid #6A9586;
+	border-bottom: 2px solid #ffffff;
 }

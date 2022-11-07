@@ -120,44 +120,7 @@ h1, h2, h3, h4, h5, h6, p{
     text-decoration: none;
 }
 /************/
-/****status color***/
-.status p{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 19px;
-    color: #4CAF50;
-    background-repeat: no-repeat;
-    padding-left: 21px;
-    background-size: 16px;
-}
-.status-pending p{
-  color: #F5A200!important;
-  background-image: url(../images/icons/status/pending.svg);
-}
-.status-awaiting-payment p{
-  color: #707FDA!important;
-  background-image: url(../images/icons/status/complete.svg);
-}
-.status-in-progress p{
-  color: #4CAF50!important;
-  background-image: url(../images/icons/status/in-progress.svg);
-}
-.status-rejected p{
-  color: #F57070!important;
-  background-image: url(../images/icons/status/rejected.svg);
-}
-.status-completed p{
-  color: #34BAB2!important;
-  background-image: url(../images/icons/status/complete.svg);
-}
-.status-saved p{
-  color: #99A29C!important;
-  background-image: url(../images/icons/status/disabled.svg);
-}
-.status-disabled p{
-  color: #99A29C!important;
-  background-image: url(../images/icons/status/disabled.svg);
-}
+
 /**************/
 .right-frame{
     max-width: 340px;

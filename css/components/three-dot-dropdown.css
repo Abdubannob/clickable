@@ -41,3 +41,6 @@
 .dropdown, .dropend, .dropstart, .dropup{
 	position: initial;
 }
+.tree-dot.dropdown img{
+	vertical-align: middle;
+}

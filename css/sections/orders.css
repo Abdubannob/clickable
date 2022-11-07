@@ -394,7 +394,7 @@ p.url-copy-description{
 .splide__pagination{
 	display: none;
 }
-.splide__track{
+.share-image .splide__track{
 	max-width: 500px;
 	margin: auto;
 }
@@ -458,27 +458,27 @@ p.url-copy-description{
 	}
 }
 @media (max-width: 1370px) and (min-width: 1200px){
-	.splide__track{
+	.share-image .splide__track{
 		max-width: 300px;
 	}
 }
 @media (max-width: 991px) and (min-width: 825.98px){
-	.splide__track{
+	.share-image .splide__track{
 		max-width: 300px;
 	}
 }
 @media (max-width: 825px) and (min-width: 768px){
-	.splide__track{
+	.share-image .splide__track{
 		max-width: 250px;
 	}
 }
 @media (max-width: 670px) and (min-width: 460px){
-	.splide__track{
+	.share-image .splide__track{
 		max-width: 300px;
 	}
 }
 @media (max-width: 459.98px){
-	.splide__track{
+	.share-image .splide__track{
 		max-width: 150px;
 	}
 }

@@ -92,6 +92,17 @@
   line-height: 18px;
   color: #707fda;
 }
+.btn-solid-red{
+  border: 1px solid #F57070;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  background-color: #F57070;
+  color: #FFFFFF;
+  padding: 11px 20px;
+}
 .btn-solid-violet{
   border: 1px solid #707FDA;
   border-radius: 6px;

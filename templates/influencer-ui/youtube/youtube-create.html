@@ -66,28 +66,78 @@
     <div class="overlay"></div>
     <main id="main" class="no-menu">
         <div class="main-section">
-            <div class="nav-title">
-                <div class="nav-title-back">
-                    <h1>Youtube</h1>
+            <div class="banner-title row youtube">
+                <div class="col-12 col-md-2 nav-title-back">
+                    <a href="#" class="btn"><img src="../../../images/icons/go-back.svg" alt="back">Go back</a>
+                </div>
+                <div class="col-12 col-md-8 title">
+                    <img src="../../../images/icons/banner-youtube.svg" alt="icon">
+                    <p class="text">Account creation</p>
+                </div>
+                <div class="col-12 col-md-2 button">
+                    <!-- <button class="btn btn-solid-white">sadsd</button> -->
                 </div>
             </div>
-            <div class="box mt-4">
-                <div class="box-body add-step-nav">
-                    <div class="nav-item">
-                        <div class="number">
-                            <span>1</span>
+            <div class="box">
+                <div class="box-body instagram">
+                    <form class="violet">
+                        <div class="form-group">
+                            <label for="youtube">Your YouTube channel link</label>
+                            <input type="text" class="form-control" id="youtube" aria-describedby="youtube" placeholder="https://">
+                            <small id="emailHelp" class="form-text text-muted">Cursus in id nulla aliquet vivamus blandit.</small>
                         </div>
-                        <p>01 Step</p>
-                    </div>
-                    <div class="nav-item active">
-                        <div class="number">
-                            <span>2</span>
+                        <div class="form-group">
+                            <label for="numberOfEmployees">Category</label>
+                            <select class="form-control" id="numberOfEmployees">
+                                <option>Select category</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                            <small id="emailHelp" class="form-text text-muted">Select one or more categories of your campaign</small>
+                            <div class="selected-items">
+                                <ul>
+                                    <li>Travel<button class="btn"><img src="../../../images/icons/form-x-icon.svg" alt="cancel-icon"></button></li>
+                                </ul>                           
+                            </div>
                         </div>
-                        <p>02 Step</p>
-                    </div>
-                </div>
-                <div class="box-body youtube">
-                    <a href="youtube-done.html" class="btn btn-google"><img src="../../../images/icons/google.svg" alt="fb-logo">Continue with Google</a>
+                        <div class="form-group">
+                            <label for="numberOfEmployees">Language</label>
+                            <select class="form-control" id="numberOfEmployees">
+                                <option>Select Language</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                            <small id="emailHelp" class="form-text text-muted">Select one or more languages of your campaign</small>
+                            <div class="selected-items">
+                                <ul>
+                                    <li>English<button class="btn"><img src="../../../images/icons/form-x-icon.svg" alt="cancel-icon"></button></li>
+                                    <li>Arabic<button class="btn"><img src="../../../images/icons/form-x-icon.svg" alt="cancel-icon"></button></li>
+                                </ul>                           
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="numberOfEmployees">Location</label>
+                            <select class="form-control" id="numberOfEmployees">
+                                <option>Select Location</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                            <small id="emailHelp" class="form-text text-muted">Select one or more location of your service</small>
+                            <div class="selected-items">
+                                <ul>
+                                    <li>United Arab Emirates<button class="btn"><img src="../../../images/icons/form-x-icon.svg" alt="cancel-icon"></button></li>
+                                    <li>Spain<button class="btn"><img src="../../../images/icons/form-x-icon.svg" alt="cancel-icon"></button></li>
+                                </ul>                           
+                            </div>
+                        </div>
+                        <a href="youtube-done.html" class="btn btn-solid-violet">Submit account</a>
+                    </form>
                 </div>
             </div>
         </div>

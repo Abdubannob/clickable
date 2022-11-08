@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../../css/main.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 
 </head>
 
@@ -94,12 +96,55 @@
                             <div class="add-body">
                                 <h2>Add your YouTube content</h2>
                                 <p>Adding your social account would allow you to view your account metrics and offer services</p>
-                                <a href="#" class="btn"><img src="../../../images/icons/add.svg" alt="add-icon"></a>
+                                <a href="youtube-content-create.html" class="btn"><img src="../../../images/icons/add.svg" alt="add-icon"></a>
                             </div>
                         </div>
                     </li>
                     <li class="splide__slide box channel-card">
-                        <a href="youtube-post.html">
+                        <div class="card-image">
+                            <a href="youtube-post.html">
+                            <img src="../../../images/insta-img1.png" class="card-img-top centered" alt="bookmark">
+                            </a>
+                        </div>
+                        <div class="box-body">
+                            <h5 class="card-title">Title</h5>
+                            <div class="playlist-info">
+                                <div class="item">
+                                    <img src="../../../images/icons/youtube-view.svg" alt="icon">
+                                    <p>32 093</p>
+                                </div>
+                                <div class="item">
+                                    <img src="../../../images/icons/youtube-like.svg" alt="icon">
+                                    <p>32 093</p>
+                                </div>
+                                <div class="item">
+                                    <img src="../../../images/icons/comment.svg" alt="icon">
+                                    <p>1 530</p>
+                                </div>
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor suspendisse tortor imperdiet et in magna.</p>
+                            <div class="account-status mb-0">
+                                <div class="d-flex status status-in-progress" style="align-items: center;">
+                                    <p>Active</p>
+                                </div>
+
+                                <div class="dropleft tree-dot dropdown show">
+                                    <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="../../../images/icons/three-dot.svg" alt="icon">
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Edit</a>
+                                        <a class="dropdown-item" href="#">Disable</a>
+                                        <a class="dropdown-item" href="#">Enable</a>
+                                        <a class="dropdown-item" href="#">Delete</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="splide__slide box channel-card">
+                        <div>
                             <div class="card-image">
                                 <img src="../../../images/insta-img1.png" class="card-img-top centered" alt="bookmark">
                             </div>
@@ -124,6 +169,7 @@
                                     <div class="d-flex status status-in-progress" style="align-items: center;">
                                         <p>Active</p>
                                     </div>
+
                                     <div class="dropleft tree-dot dropdown show">
                                         <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <img src="../../../images/icons/three-dot.svg" alt="icon">
@@ -137,12 +183,55 @@
                                     </div>
                                 </div>
                             </div>
-                        </a>
+                        </div>
+                    </li>
+                    <li class="splide__slide box channel-card">
+                        <div>
+                            <div class="card-image">
+                                <img src="../../../images/insta-img1.png" class="card-img-top centered" alt="bookmark">
+                            </div>
+                            <div class="box-body">
+                                <h5 class="card-title">Title</h5>
+                                <div class="playlist-info">
+                                    <div class="item">
+                                        <img src="../../../images/icons/youtube-view.svg" alt="icon">
+                                        <p>32 093</p>
+                                    </div>
+                                    <div class="item">
+                                        <img src="../../../images/icons/youtube-like.svg" alt="icon">
+                                        <p>32 093</p>
+                                    </div>
+                                    <div class="item">
+                                        <img src="../../../images/icons/comment.svg" alt="icon">
+                                        <p>1 530</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor suspendisse tortor imperdiet et in magna.</p>
+                                <div class="account-status mb-0">
+                                    <div class="d-flex status status-in-progress" style="align-items: center;">
+                                        <p>Active</p>
+                                    </div>
+
+                                    <div class="dropleft tree-dot dropdown show">
+                                        <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="../../../images/icons/three-dot.svg" alt="icon">
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Edit</a>
+                                            <a class="dropdown-item" href="#">Disable</a>
+                                            <a class="dropdown-item" href="#">Enable</a>
+                                            <a class="dropdown-item" href="#">Delete</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
             </section>
         </div>
+
         <footer>
             <div class="container">
                 <div class="row footer-top">
@@ -205,16 +294,16 @@
         </footer>
     </main>
 
+
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <script src="../../../vendor/js/bootstrap.min.js"></script>
     <script src="../../../js/index.js"></script>
 
 
-<script>
+    <script>
         document.querySelectorAll('.splide').forEach(carousel => new Splide( carousel, {
           perPage: 3,
           perMove: 1,
@@ -225,17 +314,16 @@
         } ).mount());
     </script>
 
-  <script>
-    let btn = document.querySelector("#sidebtn");    
-    let sidebar = document.querySelector(".sidebar");    
-    let overlay = document.querySelector(".overlay");    
-    
-    btn.onclick = function() {
-        sidebar.classList.toggle("active"),
-        overlay.classList.toggle("active")
-    }
-    </script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script>
+        let btn = document.querySelector("#sidebtn");    
+        let sidebar = document.querySelector(".sidebar");    
+        let overlay = document.querySelector(".overlay");    
+        
+        btn.onclick = function() {
+            sidebar.classList.toggle("active"),
+            overlay.classList.toggle("active")
+        }
+        </script>
 </body>
 
 </html>

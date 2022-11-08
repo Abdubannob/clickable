@@ -208,7 +208,7 @@ img.account-img{
 }
 .social-media-post-stats{
 	display: flex;
-	margin-top: 20px;
+	margin-bottom: 10px;
 	flex-wrap: wrap;
 }
 .social-media-post-stats .item{

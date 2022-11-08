@@ -25,7 +25,7 @@ input[type="search"]::-webkit-search-decoration {
 
 a{
     text-decoration: none;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 ul,ol,li{
     list-style: none outside none;

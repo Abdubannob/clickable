@@ -186,60 +186,73 @@ nav .btn.avatar img{
 
 .sidebar .violet a.instagram{background-image: url(../../images/icons/sidebar-social/instagram-white.svg);}
 .sidebar a.instagram{background-image: url(../../images/icons/sidebar-social/instagram-brand.svg);}
-.sidebar a.instagram.active{background-image: url(../../images/icons/sidebar-social/instagram-active.svg);}
 .sidebar a.instagram.active:after{
-  background: linear-gradient(90deg, #FF8A00 0%, rgba(255, 138, 0, 0) 98.84%);
+  background-image: url(../../images/icons/sidebar-social/instagram-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .sidebar .violet a.facebook{background-image: url(../../images/icons/sidebar-social/facebook-white.svg);}
 .sidebar a.facebook{background-image: url(../../images/icons/sidebar-social/facebook-brand.svg);}
-.sidebar a.facebook.active{background-image: url(../../images/icons/sidebar-social/facebook-active.svg);}
 .sidebar a.facebook.active:after{
-  background: linear-gradient(90deg, #475993 0%, rgba(71, 89, 147, 0) 98.84%);
+  background-image: url(../../images/icons/sidebar-social/facebook-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .sidebar .violet a.twitter{background-image: url(../../images/icons/sidebar-social/twitter-white.svg);}
 .sidebar a.twitter{background-image: url(../../images/icons/sidebar-social/twitter-brand.svg);}
-.sidebar a.twitter.active{background-image: url(../../images/icons/sidebar-social/twitter-active.svg);}
 .sidebar a.twitter.active:after{
-  background: linear-gradient(90deg, #03A9F4 0%, rgba(3, 169, 244, 0) 98.84%);
+  background-image: url(../../images/icons/sidebar-social/twitter-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .sidebar .violet a.tiktok{background-image: url(../../images/icons/sidebar-social/tiktok-white.svg);}
 .sidebar a.tiktok{background-image: url(../../images/icons/sidebar-social/tiktok-brand.svg);}
-.sidebar a.tiktok.active{background-image: url(../../images/icons/sidebar-social/tiktok-active.svg);}
 .sidebar a.tiktok.active:after{
-  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 98.84%);
+  background-image: url(../../images/icons/sidebar-social/tiktok-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
 .sidebar .violet a.linkedIn{background-image: url(../../images/icons/sidebar-social/linkedIn-white.svg);}
 .sidebar a.linkedIn{background-image: url(../../images/icons/sidebar-social/linkedIn-brand.svg);}
-.sidebar a.linkedIn.active{background-image: url(../../images/icons/sidebar-social/linkedIn-active.svg);}
 .sidebar a.linkedIn.active:after{
-  background: linear-gradient(90deg, #0077B7 0%, rgba(0, 119, 183, 0) 98.84%);
+  background-image: url(../../images/icons/sidebar-social/linkedIn-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .sidebar .violet a.github{background-image: url(../../images/icons/sidebar-social/github-white.svg);}
 .sidebar a.github{background-image: url(../../images/icons/sidebar-social/github-brand.svg);}
-.sidebar a.github.active{background-image: url(../../images/icons/sidebar-social/github-active.svg);}
 .sidebar a.github.active:after{
-  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 98.84%);
+  background-image: url(../../images/icons/sidebar-social/github-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .sidebar .violet a.soundcloud{background-image: url(../../images/icons/sidebar-social/soundcloud-white.svg);}
 .sidebar a.soundcloud{background-image: url(../../images/icons/sidebar-social/soundcloud-brand.svg);}
-.sidebar a.soundcloud.active{background-image: url(../../images/icons/sidebar-social/soundcloud-active.svg);}
 .sidebar a.soundcloud.active:after{
-  background: linear-gradient(90deg, #FF5722 0%, rgba(255, 87, 34, 0) 98.84%);
+  background-image: url(../../images/icons/sidebar-social/soundcloud-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 
 .sidebar .violet a.sms{background-image: url(../../images/icons/sidebar-social/sms-white.svg);}
 .sidebar a.sms{background-image: url(../../images/icons/sidebar-social/sms-brand.svg);}
-.sidebar a.sms.active{background-image: url(../../images/icons/sidebar-social/sms-brand.svg);}
-.sidebar .violet a.sms.active{background-image: url(../../images/icons/sidebar-social/sms-influencer.svg);}
 .sidebar a.sms.active:after{
-  background: linear-gradient(90deg, #707FDA 0%, rgba(112, 127, 218, 0) 98.84%);
+  background-image: url(../../images/icons/sidebar-social/sms-brand.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sidebar .violet a.sms.active:after{
+  background-image: url(../../images/icons/sidebar-social/sms-influencer.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 

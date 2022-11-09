@@ -224,6 +224,9 @@ h1.block-title{
 .banner-title.youtube{
   background-color: #FF4646;
 }
+.banner-title.facebook{
+  background-color: #4267B2;
+}
 .banner-title .title{
   display: flex;
   align-items: center;

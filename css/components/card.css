@@ -149,6 +149,22 @@
 	line-height: 20px;
 	color: #212121;
 }
+.service-card.disable{
+	background-color: #707FDACC;
+}
+.service-card.disable .top img{
+	mix-blend-mode: soft-light;
+}
+.service-card.disable h4,
+.service-card.disable span{
+	color: #ffffff;
+	opacity: 0.8;
+}
+.service-card.disable .text p,
+.service-card.disable .item p{
+	color: #ffffff;
+	opacity: 0.5;
+}
 
 .add-card{
 	display: inline-block;
@@ -186,6 +202,27 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	margin-bottom: 25px;
+}
+
+.account-card.disable{
+	background-color: #707FDACC;
+}
+.account-card.disable h2.title,
+.account-card.disable h3.sub-title,
+.account-card.disable h3{
+	color: #ffffff;
+}
+.account-card.disable path{
+	fill: #ffffff;
+}
+.account-card.disable .account-stats p,
+.account-card.disable p.description{
+	color: #FFFFFF;
+	opacity: 0.8;
+}
+
+.disable circle{
+	fill: #ffffff;
 }
 
 .account-list{
@@ -240,4 +277,18 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.channel-card.disable{
+	background-color: #707FDACC;
+}
+.channel-card.disable h5.card-title{
+	color: #ffffff;
+}
+.channel-card.disable .card-image img{
+	mix-blend-mode: soft-light;	
+}
+.channel-card.disable .playlist-info p,
+.channel-card.disable p.card-text{
+	color: #ffffff;
+	opacity: 0.8;
 }

@@ -67,7 +67,7 @@
             <div class="menu violet" id="menu">
                 <h1 class="title">Youtube</h1>
                 <li><a href="youtube-content.html" class="menu-content">Content</a></li>
-                <li><a href="youtube-service.html" class="menu-service active">Services</a></li>
+                <li><a href="youtube-service-add.html" class="menu-service active">Services</a></li>
                 <li><a href="youtube-metric.html" class="menu-metrics">Metrics</a></li>
                 <li><a href="youtube-rate-card.html" class="menu-rate-card">Rate Card</a></li>
             </div>
@@ -78,6 +78,7 @@
         <div class="main-section">
             <div class="banner-title row youtube">
                 <div class="col-12 col-md-2 nav-title-back">
+                    <a href="#" class="btn"><img src="../../../images/icons/go-back.svg" alt="back">Go back</a>
                 </div>
                 <div class="col-12 col-md-8 title">
                     <img src="../../../images/icons/banner-youtube.svg" alt="icon">
@@ -91,47 +92,34 @@
                 <div class="box-body">
                     <form class="violet">
                         <div class="form-group">
-                            <label for="youtube">Your YouTube channel link</label>
-                            <input type="text" class="form-control" id="youtube" aria-describedby="youtube" placeholder="https://">
-                            <small id="emailHelp" class="form-text text-muted">Cursus in id nulla aliquet vivamus blandit.</small>
+                            <label for="exampleInputEmail1">Title</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="The name of your service">
                         </div>
                         <div class="form-group">
-                            <label for="numberOfEmployees">Category</label>
+                            <label for="numberOfEmployees">Account</label>
                             <select class="form-control" id="numberOfEmployees">
-                                <option>Select category</option>
+                                <option>Select your account</option>
                                 <option>2</option>
                                 <option>3</option>
                                 <option>4</option>
                                 <option>5</option>
                             </select>
-                            <small id="emailHelp" class="form-text text-muted">Select one or more categories of your campaign</small>
-                            <div class="selected-items">
-                                <ul>
-                                    <li>Travel<button class="btn"><img src="../../../images/icons/form-x-icon.svg" alt="cancel-icon"></button></li>
-                                </ul>                           
-                            </div>
+                            <small id="emailHelp" class="form-text text-muted">Select your account that will provide the service</small>
                         </div>
                         <div class="form-group">
-                            <label for="numberOfEmployees">Language</label>
-                            <select class="form-control" id="numberOfEmployees">
-                                <option>Select Language</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                            <small id="emailHelp" class="form-text text-muted">Select one or more languages of your campaign</small>
-                            <div class="selected-items">
-                                <ul>
-                                    <li>English<button class="btn"><img src="../../../images/icons/form-x-icon.svg" alt="cancel-icon"></button></li>
-                                    <li>Arabic<button class="btn"><img src="../../../images/icons/form-x-icon.svg" alt="cancel-icon"></button></li>
-                                </ul>                           
-                            </div>
+                            <label for="exampleFormControlTextarea1">Description</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Description of your service"></textarea>
+                            <small id="emailHelp" class="form-text text-muted">Let me tell you about the service, provide in detail so you know what to expect.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Delivery Type</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="What will you be delivering to the client as part of your service."></textarea>
+                            <small id="emailHelp" class="form-text text-muted">What will you be delivering to the client as part of your service.</small>
                         </div>
                         <div class="form-group">
                             <label for="numberOfEmployees">Location</label>
                             <select class="form-control" id="numberOfEmployees">
-                                <option>Select Location</option>
+                                <option>Select location</option>
                                 <option>2</option>
                                 <option>3</option>
                                 <option>4</option>
@@ -145,7 +133,120 @@
                                 </ul>                           
                             </div>
                         </div>
-                        <a href="youtube-done.html" class="btn btn-solid-violet">Submit account</a>
+                        <div class="form-group">
+                            <label for="numberOfEmployees">Language</label>
+                            <select class="form-control" id="numberOfEmployees">
+                                <option>Select language</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                            <small id="emailHelp" class="form-text text-muted">Select one or more languages of your service</small>
+                            <div class="selected-items">
+                                <ul>
+                                    <li>English<button class="btn"><img src="../../../images/icons/form-x-icon.svg" alt="cancel-icon"></button></li>
+                                    <li>Arabic<button class="btn"><img src="../../../images/icons/form-x-icon.svg" alt="cancel-icon"></button></li>
+                                </ul>                           
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="numberOfEmployees">Category</label>
+                            <select class="form-control" id="numberOfEmployees">
+                                <option>Select category</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                            <small id="emailHelp" class="form-text text-muted">Select one or more categories of your service</small>
+                            <div class="selected-items">
+                                <ul>
+                                    <li>Web development<button class="btn"><img src="../../../images/icons/form-x-icon.svg" alt="cancel-icon"></button></li>
+                                </ul>                           
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="numberOfEmployees">Selecht a channel for upload selection</label>
+                            <select class="form-control" id="numberOfEmployees">
+                                <option>Select category</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                            <small id="emailHelp" class="form-text text-muted">Interdum aliquam pharetra nullam velit aliquam donec senectus duis.</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="title">Price</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="200$  please visit rate card tab for suggested price">
+                        </div>
+                        <div class="form-group">
+                            <label for="title">Service Images</label>
+                            <label class="btn form-control drop-file">
+                                <input type="file" id="id_image" name="image" style="display: none" accept="image/*" class="form-control" data-com.bitwarden.browser.user-edit="yes">
+                                <img src="../../../images/campaigns/drop-img-violet.svg" alt="picture">
+                                <img src="../../../images/campaigns/drop-video-violet.svg" alt="video">
+                                <p>Click or drag your photo here to upload</p>
+                            </label>
+                            <small id="emailHelp" class="form-text text-muted">Add up to 4 photos</small>
+                            <div class="uploaded">
+                                <div class="item">
+                                    <img src="../../../images/campaigns/uploaded1.png" alt="uploaded">
+                                    <button class="btn"> <img src="../../../images/campaigns/cancel-btn.svg" alt="canel"></button>
+                                </div>
+                                <div class="item">
+                                    <img src="../../../images/campaigns/uploaded2.png" alt="uploaded">
+                                    <button class="btn"> <img src="../../../images/campaigns/cancel-btn.svg" alt="canel"></button>
+                                </div>
+                                <div class="item">
+                                    <img src="../../../images/campaigns/uploaded3.png" alt="uploaded">
+                                    <button class="btn"> <img src="../../../images/campaigns/cancel-btn.svg" alt="canel"></button>
+                                </div>
+                                <div class="item">
+                                    <img src="../../../images/campaigns/uploaded4.png" alt="uploaded">
+                                    <button class="btn"> <img src="../../../images/campaigns/cancel-btn.svg" alt="canel"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="title">Service Video URLs</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="The name of your service giveaway">
+                            <small id="emailHelp" class="form-text text-muted">Add up to 4 video URLs</small>
+                            <div class="uploaded">
+                                <div class="item">
+                                    <img src="../../../images/campaigns/uploaded1.png" alt="uploaded">
+                                    <button class="btn"> <img src="../../../images/campaigns/cancel-btn.svg" alt="canel"></button>
+                                </div>
+                                <div class="item">
+                                    <img src="../../../images/campaigns/uploaded2.png" alt="uploaded">
+                                    <button class="btn"> <img src="../../../images/campaigns/cancel-btn.svg" alt="canel"></button>
+                                </div>
+                                <div class="item">
+                                    <img src="../../../images/campaigns/uploaded3.png" alt="uploaded">
+                                    <button class="btn"> <img src="../../../images/campaigns/cancel-btn.svg" alt="canel"></button>
+                                </div>
+                                <div class="item">
+                                    <img src="../../../images/campaigns/uploaded4.png" alt="uploaded">
+                                    <button class="btn"> <img src="../../../images/campaigns/cancel-btn.svg" alt="canel"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="numberOfEmployees">Delivery Time (Days)</label>
+                            <div class="input-group plus-minus">
+                                <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon2">
+                                <div class="input-group-append d-flex">
+                                    <button class="btn mt-0" type="button"><img src="../../../images/icons/form-minus-icon.svg" alt="icon"></button>
+                                    <button class="btn mt-0" type="button"><img src="../../../images/icons/form-plus-icon.svg" alt="icon"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex" style="flex-wrap: wrap;">
+                            <a href="youtube-service-done.html" type="submit" class="btn btn-solid-violet mb-1" style="margin-right: 20px">Submit Service</a>
+                            <button type="submit" class="btn btn-solid-grey mb-1" style="color: #5B69BD;">Save Service</button>
+                        </div>
                     </form>
                 </div>
             </div>

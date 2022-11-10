@@ -11,11 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../../css/main.css">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="../../../vendor/js/bootstrap.min.js"></script>
-    <script src="../../../js/index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 </head>
 
 <body>
@@ -26,10 +22,6 @@
                 <div id="mySidebar" class="sidebar-overlay">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">CLOSE MENU &times;</a>
                     <div class="sidebar-overlay-content">
-                        <a href="#"><img src="../../../images/icons/sidebar-social/home-white.svg" alt="icon">Content</a>
-                        <a href="#"><img src="../../../images/icons/sidebar-social/youtube-white.svg" alt="icon">Services</a>
-                        <a href="#"><img src="../../../images/icons/sidebar-social/instagram-white.svg" alt="icon">Metrics</a>
-                        <a href="#"><img src="../../../images/icons/sidebar-social/instagram-white.svg" alt="icon">Rate Card</a>
                     </div>
                 </div>
             </div>
@@ -53,8 +45,8 @@
                 <ul>
                     <li><a href="../dashboard-influencer.html" class="home"></a></li>
                     <li><a href="../youtube/youtube-add.html" class="youtube"></a></li>
-                    <li><a href="instagram-add.html" class="instagram active"></a></li>
-                    <li><a href="../facebook/facebook-add.html" class="facebook"></a></li>
+                    <li><a href="../instagram/instagram-add.html" class="instagram"></a></li>
+                    <li><a href="facebook-add.html" class="facebook active"></a></li>
                     <li><a href="../twitter/twitter-add.html" class="twitter"></a></li>
                     <li><a href="../tiktok/tiktok-add.html" class="tiktok"></a></li>
                     <li><a href="../linkedin/linkedin-add.html" class="linkedIn"></a></li>
@@ -65,60 +57,34 @@
                 </ul>
                 <button class="btn btn-sidebar" id="sidebtn"><img src="../../../images/icons/sidebar-arrow.svg" alt="icon"></button>
             </div>
-            <div class="menu violet" id="menu">
-                <h1 class="title">Instagram</h1>
-                <li><a href="instagram-content.html" class="menu-content">Content</a></li>
-                <li><a href="instagram-service.html" class="menu-service">Services</a></li>
-                <li><a href="instagram-metric.html" class="menu-metrics">Metrics</a></li>
-                <li><a href="instagram-rate-card.html" class="menu-rate-card active">Rate Card</a></li>
-            </div>
         </div>
     </div>
     <div class="overlay"></div>
-    <main id="main">
+    <main id="main" class="no-menu">
         <div class="main-section">
-            <div class="nav-title">
-                <div class="nav-title-back">
-                    <a href="instagram-accounts.html" class="btn"><img src="../../../images/icons/go-back.svg">Go back</a>
-                    <h1>Instagram profile name</h1>
+            <div class="banner-title row facebook">
+                <div class="col-12 col-md-2 nav-title-back">
+                </div>
+                <div class="col-12 col-md-8 title">
+                    <img src="../../../images/icons/banner-facebook.svg" alt="icon">
+                    <p class="text">Services</p>
+                    <span>Channel: LabelCom</span>
+                </div>
+                <div class="col-12 col-md-2 button">
+                    <!-- <button class="btn btn-solid-white">sadsd</button> -->
                 </div>
             </div>
-            <div class="rate-card">
-                <div class="pricing-card" style="justify-content: normal">
-                    <div class="item block-container">
-                        <div class="period violet"><p>Suggested Service Rate Card</p></div>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed viverra posuere ut est mi. </p>
-                        <div class="rate-list">
-                            <ul>
-                                <li><p>Adipiscing vitae euismod:</p><span>1$-10$</span></li>
-                                <li><p>Elit proin bibendum ac:</p><span>15$-20$</span></li>
-                                <li><p>Suspendisse vel:</p><span>15$-25$</span></li>
-                                <li><p>Adipiscing egestas:</p><span>150$-200$</span></li>
-                                <li><p>Adipiscing egestas:</p><span>150$-200$</span></li>
-                            </ul>
-                        </div>
-                        <p class="title">Some Title</p>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl eget imperdiet duis lectus ut ullamcorper.</p>
-                    </div>
-                    <div class="item block-container">
-                        <div class="period violet"><p>Suggested Camaign Rate Card</p></div>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sed viverra posuere ut est mi. </p>
-                        <div class="rate-list">
-                            <ul>
-                                <li><p>Adipiscing vitae euismod:</p><span>1$-10$</span></li>
-                                <li><p>Elit proin bibendum ac:</p><span>15$-20$</span></li>
-                                <li><p>Suspendisse vel:</p><span>15$-25$</span></li>
-                                <li><p>Adipiscing egestas:</p><span>150$-200$</span></li>
-                                <li><p>Adipiscing egestas:</p><span>150$-200$</span></li>
-                            </ul>
-                        </div>
-                        <p class="title">Some Title</p>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl eget imperdiet duis lectus ut ullamcorper.</p>
+            <div class="box">
+                <div class="box-body">
+                    <div class="add">
+                        <img src="../../../images/icons/done.svg">
+                        <h1>Service succesfully added!</h1>
+                        <p class="mb-1">The network will be added after 3 minutes.</p>
+                        <p><a href="facebook-service-add.html">Add another social netowork</a> or go to your <a href="facebook-service.html">social network list view.</a></p>
                     </div>
                 </div>
             </div>
         </div>
-
         <footer>
             <div class="container">
                 <div class="row footer-top">
@@ -181,10 +147,14 @@
         </footer>
     </main>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="../../../js/index.js"></script>
 
-    <script>
+  <script>
     let btn = document.querySelector("#sidebtn");    
     let sidebar = document.querySelector(".sidebar");    
     let overlay = document.querySelector(".overlay");    
@@ -194,6 +164,7 @@
         overlay.classList.toggle("active")
     }
     </script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </body>
 
 </html>

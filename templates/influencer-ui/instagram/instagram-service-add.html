@@ -14,7 +14,6 @@
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
-
 </head>
 
 <body>
@@ -51,8 +50,8 @@
             <div class="social violet">
                 <ul>
                     <li><a href="../dashboard-influencer.html" class="home"></a></li>
-                    <li><a href="youtube-add.html" class="youtube active"></a></li>
-                    <li><a href="../instagram/instagram-add.html" class="instagram"></a></li>
+                    <li><a href="../youtube/youtube-add.html" class="youtube"></a></li>
+                    <li><a href="instagram-add.html" class="instagram active"></a></li>
                     <li><a href="../facebook/facebook-add.html" class="facebook"></a></li>
                     <li><a href="../twitter/twitter-add.html" class="twitter"></a></li>
                     <li><a href="../tiktok/tiktok-add.html" class="tiktok"></a></li>
@@ -65,34 +64,35 @@
                 <button class="btn btn-sidebar" id="sidebtn"><img src="../../../images/icons/sidebar-arrow.svg" alt="icon"></button>
             </div>
             <div class="menu violet" id="menu">
-                <h1 class="title">Youtube</h1>
-                <li><a href="youtube-content.html" class="menu-content">Content</a></li>
-                <li><a href="youtube-service.html" class="menu-service active">Services</a></li>
-                <li><a href="youtube-metric.html" class="menu-metrics">Metrics</a></li>
-                <li><a href="youtube-rate-card.html" class="menu-rate-card">Rate Card</a></li>
+                <h1 class="title">Instagram</h1>
+                <li><a href="instagram-content.html" class="menu-content">Content</a></li>
+                <li><a href="instagram-service.html" class="menu-service active">Services</a></li>
+                <li><a href="instagram-metric.html" class="menu-metrics">Metrics</a></li>
+                <li><a href="instagram-rate-card.html" class="menu-rate-card">Rate Card</a></li>
             </div>
         </div>
     </div>
     <div class="overlay"></div>
     <main id="main">
         <div class="main-section">
-            <div class="banner-title row youtube">
+            <div class="banner-title row instagram">
                 <div class="col-12 col-md-2 nav-title-back">
-                    <a href="#" class="btn"><img src="../../../images/icons/go-back.svg" alt="back">Go back</a>
+                    
                 </div>
                 <div class="col-12 col-md-8 title">
-                    <img src="../../../images/icons/banner-youtube.svg" alt="icon">
+                    <img src="../../../images/icons/banner-instagram.svg" alt="icon">
                     <p class="text">Services</p>
                     <span>Channel: LabelCom</span>
                 </div>
                 <div class="col-12 col-md-2 button">
+                    <!-- <button class="btn btn-solid-white">sadsd</button> -->
                 </div>
             </div>
             <div class="box">
                 <div class="box-body">
                     <form class="violet">
                         <div class="form-group">
-                            <label for="numberOfEmployees">Youtube Channel for this service</label>
+                            <label for="numberOfEmployees">Instagram Channel for this service</label>
                             <select class="form-control" id="numberOfEmployees">
                                 <option>Filled by default</option>
                                 <option>2</option>
@@ -233,13 +233,12 @@
                             </div>
                         </div>
                         <div class="d-flex" style="flex-wrap: wrap;">
-                            <a href="youtube-service-done.html" type="submit" class="btn btn-solid-violet mb-1" style="margin-right: 20px">Submit Service</a>
+                            <a href="instagram-service-done.html" type="submit" class="btn btn-solid-violet mb-1" style="margin-right: 20px">Submit Service</a>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-
         <footer>
             <div class="container">
                 <div class="row footer-top">
@@ -302,7 +301,6 @@
         </footer>
     </main>
 
-
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -311,16 +309,28 @@
     <script src="../../../js/index.js"></script>
 
 
-      <script>
-        let btn = document.querySelector("#sidebtn");    
-        let sidebar = document.querySelector(".sidebar");    
-        let overlay = document.querySelector(".overlay");    
-        
-        btn.onclick = function() {
-            sidebar.classList.toggle("active"),
-            overlay.classList.toggle("active")
-        }
-        </script>
+    <script>
+        document.querySelectorAll('.splide').forEach(carousel => new Splide( carousel, {
+          perPage: 3,
+          perMove: 1,
+          fixedWidth: 340,
+          gap: 20,
+          arrows: false,
+          pagination: false 
+        } ).mount());
+    </script>
+
+  <script>
+    let btn = document.querySelector("#sidebtn");    
+    let sidebar = document.querySelector(".sidebar");    
+    let overlay = document.querySelector(".overlay");    
+    
+    btn.onclick = function() {
+        sidebar.classList.toggle("active"),
+        overlay.classList.toggle("active")
+    }
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </body>
 
 </html>

@@ -227,6 +227,9 @@ h1.block-title{
 .banner-title.facebook{
   background-color: #4267B2;
 }
+.banner-title.instagram{
+  background: linear-gradient(270deg, #576BE8 -0.52%, #E24379 90.21%, #FFBA4F 113.72%);
+}
 .banner-title .title{
   display: flex;
   align-items: center;
@@ -237,6 +240,7 @@ h1.block-title{
   font-size: 24px;
   line-height: 24px;
   color: #FFFFFF;
+  margin-top: 5px;
 }
 .banner-title .title span{
   font-weight: 600;

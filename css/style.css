@@ -147,14 +147,24 @@ h1.title{
   color: white;
   border: none;
 }
-
+.center-title p{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #212121;
+  opacity: 0.3;
+  text-align: center;
+  margin-bottom: 15px;
+}
 
 
 /*************/
 .section{
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 1fr 340px;
+  grid-template-columns: 460px 1fr;
 }
 .main-section{
   min-height: calc(100vh - 279px);

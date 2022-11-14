@@ -92,6 +92,17 @@
 	border-top: 1px solid #E9EBF3;
 }
 
+.before-after-top{
+	padding: 20px;
+	background-color: #F6F7FC;
+	margin-bottom: 1px;
+	border-radius: 12px 12px 0 0;
+}
+.before-after-bottom{
+	padding: 20px;
+	background-color: #F6F7FC;
+	border-radius: 0 0 12px 12px;
+}
 .before-after-info{
 	display: flex;
 	flex-wrap: wrap;

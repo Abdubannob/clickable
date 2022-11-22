@@ -29,8 +29,7 @@
 
 
 .custom-nav-tab .nav-tabs{
-	border-bottom: 1px solid #e9ebf34d
-;
+	border-bottom: 1px solid #e9ebf34d;
 }
 .custom-nav-tab .nav-tabs .nav-link{
 	padding: 10px 0;
@@ -60,4 +59,36 @@
 .custom-nav-tab.brand .nav-tabs .nav-item.show .nav-link, 
 .custom-nav-tab.brand .nav-tabs .nav-link.active{
 	border-bottom: 2px solid #ffffff;
+}
+
+
+
+
+.custom-nav-tab-blue .nav-tabs{
+	margin-bottom: 30px;
+	border-bottom: 1px solid #E9EBF3;
+}
+.custom-nav-tab-blue .nav-tabs .nav-link{
+	padding: 10px 0;
+    margin-right: 40px;
+	border-radius: 0;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #757575;
+	border: none;
+}
+.custom-nav-tab-blue .nav-tabs .nav-item.show .nav-link, 
+.custom-nav-tab-blue .nav-tabs .nav-link.active{
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #212121;
+	border: none;
+	border-bottom: 2px solid #707FDA;
+	background-color: transparent;
+}
+.custom-nav-tab-blue .nav-tabs .nav-item.show .nav-link, 
+.custom-nav-tab-blue .nav-tabs .nav-link.active{
+	border-bottom: 2px solid #707FDA;
 }

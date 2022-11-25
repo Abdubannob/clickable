@@ -306,6 +306,12 @@
 .todo-body .checkbox-group.checked .check-status p{
 	display: initial;
 }
+.todo.brand .title{
+	background-color: #F0F9F6;
+}
+.todo.brand .checkbox-group label{
+	color: #5B8173;
+}
 
 .form-group {
   display: block;

@@ -231,6 +231,9 @@ h1.block-title{
   padding: 20px;
   --bs-gutter-x: 0;
 }
+.banner-title.brand{
+  background-color: #6A9586;;
+}
 .banner-title.youtube{
   background-color: #FF4646;
 }

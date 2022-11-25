@@ -48,7 +48,7 @@ nav .btn.avatar img{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #FBFCFB;
+  background-color: #6A9586;
   padding-top: 30px;
 }
 .sidebar .social.violet {
@@ -58,7 +58,7 @@ nav .btn.avatar img{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #FBFCFB;
+  background-color: #6A9586;
 }
 .sidebar .social.violet ul{
   background-color: #707FDA;
@@ -169,7 +169,7 @@ nav .btn.avatar img{
 }*/
 
 .sidebar .violet a.home{background-image: url(../../images/icons/sidebar-social/home-white.svg);}
-.sidebar a.home{background-image: url(../../images/icons/sidebar-social/home-brand.svg);}
+.sidebar a.home{background-image: url(../../images/icons/sidebar-social/home-white.svg);}
 .sidebar a.home.active:after{
   background: url(../../images/icons/sidebar-social/home-active.svg);
   background-repeat: no-repeat;
@@ -177,7 +177,7 @@ nav .btn.avatar img{
 }
 
 .sidebar .violet a.youtube{background-image: url(../../images/icons/sidebar-social/youtube-white.svg);}
-.sidebar a.youtube{background-image: url(../../images/icons/sidebar-social/youtube-brand.svg);}
+.sidebar a.youtube{background-image: url(../../images/icons/sidebar-social/youtube-white.svg);}
 .sidebar a.youtube.active:after{
   background: url(../../images/icons/sidebar-social/youtube-active.svg);
   background-repeat: no-repeat;
@@ -185,7 +185,7 @@ nav .btn.avatar img{
 }
 
 .sidebar .violet a.instagram{background-image: url(../../images/icons/sidebar-social/instagram-white.svg);}
-.sidebar a.instagram{background-image: url(../../images/icons/sidebar-social/instagram-brand.svg);}
+.sidebar a.instagram{background-image: url(../../images/icons/sidebar-social/instagram-white-brand.svg);}
 .sidebar a.instagram.active:after{
   background-image: url(../../images/icons/sidebar-social/instagram-active.svg);
   background-repeat: no-repeat;
@@ -193,7 +193,7 @@ nav .btn.avatar img{
 }
 
 .sidebar .violet a.facebook{background-image: url(../../images/icons/sidebar-social/facebook-white.svg);}
-.sidebar a.facebook{background-image: url(../../images/icons/sidebar-social/facebook-brand.svg);}
+.sidebar a.facebook{background-image: url(../../images/icons/sidebar-social/facebook-white.svg);}
 .sidebar a.facebook.active:after{
   background-image: url(../../images/icons/sidebar-social/facebook-active.svg);
   background-repeat: no-repeat;
@@ -201,7 +201,7 @@ nav .btn.avatar img{
 }
 
 .sidebar .violet a.twitter{background-image: url(../../images/icons/sidebar-social/twitter-white.svg);}
-.sidebar a.twitter{background-image: url(../../images/icons/sidebar-social/twitter-brand.svg);}
+.sidebar a.twitter{background-image: url(../../images/icons/sidebar-social/twitter-white.svg);}
 .sidebar a.twitter.active:after{
   background-image: url(../../images/icons/sidebar-social/twitter-active.svg);
   background-repeat: no-repeat;
@@ -209,7 +209,7 @@ nav .btn.avatar img{
 }
 
 .sidebar .violet a.tiktok{background-image: url(../../images/icons/sidebar-social/tiktok-white.svg);}
-.sidebar a.tiktok{background-image: url(../../images/icons/sidebar-social/tiktok-brand.svg);}
+.sidebar a.tiktok{background-image: url(../../images/icons/sidebar-social/tiktok-white.svg);}
 .sidebar a.tiktok.active:after{
   background-image: url(../../images/icons/sidebar-social/tiktok-active.svg);
   background-repeat: no-repeat;
@@ -218,7 +218,7 @@ nav .btn.avatar img{
 
 
 .sidebar .violet a.linkedIn{background-image: url(../../images/icons/sidebar-social/linkedIn-white.svg);}
-.sidebar a.linkedIn{background-image: url(../../images/icons/sidebar-social/linkedIn-brand.svg);}
+.sidebar a.linkedIn{background-image: url(../../images/icons/sidebar-social/linkedIn-white.svg);}
 .sidebar a.linkedIn.active:after{
   background-image: url(../../images/icons/sidebar-social/linkedIn-active.svg);
   background-repeat: no-repeat;
@@ -226,7 +226,7 @@ nav .btn.avatar img{
 }
 
 .sidebar .violet a.github{background-image: url(../../images/icons/sidebar-social/github-white.svg);}
-.sidebar a.github{background-image: url(../../images/icons/sidebar-social/github-brand.svg);}
+.sidebar a.github{background-image: url(../../images/icons/sidebar-social/github-white.svg);}
 .sidebar a.github.active:after{
   background-image: url(../../images/icons/sidebar-social/github-active.svg);
   background-repeat: no-repeat;
@@ -234,7 +234,7 @@ nav .btn.avatar img{
 }
 
 .sidebar .violet a.soundcloud{background-image: url(../../images/icons/sidebar-social/soundcloud-white.svg);}
-.sidebar a.soundcloud{background-image: url(../../images/icons/sidebar-social/soundcloud-brand.svg);}
+.sidebar a.soundcloud{background-image: url(../../images/icons/sidebar-social/soundcloud-white.svg);}
 .sidebar a.soundcloud.active:after{
   background-image: url(../../images/icons/sidebar-social/soundcloud-active.svg);
   background-repeat: no-repeat;
@@ -243,7 +243,7 @@ nav .btn.avatar img{
 
 
 .sidebar .violet a.sms{background-image: url(../../images/icons/sidebar-social/sms-white.svg);}
-.sidebar a.sms{background-image: url(../../images/icons/sidebar-social/sms-brand.svg);}
+.sidebar a.sms{background-image: url(../../images/icons/sidebar-social/sms-white.svg);}
 .sidebar a.sms.active:after{
   background-image: url(../../images/icons/sidebar-social/sms-brand.svg);
   background-repeat: no-repeat;

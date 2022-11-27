@@ -78,19 +78,19 @@ h1, h2, h3, h4, h5, h6, p{
     width: 120px;
 }
 .add h1{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 32px;
     line-height: 42px;
     text-align: center;
-    color: #373E56;
+    color: #212121;
     margin: 55px 0 20px;
     max-width: 600px;
 }
 .add p{
-    font-weight: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 20px;
-    color: #757575;
+    color: #4E525D;
     margin-bottom: 40px;
     text-align: center;
 }
@@ -107,10 +107,10 @@ h1, h2, h3, h4, h5, h6, p{
     color: #4261CC;
 }
 .add.brand h1{
-    color: #212121;
+    color: #757575;
 }
 .add.brand p{
-    color: #4E525D;
+    color: #757575;
 }
 .add.brand a{
     color: #6A9586;

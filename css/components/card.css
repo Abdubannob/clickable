@@ -152,6 +152,9 @@
 .service-card.disable{
 	background-color: #707FDACC;
 }
+.service-card.disable.brand{
+	background-color: #6A9586;
+}
 .service-card.disable .top img{
 	mix-blend-mode: soft-light;
 }
@@ -224,6 +227,9 @@
 .disable circle{
 	fill: #ffffff;
 }
+.disable.brand circle{
+	fill: #6A9586;
+}
 
 .account-list{
 	display: grid;
@@ -291,4 +297,214 @@
 .channel-card.disable p.card-text{
 	color: #ffffff;
 	opacity: 0.8;
+}
+
+
+.campaign-card .campaign-status{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.campaign-card .campaing-head{
+	display: flex;
+	margin-bottom: 15px;
+}
+.campaign-card .campaing-head .img{
+	margin-right: 15px;
+	width: 100px;
+	height: 100px;
+}
+.campaign-card .campaing-head h6{
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+	color: #212121;
+	margin-bottom: 5px;
+}
+.campaign-card .campaing-head p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #757575;
+	margin-bottom: 5px;
+}
+.campaign-card .campaing-head span{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #212121;
+}
+.campaign-card p.text{
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+    margin-bottom: 15px;
+}
+.campaign-card .img-group {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.campaing-follow{
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.campaing-follow span{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #212121;
+}
+.campaign-card .img-group img {
+    margin-left: -10px;
+    margin-right: 0!important;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+.campaign-foot{
+	display: flex;
+}
+.campaign-foot:first-child {
+	margin-bottom: 15px;
+}
+.campaign-foot img{
+	margin-right: 8px;
+}
+.campaign-foot p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #212121;
+}
+.campaign-card.disable.brand{
+	background-color: #6A9586;
+}
+.campaign-card .tree-dot.dropdown{
+	background: #F6F7FC;
+}
+.campaign-card.disable .campaing-head h6,
+.campaign-card.disable .campaing-head span,
+.campaign-card.disable .campaing-follow span,
+.campaign-card.disable .campaign-foot p{
+	color: #ffffff;
+}
+.campaign-card.disable .campaing-head p,
+.campaign-card.disable p.text{
+	color: #ffffff;
+	opacity: 0.7;
+}
+
+
+
+.bookmark-card
+{ 
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    padding: 0px;
+}
+.bookmark-card-body{
+  padding: 20px;
+  border-bottom: 1px solid #E9EBF3;
+}
+.bookmark-card-footer{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookmark-card-body .user-info{
+  display: flex;
+  align-items: center;
+}
+.bookmark-card-body .user-info img{
+  width: 56px;
+  height: 56px;
+  margin-right: 15px;
+}
+.bookmark-card-body .user-info h5{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #212121;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+}
+.bookmark-card-body .user-info h5 img{
+  width: 16px;
+  height: 16px;
+  margin-left: 7px;
+}
+.bookmark-card-body .user-info p{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #757575;
+}
+.bookmark-card-body .bookmark-stats{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+.bookmark-card-body .bookmark-stats h3{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.bookmark-card-body .bookmark-stats p{
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #757575;
+}
+
+.bookmark-card-footer .location{
+  display: flex;
+  align-items: center;
+}
+.bookmark-card-footer .location p{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7E847F;
+  margin-left: 3px;
+}
+.bookmark-card-footer .like-save .btn{
+  padding: 0; 
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+.bookmark-card-footer .like-save .save{
+  background-image: url(../../images/influencer-list/save.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bookmark-card-footer .like-save .save.active{
+  background-image: url(../../images/influencer-list/save-active.svg);
+}
+.bookmark-card-footer .like-save .like{
+  background-image: url(../../images/influencer-list/like.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bookmark-card-footer .like-save .like.active{
+  background-image: url(../../images/influencer-list/like-active.svg);
 }

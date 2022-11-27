@@ -29,6 +29,10 @@
 .invoices tr td a:not([href]):not([class]):hover{
 	color: #5B69BD;
 }
+.brand .invoices tr td a:not([href]):not([class]), 
+.brand .invoices tr td a:not([href]):not([class]):hover{
+	color: #6A9586;
+}
 .invoices .table{
 	background: #FFFFFF;
 	border-radius: 12px;

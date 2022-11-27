@@ -23,11 +23,10 @@
                     <div class="sidebar-overlay-content">
                         <li><a href="edit-profile-brand.html" class="menu-edit">Edit profile</a></li>
                         <li><a href="email-password-brand.html" class="menu-password">Email & password</a></li>
-                        <li><a href="payment-method-add-brand.html" class="menu-payment-method">Payment method</a></li>
-                        <li><a href="subscription-brand.html" class="menu-subscription">Subscription</a></li>
-                        <li><a href="invoice-brand.html" class="menu-invoice">Invoices</a></li>
-                        <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
                         <li><a href="social-brand.html" class="menu-social-channel">Social channels</a></li>
+                        <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
+                        <li><a href="payment-method-add-brand.html" class="menu-payment-method">Payment method</a></li>
+                        <li><a href="invoice-brand.html" class="menu-invoice">Invoices</a></li>
                     </div>
                 </div>
             </div>
@@ -64,24 +63,28 @@
                 <button class="btn btn-sidebar" id="sidebtn"><img src="../../images/icons/sidebar-arrow.svg" alt="icon"></button>
             </div>
             <div class="menu" id="menu">
-                <h1 class="title">General</h1>
+                <h1 class="title">Edit profile</h1>
                 <li><a href="edit-profile-brand.html" class="menu-edit">Edit profile</a></li>
                 <li><a href="email-password-brand.html" class="menu-password">Email & password</a></li>
-                <li><a href="payment-method-add-brand.html" class="menu-payment-method active">Payment method</a></li>
-                <li><a href="subscription-brand.html" class="menu-subscription">Subscription</a></li>
-                <li><a href="invoice-brand.html" class="menu-invoice">Invoices</a></li>
-                <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
                 <li><a href="social-brand.html" class="menu-social-channel">Social channels</a></li>
+                <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
+                <hr>
+                <li><a href="payment-method-add-brand.html" class="menu-payment-method active">Payment method</a></li>
+                <li><a href="invoice-brand.html" class="menu-invoice">Invoices</a></li>
             </div>
         </div>
     </div>
     <div class="overlay"></div>
     <main id="main">
         <div class="main-section">
-            <div class="nav-title">
-                <div class="nav-title-back">
-                    <a href="payment-method-add-brand.html" class="btn"><img src="../../images/icons/go-back.svg">Go back</a>
-                    <h1>Payment settings</h1>
+            <div class="banner-title row brand">
+                <div class="col-12 col-md-2 nav-title-back">
+                    <a href="payment-method-add-brand.html" class="btn"><img src="../../images/icons/go-back.svg" alt="back">Go back</a>
+                </div>
+                <div class="col-12 col-md-8 title">
+                    <p class="text">Payment settings</p>
+                </div>
+                <div class="col-12 col-md-2 button">
                 </div>
             </div>
             <div class="box">
@@ -89,7 +92,7 @@
                     <div class="accordion" id="payment">
                         <div class="payment-card brand">
                             <div class="payment-card-header" id="paymenthead1">
-                                <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#payment1" aria-expanded="false" aria-controls="payment1">
+                                <a href="#" class="btn btn-header-link collapsed" data-bs-toggle="collapse" data-bs-target="#payment1" aria-expanded="false" aria-controls="payment1">
                                     <div class="item">
                                         <img src="../../images/profile/paypal.png" alt="img">
                                     </div>
@@ -112,7 +115,7 @@
                         </div>
                         <div class="payment-card brand">
                             <div class="payment-card-header" id="paymenthead2">
-                                <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#payment2" aria-expanded="true" aria-controls="payment2">
+                                <a href="#" class="btn btn-header-link" data-bs-toggle="collapse" data-bs-target="#payment2" aria-expanded="true" aria-controls="payment2">
                                     <div class="item">
                                         <p>Credit card</p>
                                         <div>
@@ -155,49 +158,29 @@
         </div>
         <footer>
             <div class="container">
-                <div class="row footer-top">
-                    <div class="col-12 col-xl-2">
-                        <div class="logo">
-                            <img src="../../images/mnWho-logo.svg" alt="logo">
-                        </div>
-                        <div class="footer-social">
+                <div class="footer-body row">
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-logo"><img src="../../images/mnWho-logo.svg"></div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="footer-link">
                             <ul>
-                                <li><a href="#"><img src="../../images/blog/instagram1.svg" alt="insta"></a></li>
-                                <li><a href="#"><img src="../../images/blog/facebook.svg" alt="insta"></a></li>
-                                <li><a href="#"><img src="../../images/blog/twitter.svg" alt="insta"></a></li>
+                                <li><a href="#">Brand</a></li>
+                                <li><a href="#">Influencer</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-xl-10">
-                        <div class="row footer-link">
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>Influencers</h3></li>
-                                    <li><a href="#">Influencer</a></li>
-                                    <li><a href="#">Influencer pricing</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>Brands</h3></li>
-                                    <li><a href="#">Brand</a></li>
-                                    <li><a href="#">Brand pricing</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>Resources</h3></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>About us</h3></li>
-                                    <li><a href="#">Career</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                </ul>
-                            </div>
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-social">
+                            <ul>
+                                <li><button class="btn"><img src="../../images/icons/instagram.svg" alt="icon"></button></li>
+                                <li><button class="btn"><img src="../../images/icons/facebook.svg" alt="icon"></button></li>
+                                <li><button class="btn"><img src="../../images/icons/twitter.svg" alt="icon"></button></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -205,10 +188,8 @@
             <hr>
             <div class="container">
                 <div class="footer-bottom">
-                    <div><p>© mnWho 2021. All rights reserved</p></div>
-                    <div>
-                        <a href="#">Terms and Conditions</a>
-                    </div>
+                    <p>© mnWho 2021. All rights reserved</p>
+                    <a href="#">Terms and Conditions</a>
                 </div>
             </div>
         </footer>

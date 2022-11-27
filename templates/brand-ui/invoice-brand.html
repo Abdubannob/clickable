@@ -18,16 +18,16 @@
     <nav class="navbar justify-content-between fixed-top">
         <div class="row d-block d-lg-none">
             <div class="col">
+                <span style="font-size:30px;cursor:pointer" onclick="openSidebar()">&#9776;</span>
                 <div id="mySidebar" class="sidebar-overlay brand">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">CLOSE MENU &times;</a>
                     <div class="sidebar-overlay-content">
                         <li><a href="edit-profile-brand.html" class="menu-edit">Edit profile</a></li>
                         <li><a href="email-password-brand.html" class="menu-password">Email & password</a></li>
-                        <li><a href="payment-method-add-brand.html" class="menu-payment-method">Payment method</a></li>
-                        <li><a href="subscription-brand.html" class="menu-subscription">Subscription</a></li>
-                        <li><a href="invoice-brand.html" class="menu-invoice">Invoices</a></li>
-                        <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
                         <li><a href="social-brand.html" class="menu-social-channel">Social channels</a></li>
+                        <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
+                        <li><a href="payment-method-add-brand.html" class="menu-payment-method">Payment method</a></li>
+                        <li><a href="invoice-brand.html" class="menu-invoice">Invoices</a></li>
                     </div>
                 </div>
             </div>
@@ -64,27 +64,31 @@
                 <button class="btn btn-sidebar" id="sidebtn"><img src="../../images/icons/sidebar-arrow.svg" alt="icon"></button>
             </div>
             <div class="menu" id="menu">
-                <h1 class="title">General</h1>
+                <h1 class="title">Edit profile</h1>
                 <li><a href="edit-profile-brand.html" class="menu-edit">Edit profile</a></li>
                 <li><a href="email-password-brand.html" class="menu-password">Email & password</a></li>
-                <li><a href="payment-method-add-brand.html" class="menu-payment-method">Payment method</a></li>
-                <li><a href="subscription-brand.html" class="menu-subscription">Subscription</a></li>
-                <li><a href="invoice-brand.html" class="menu-invoice active">Invoices</a></li>
-                <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
                 <li><a href="social-brand.html" class="menu-social-channel">Social channels</a></li>
+                <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
+                <hr>
+                <li><a href="payment-method-add-brand.html" class="menu-payment-method">Payment method</a></li>
+                <li><a href="invoice-brand.html" class="menu-invoice active">Invoices</a></li>
             </div>
         </div>
     </div>
     <div class="overlay"></div>
     <main id="main">
         <div class="main-section">
-            <div class="nav-title">
-                <div class="nav-title-back">
-                    <h1>Subscription</h1>
+            <div class="banner-title row brand">
+                <div class="col-12 col-md-2 nav-title-back">
                 </div>
-            </div>
-            <div class="custom-nav-tab brand">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <div class="col-12 col-md-8 title">
+                    <p class="text">Invoices</p>
+                </div>
+                <div class="col-12 col-md-2 button">
+                    
+                </div>
+                <div class="row custom-nav-tab brand">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <a class="nav-link active" id="order-invoice-tab" data-bs-toggle="tab" data-bs-target="#order-invoice" type="button" role="tab" aria-controls="order-invoice" aria-selected="true">Oders Invoices</a>
                     </li>
@@ -92,6 +96,9 @@
                         <a class="nav-link" id="sub-invoice-tab" data-bs-toggle="tab" data-bs-target="#sub-invoice" type="button" role="tab" aria-controls="sub-invoice" aria-selected="false">Subscription Invoices</a>
                     </li>
                 </ul>
+                </div>
+            </div>
+            <div class="custom-nav-tab brand">
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade active show" id="order-invoice" role="tabpanel" aria-labelledby="order-invoice-tab">
                         <div class="invoices">
@@ -111,7 +118,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr class="collapsed" data-bs-toggle="collapse" data-bs-target="#inv-list1" aria-expanded="true" aria-controls="inv-list1">
+                                            <tr class="collapsed" data-bs-toggle="collapse" data-bs-target="#inv-list1" aria-expanded="false" aria-controls="inv-list1">
                                                 <td>1</td>
                                                 <td><a>Service order #0192348</a></td>
                                                 <td>$500</td>
@@ -121,8 +128,8 @@
                                             <tr class="hide-table-padding">
                                                 <td></td>
                                                 <td colspan="4">
-                                                    <div id="inv-list1" class="collapse">
-                                                        <div class="service-order">
+                                                    <div id="inv-list1" class="collapse" style="">
+                                                        <div class="service-order-invoice">
                                                             <div class="d-flex justify-content-between" style="margin-bottom: 30px; align-items: flex-start;">
                                                                 <div class="d-flex">
                                                                     <div class="item" style="margin-right: 50px;">
@@ -163,7 +170,7 @@
                                                 <td></td>
                                                 <td colspan="4">
                                                     <div id="inv-list2" class="collapse">
-                                                        <div class="service-order">
+                                                        <div class="service-order-invoice">
                                                             <div class="d-flex justify-content-between" style="margin-bottom: 30px; align-items: flex-start;">
                                                                 <div class="d-flex">
                                                                     <div class="item" style="margin-right: 50px;">
@@ -205,49 +212,29 @@
         </div>
         <footer>
             <div class="container">
-                <div class="row footer-top">
-                    <div class="col-12 col-xl-2">
-                        <div class="logo">
-                            <img src="../../images/mnWho-logo.svg" alt="logo">
-                        </div>
-                        <div class="footer-social">
+                <div class="footer-body row">
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-logo"><img src="../../images/mnWho-logo.svg"></div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="footer-link">
                             <ul>
-                                <li><a href="#"><img src="../../images/blog/instagram1.svg" alt="insta"></a></li>
-                                <li><a href="#"><img src="../../images/blog/facebook.svg" alt="insta"></a></li>
-                                <li><a href="#"><img src="../../images/blog/twitter.svg" alt="insta"></a></li>
+                                <li><a href="#">Brand</a></li>
+                                <li><a href="#">Influencer</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-xl-10">
-                        <div class="row footer-link">
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>Influencers</h3></li>
-                                    <li><a href="#">Influencer</a></li>
-                                    <li><a href="#">Influencer pricing</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>Brands</h3></li>
-                                    <li><a href="#">Brand</a></li>
-                                    <li><a href="#">Brand pricing</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>Resources</h3></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>About us</h3></li>
-                                    <li><a href="#">Career</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                </ul>
-                            </div>
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-social">
+                            <ul>
+                                <li><button class="btn"><img src="../../images/icons/instagram.svg" alt="icon"></button></li>
+                                <li><button class="btn"><img src="../../images/icons/facebook.svg" alt="icon"></button></li>
+                                <li><button class="btn"><img src="../../images/icons/twitter.svg" alt="icon"></button></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -255,10 +242,8 @@
             <hr>
             <div class="container">
                 <div class="footer-bottom">
-                    <div><p>© mnWho 2021. All rights reserved</p></div>
-                    <div>
-                        <a href="#">Terms and Conditions</a>
-                    </div>
+                    <p>© mnWho 2021. All rights reserved</p>
+                    <a href="#">Terms and Conditions</a>
                 </div>
             </div>
         </footer>

@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="stylesheet" href="../../vendor/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../css/main.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 </head>
 
 <body>
@@ -24,11 +23,10 @@
                     <div class="sidebar-overlay-content">
                         <li><a href="edit-profile-brand.html" class="menu-edit">Edit profile</a></li>
                         <li><a href="email-password-brand.html" class="menu-password">Email & password</a></li>
-                        <li><a href="payment-method-add-brand.html" class="menu-payment-method">Payment method</a></li>
-                        <li><a href="subscription-brand.html" class="menu-subscription">Subscription</a></li>
-                        <li><a href="invoice-brand.html" class="menu-invoice">Invoices</a></li>
-                        <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
                         <li><a href="social-brand.html" class="menu-social-channel">Social channels</a></li>
+                        <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
+                        <li><a href="payment-method-add-brand.html" class="menu-payment-method">Payment method</a></li>
+                        <li><a href="invoice-brand.html" class="menu-invoice">Invoices</a></li>
                     </div>
                 </div>
             </div>
@@ -65,91 +63,190 @@
                 <button class="btn btn-sidebar" id="sidebtn"><img src="../../images/icons/sidebar-arrow.svg" alt="icon"></button>
             </div>
             <div class="menu" id="menu">
-                <h1 class="title">General</h1>
+                <h1 class="title">Edit profile</h1>
                 <li><a href="edit-profile-brand.html" class="menu-edit">Edit profile</a></li>
                 <li><a href="email-password-brand.html" class="menu-password">Email & password</a></li>
-                <li><a href="payment-method-add-brand.html" class="menu-payment-method">Payment method</a></li>
-                <li><a href="subscription-brand.html" class="menu-subscription">Subscription</a></li>
-                <li><a href="invoice-brand.html" class="menu-invoice">Invoices</a></li>
-                <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
                 <li><a href="social-brand.html" class="menu-social-channel active">Social channels</a></li>
+                <li><a href="notification-brand.html" class="menu-notification">Notifcation settings</a></li>
+                <hr>
+                <li><a href="payment-method-add-brand.html" class="menu-payment-method">Payment method</a></li>
+                <li><a href="invoice-brand.html" class="menu-invoice">Invoices</a></li>
             </div>
         </div>
     </div>
     <div class="overlay"></div>
     <main id="main">
         <div class="main-section">
-            <div class="nav-title justify-content-between">
-                <div class="nav-title-back">
-                    <h1>Social channels</h1>    
+            <div class="banner-title brand row">
+                <div class="col-12 col-md-2 nav-title-back">
+                    <!-- <a href="#" class="btn"><img src="../../images/icons/go-back.svg" alt="back">Go back</a> -->
+                </div>
+                <div class="col-12 col-md-8 title">
+                    <p class="text">Social channels</p>
+                </div>
+                <div class="col-12 col-md-2 button">
+                    <!-- <button class="btn btn-solid-white">sadsd</button> -->
                 </div>
             </div>
-            <div class="box">
-                <div class="box-body social-media-choose">
-                    <ul>
-                        <li><a href="social-youtube-step-one-brand.html" class="youtube"></a></li>
-                        <li><a href="social-instagram-step-one-brand.html" class="instagram"></a></li>
-                        <li><a href="social-twitter-step-one-brand.html" class="twitter"></a></li>
-                        <li><a href="social-tiktok-step-one-brand.html" class="tiktok"></a></li>
-                        <li><a href="social-facebook-step-one-brand.html" class="facebook"></a></li>
-                        <li><a href="social-linkedIn-step-one-brand.html" class="linkedIn"></a></li>
-                        <li><a href="social-github-step-one-brand.html" class="github"></a></li>
-                        <li><a href="social-soundcloud-step-one-brand.html" class="soundcloud"></a></li>
+            <div class="add-card brand" style="margin-bottom: 50px;">
+                <div class="add-body">
+                    <h2>Add your social media</h2>
+                    <p>Adding your social account would allow you to view your account metrics and offer services</p>
+                    <a href="social-create-brand.html" class="btn"><img src="../../images/icons/add-brand.svg" alt="add-icon"></a>
+                </div>
+            </div>
+            <div class="nav-title">
+                <h1>YouTube</h1>
+            </div>
+            <section id="splide" class="splide" aria-label="Splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide box account-card">
+                            <div class="box-body">
+                                <div class="account-info">
+                                    <div class="account-status">
+                                        <div class="d-flex status status-in-progress" style="align-items: center;">
+                                            <p>Active</p>
+                                        </div>
+                                        
+                                        <div class="dropleft tree-dot dropdown show">
+                                            <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <svg width="19" height="5" viewBox="0 0 19 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="2.00391" cy="2.01172" r="2" fill="#6A9586"/>
+                                                <circle cx="9.00391" cy="2.01172" r="2" fill="#6A9586"/>
+                                                <circle cx="16.0039" cy="2.01172" r="2" fill="#6A9586"/>
+                                                </svg>
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Disable</a>
+                                                <a class="dropdown-item" href="#">Enable</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="account-head">
+                                        <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava">
+                                        <div>
+                                            <h2 class="title">LabelCom<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 13C10.0899 13 13 10.0899 13 6.5C13 2.91015 10.0899 0 6.5 0C2.91015 0 0 2.91015 0 6.5C0 10.0899 2.91015 13 6.5 13ZM9.57617 5.48014C9.84134 5.16193 9.79835 4.68901 9.48014 4.42383C9.16193 4.15866 8.68901 4.20165 8.42383 4.51986L5.63977 7.86074L4.55287 6.67502C4.27297 6.36969 3.79855 6.34906 3.49321 6.62895C3.18787 6.90885 3.16724 7.38327 3.44713 7.68861L5.1138 9.50679C5.26003 9.66631 5.46803 9.7549 5.68437 9.74979C5.90071 9.74468 6.1043 9.64638 6.24283 9.48014L9.57617 5.48014Z" fill="#707FDA"/>
+                                            </svg>
+                                            </h2>
+                                            <h3 class="sub-title">Influencer Name</h3>
+                                        </div>
+                                    </a>
+                                    <div class="account-stats">
+                                        <div class="d-flex align-items-center flex-wrap">
+                                            <div class="item">
+                                                <h3>343</h3>
+                                                <p>Videos</p>
+                                            </div>
+                                            <div class="item">
+                                                <h3>112M</h3>
+                                                <p>Subscribers</p>
+                                            </div>
+                                            <div class="item">
+                                                <h3>112M</h3>
+                                                <p>Views</p>
+                                            </div>
+                                            <div class="item">
+                                                <h3>46K</h3>
+                                                <p>Comments</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="description">This is a description of the channel I use for social media influencing brand promotions...This is a description of the channel I use for social media influencing brand promotions... This is a description of the channel I use for social media influencing brand promotions.</p> 
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide box account-card disable brand">
+                            <div class="box-body">
+                                <div class="account-info">
+                                    <div class="account-status">
+                                        <div class="d-flex status status-in-progress" style="align-items: center;">
+                                            <p>Active</p>
+                                        </div>
+                                        
+                                        <div class="dropleft tree-dot dropdown show">
+                                            <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <svg width="19" height="5" viewBox="0 0 19 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="2.00391" cy="2.01172" r="2" fill="#6A9586"/>
+                                                <circle cx="9.00391" cy="2.01172" r="2" fill="#6A9586"/>
+                                                <circle cx="16.0039" cy="2.01172" r="2" fill="#6A9586"/>
+                                                </svg>
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Disable</a>
+                                                <a class="dropdown-item" href="#">Enable</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="account-head">
+                                        <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava">
+                                        <div>
+                                            <h2 class="title">LabelCom<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 13C10.0899 13 13 10.0899 13 6.5C13 2.91015 10.0899 0 6.5 0C2.91015 0 0 2.91015 0 6.5C0 10.0899 2.91015 13 6.5 13ZM9.57617 5.48014C9.84134 5.16193 9.79835 4.68901 9.48014 4.42383C9.16193 4.15866 8.68901 4.20165 8.42383 4.51986L5.63977 7.86074L4.55287 6.67502C4.27297 6.36969 3.79855 6.34906 3.49321 6.62895C3.18787 6.90885 3.16724 7.38327 3.44713 7.68861L5.1138 9.50679C5.26003 9.66631 5.46803 9.7549 5.68437 9.74979C5.90071 9.74468 6.1043 9.64638 6.24283 9.48014L9.57617 5.48014Z" fill="#707FDA"/>
+                                            </svg>
+                                            </h2>
+                                            <h3 class="sub-title">Influencer Name</h3>
+                                        </div>
+                                    </a>
+                                    <div class="account-stats">
+                                        <div class="d-flex align-items-center flex-wrap">
+                                            <div class="item">
+                                                <h3>343</h3>
+                                                <p>Videos</p>
+                                            </div>
+                                            <div class="item">
+                                                <h3>112M</h3>
+                                                <p>Subscribers</p>
+                                            </div>
+                                            <div class="item">
+                                                <h3>112M</h3>
+                                                <p>Views</p>
+                                            </div>
+                                            <div class="item">
+                                                <h3>46K</h3>
+                                                <p>Comments</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="description">This is a description of the channel I use for social media influencing brand promotions...This is a description of the channel I use for social media influencing brand promotions... This is a description of the channel I use for social media influencing brand promotions.</p> 
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-            </div>
-            <div class="add brand">
-                <img src="../../images/add-img/pablita-brand.svg" alt="img">
-                <h1>Add your social channels</h1>
-                <p>To start, click on the logo of the social media channel you want to add</p>
-            </div>
+            </section>
         </div>
 
         <footer>
             <div class="container">
-                <div class="row footer-top">
-                    <div class="col-12 col-xl-2">
-                        <div class="logo">
-                            <img src="../../images/mnWho-logo.svg" alt="logo">
-                        </div>
-                        <div class="footer-social">
+                <div class="footer-body row">
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-logo"><img src="../../images/mnWho-logo.svg"></div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="footer-link">
                             <ul>
-                                <li><a href="#"><img src="../../images/blog/instagram1.svg" alt="insta"></a></li>
-                                <li><a href="#"><img src="../../images/blog/facebook.svg" alt="insta"></a></li>
-                                <li><a href="#"><img src="../../images/blog/twitter.svg" alt="insta"></a></li>
+                                <li><a href="#">Brand</a></li>
+                                <li><a href="#">Influencer</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Contact us</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-xl-10">
-                        <div class="row footer-link">
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>Influencers</h3></li>
-                                    <li><a href="#">Influencer</a></li>
-                                    <li><a href="#">Influencer pricing</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>Brands</h3></li>
-                                    <li><a href="#">Brand</a></li>
-                                    <li><a href="#">Brand pricing</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>Resources</h3></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md-6 col-xl-3">
-                                <ul>
-                                    <li><h3>About us</h3></li>
-                                    <li><a href="#">Career</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                </ul>
-                            </div>
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-social">
+                            <ul>
+                                <li><button class="btn"><img src="../../images/icons/instagram.svg" alt="icon"></button></li>
+                                <li><button class="btn"><img src="../../images/icons/facebook.svg" alt="icon"></button></li>
+                                <li><button class="btn"><img src="../../images/icons/twitter.svg" alt="icon"></button></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -157,20 +254,32 @@
             <hr>
             <div class="container">
                 <div class="footer-bottom">
-                    <div><p>© mnWho 2021. All rights reserved</p></div>
-                    <div>
-                        <a href="#">Terms and Conditions</a>
-                    </div>
+                    <p>© mnWho 2021. All rights reserved</p>
+                    <a href="#">Terms and Conditions</a>
                 </div>
             </div>
         </footer>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="../../js/index.js"></script>
 
+
+    <script>
+        document.querySelectorAll('#splide').forEach(carousel => new Splide( carousel, {
+          perPage: 3,
+          perMove: 1,
+          fixedWidth: 460,
+          gap: 20,
+          arrows: false,
+          pagination: false 
+        } ).mount());
+    </script>
+    
 
   <script>
     let btn = document.querySelector("#sidebtn");    
@@ -182,6 +291,23 @@
         overlay.classList.toggle("active")
     }
     </script>
+    <script>
+        let checkboxes = document.querySelectorAll("input[type='checkbox']");
+            checkboxes.forEach(function (checkbox) {
+                checkbox.addEventListener("click", checkboxHandler);
+            });
+            function checkboxHandler() {
+                if (this.checked === true) {
+                    this.closest(".checkbox-group").classList.add("checked");
+                } else {
+                    this.closest(".checkbox-group").classList.remove("checked");
+                }
+            }
+    </script>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../../js/custom-chart.js"></script>
 </body>
 
 </html>

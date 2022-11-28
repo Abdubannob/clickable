@@ -57,24 +57,32 @@
     <div class="overlay"></div>
     <main id="main" class="no-menu">
         <div class="main-section">
-            <div class="nav-title">
-                <div class="nav-title-back"><h1>Notification</h1></div>
+            <div class="banner-title row brand">
+                <div class="col-12 col-md-2 nav-title-back">
+                </div>
+                <div class="col-12 col-md-8 title">
+                    <p class="text">Invoices</p>
+                </div>
+                <div class="col-12 col-md-2 button">
+                    
+                </div>
+                <div class="row custom-nav-tab brand">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="all-notifications-tab" data-bs-toggle="tab" data-bs-target="#all-notifications" type="button" role="tab" aria-controls="all-notifications" aria-selected="true">All notifications</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="new" aria-selected="false">New</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="cleared-tab" data-bs-toggle="tab" data-bs-target="#cleared" type="button" role="tab" aria-controls="cleared" aria-selected="false">Cleared</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="custom-nav-tab brand">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="all-notifications-tab" data-bs-toggle="tab" data-bs-target="#all-notifications" type="button" role="tab" aria-controls="all-notifications" aria-selected="true">All notifications</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab" aria-controls="new" aria-selected="false">New</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="cleared-tab" data-bs-toggle="tab" data-bs-target="#cleared" type="button" role="tab" aria-controls="cleared" aria-selected="false">Cleared</a>
-                    </li>
-                </ul>
                 <div class="notification btn-group">
-                    <button class="btn clear"><img src="../../images/icons/notification-clean.svg" alt="icon">Clear</button>
-                    <button class="btn delete"><img src="../../images/icons/notification-clean-all.svg" alt="icon">Clear all</button>
+                    <button class="btn delete"><img src="../../images/icons/notification-clean-all.svg" alt="icon">Clear messages</button>
                     <button class="btn delete" type="button" data-bs-toggle="modal" data-bs-target="#cancel-sub1"><img src="../../images/icons/notification-delete.svg" alt="icon">Delete</button>
                 </div>
                 <div class="modal fade" id="cancel-sub1" tabindex="-1" role="dialog" aria-labelledby="cancel-sub1" aria-hidden="true">

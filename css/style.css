@@ -109,6 +109,10 @@ h1.title{
   color: #212121;
   margin-bottom: 20px;
 }
+.nav-title h1 img{
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
 /*.title {
   font-weight: bold;
   font-size: 24px;

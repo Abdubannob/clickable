@@ -261,11 +261,9 @@
 	margin-bottom: 20px;
 }
 .campaign-video-info h1{
-	font-weight: bold;
-	font-size: 14px;
+	font-weight: 700;
+	font-size: 16px;
 	line-height: 14px;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
 	color: #212121;
 	margin-bottom: 10px;
 }
@@ -274,6 +272,11 @@
 	font-size: 14px;
 	line-height: 20px;
 	color: #7E847F;
+	display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .campaign-video-info .item{
 	display: flex;

@@ -5,8 +5,9 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	padding: 20px;
-	border-radius: 12px 12px 0 0;
+	border-radius: 12px;
 	background-color: #ffffff;
+	margin-bottom: 30px;
 }
 .influencer-page-info{
 	display: flex;
@@ -23,7 +24,7 @@
 	font-size: 16px;
 	line-height: 18px;
 	color: #212121;
-	margin-bottom: 3;
+	margin-bottom: 3px;
 }
 .influencer-page-info .user-info p.sub-title{
 	font-weight: normal;
@@ -37,7 +38,6 @@
 	font-size: 14px;
 	line-height: 24px;
 	color: #757575;
-	margin-bottom: 10px;
 	max-width: 900px;
 }
 .influencer-stats{

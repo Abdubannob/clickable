@@ -196,14 +196,15 @@
 .influencer-card-body .influencer-stats{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 .influencer-card-body .influencer-stats h3{
-  font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 20px;
   line-height: 14px;
   text-align: center;
-  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 5px;

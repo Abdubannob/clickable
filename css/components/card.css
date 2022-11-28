@@ -221,7 +221,7 @@
 .account-card.disable{
 	background-color: #707FDACC;
 }
-.account-card.disable{
+.account-card.disable.brand{
 	background-color: #88AA9E;
 }
 .account-card.disable h2.title,

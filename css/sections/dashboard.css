@@ -239,6 +239,14 @@
 	min-height: 94px;
 	margin-bottom: 0;
 }
+.dashboard-stats-info.old .item{
+	background-color: transparent;
+	min-height: auto;
+	padding: 0;
+}
+.brand .dashboard-stats-info .item{
+	background-color: #F0F5F3;
+}
 .dashboard-stats-info img{
 	margin-right: 10px;
 }
@@ -248,6 +256,16 @@
 	line-height: 16px;
 	color: #707FDA;
 	margin-bottom: 10px;
+}
+.dashboard-stats-info.old h3{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	color: #212121;
+	margin-bottom: 5px;
+}
+.brand .dashboard-stats-info h3{
+	color: #6A9586;
 }
 .dashboard-stats-info p{
 	font-weight: 400;

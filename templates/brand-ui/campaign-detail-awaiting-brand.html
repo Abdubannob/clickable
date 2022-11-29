@@ -183,12 +183,12 @@
                     <div class="box">
                         <div class="box-body">
                             <h1 class="title">campaign Status</h1>
-                            <div class="d-flex status status-saved mb-3" style="align-items: center;">
-                                <p>Saved</p>
+                            <div class="d-flex status status-awaiting-payment mb-3" style="align-items: center;">
+                                <p>Awaiting payment</p>
                             </div>
                             <div class="d-flex">
-                                <a href="campaign-detail-pending-brand.html" class="btn btn-solid w-100">Submit</a>
-                                <div class="dropleft tree-dot dropdown brand show">
+                                <a href="campaign-payment-brand.html" class="btn btn-solid w-100">Pay</a>
+<!--                                 <div class="dropleft tree-dot dropdown brand show">
                                     <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img src="../../images/icons/three-dot-brand.svg" alt="icon">
                                     </button>
@@ -198,7 +198,7 @@
                                         <a class="dropdown-item" href="#">Enable</a>
                                         <a class="dropdown-item" href="#">Delete</a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>     
@@ -208,7 +208,171 @@
             <div class="nav-title">
                 <h1>Reports</h1>
             </div>
-            <p>Reports will be available after lorem ipsum...</p>
+            <div class="box">
+                <div class="box-body">
+                    <h1 class="title">your channel before campaign</h1>
+                    <div class="dashboard-stats-info old">
+                        <div class="item">
+                            <img src="../../images/dashboard/subscribes-brand.svg" alt="icon">
+                            <div>
+                                <h3>Subscribers</h3>
+                                <p>876 667</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../../images/dashboard/videos-brand.svg" alt="icon">
+                            <div>
+                                <h3>Videos</h3>
+                                <p>667</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../../images/dashboard/comments-brand.svg" alt="icon">
+                            <div>
+                                <h3>Comments</h3>
+                                <p>876 667</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../../images/dashboard/likes-brand.svg" alt="icon">
+                            <div>
+                                <h3>Likes</h3>
+                                <p>876 667</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../../images/dashboard/views-brand.svg" alt="icon">
+                            <div>
+                                <h3>Views</h3>
+                                <p>2 876 667</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-body">
+                    <h1 class="title">your channel after campaign</h1>
+                    <div class="dashboard-stats-info old">
+                        <div class="item">
+                            <img src="../../images/dashboard/subscribes-brand.svg" alt="icon">
+                            <div>
+                                <h3>Subscribers</h3>
+                                <p>876 667</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../../images/dashboard/videos-brand.svg" alt="icon">
+                            <div>
+                                <h3>Videos</h3>
+                                <p>667</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../../images/dashboard/comments-brand.svg" alt="icon">
+                            <div>
+                                <h3>Comments</h3>
+                                <p>876 667</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../../images/dashboard/likes-brand.svg" alt="icon">
+                            <div>
+                                <h3>Likes</h3>
+                                <p>876 667</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="../../images/dashboard/views-brand.svg" alt="icon">
+                            <div>
+                                <h3>Views</h3>
+                                <p>2 876 667</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-report">
+                <div class="service-report-card">
+                    <div class="box">
+                        <div class="box-body item">
+                            <img src="../../images/icons/views-brand.svg" alt="icon">
+                            <div class="text">
+                                <h4>1 757 903</h4>
+                                <p>All views</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">            
+                        <div class="box-body item">
+                            <img src="../../images/icons/likes-brand.svg" alt="icon">
+                            <div class="text">
+                                <h4>357 877</h4>
+                                <p>All likes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">            
+                        <div class="box-body item">
+                            <img src="../../images/icons/comments-brand.svg" alt="icon">
+                            <div class="text">
+                                <h4>354 766</h4>
+                                <p>Comments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="metric-graph">
+                <div class="line-chart">
+                    <div class="item">
+                        <h1 class="title" style="color: #212121;">Age</h1>
+                        <div class="box">
+                            <div class="box-body">
+                                <div>
+                                  <canvas id="youtubeAgeLineChart" width="717" height="357" style="display: block; box-sizing: border-box; height: 357px; width: 717px;"></canvas>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h1 class="title" style="color: #212121;">Some</h1>
+                        <div class="box">
+                            <div class="box-body">
+                                <div>
+                                  <canvas id="youtubeSmthLineChart" width="717" height="357" style="display: block; box-sizing: border-box; height: 357px; width: 717px;"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doughnut-chart">
+                    <div class="item">
+                        <h1 class="title" style="color: #212121;">Gender</h1>
+                        <div>
+                            <canvas id="youtubeGenderDoughnutChart" width="334" height="334" style="display: block; box-sizing: border-box; height: 334px; width: 334px;"></canvas>
+                        </div>  
+                    </div>
+                    <div class="item">
+                        <h1 class="title" style="color: #212121;">Languages</h1>
+                        <div>
+                            <canvas id="youtubeLanguagesDoughnutChart" width="334" height="334" style="display: block; box-sizing: border-box; height: 334px; width: 334px;"></canvas>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h1 class="title" style="color: #212121;">Countries</h1>
+                        <div>
+                            <canvas id="youtubeCountriesDoughnutChart" width="334" height="334" style="display: block; box-sizing: border-box; height: 334px; width: 334px;"></canvas>
+                        </div> 
+                    </div>
+                    <div class="item">
+                        <h1 class="title" style="color: #212121;">Engatement</h1>
+                        <div>
+                            <canvas id="youtubeEngatementDoughnutChart" width="334" height="334" style="display: block; box-sizing: border-box; height: 334px; width: 334px;"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer>
             <div class="container">
@@ -266,6 +430,280 @@
         overlay.classList.toggle("active")
     }
     </script>
+    <!-- /****instagram age line chart****/ -->
+<script>
+var xValues = [1,2,3,4,5,6];
+var yValues = [5000,40000,50000,100000,45000,5000];
+
+let width1, height1, gradient1;
+function getAgeGradient(ctx, chartArea) {
+  const chartWidth = chartArea.right - chartArea.left;
+  const chartHeight = chartArea.bottom - chartArea.top;
+  if (gradient1 === null || width1 !== chartWidth || height1 !== chartHeight) {
+    // Create the gradient because this is either the first render
+    // or the size of the chart has changed
+    width1 = chartWidth;
+    height1 = chartHeight;
+    gradient1 = ctx.createLinearGradient(0, chartArea.bottom, 0, chartArea.top);
+    gradient1.addColorStop(0, "#6A958600");
+    gradient1.addColorStop(1, "#6A9586");
+  }
+
+  return gradient1;
+}
+
+new Chart("youtubeAgeLineChart", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{
+      fill: true,
+      backgroundColor: function(context) {
+        const chart = context.chart;
+        const {ctx, chartArea} = chart;
+
+        if (!chartArea) {
+          // This case happens on initial chart load
+          return null;
+        }
+        return getAgeGradient(ctx, chartArea);
+      },
+      borderColor: "#6A9586",
+      tension: 0.2,
+      pointRadius: 2,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    plugins: {
+      title: {
+        display: false
+      },
+      legend: {
+        display: false,
+      },
+    },
+    scales: {
+      y: [{ticks: {min: 5000, max:100000}}],
+    }
+  }
+});
+</script>
+<!-- /***********************/
+/****instagram smth line chart****/ -->
+<script>
+
+var xValues = [1,2,3,4,5,6,7,8,9];
+var yValues = [0,45000,30000,100000,85000,135000,150000, 75000, 0];
+
+let width, height, gradient;
+function getGradient(ctx, chartArea) {
+  const chartWidth = chartArea.right - chartArea.left;
+  const chartHeight = chartArea.bottom - chartArea.top;
+  if (gradient === null || width !== chartWidth || height !== chartHeight) {
+    // Create the gradient because this is either the first render
+    // or the size of the chart has changed
+    width = chartWidth;
+    height = chartHeight;
+    gradient = ctx.createLinearGradient(0, chartArea.bottom, 0, chartArea.top);
+    gradient.addColorStop(0, "#707FDA00");
+    gradient.addColorStop(1, "#707FDA");
+  }
+
+  return gradient;
+}
+
+
+new Chart("youtubeSmthLineChart", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{
+      fill: true,
+      backgroundColor: function(context) {
+        const chart = context.chart;
+        const {ctx, chartArea} = chart;
+
+        if (!chartArea) {
+          // This case happens on initial chart load
+          return null;
+        }
+        return getGradient(ctx, chartArea);
+      },
+      borderColor: "#707FDA",
+      tension: 0.2,
+      pointRadius: 2,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    plugins: {
+      title: {
+        display: false
+      },
+      legend: {
+        display: false,
+      },
+    },
+    scales: {
+      y: [{ticks: {min: 5000, max:100000}}],
+    }
+  }
+});
+</script>
+
+<!-- /****instagram gender doughnut chart****/ -->
+<script>
+var xValues = ["Male", "Female"];
+var yValues = [55, 45];
+var barColors = [
+  "#6A9586",
+  "#F57070"
+];
+
+new Chart("youtubeGenderDoughnutChart", {
+  type: "doughnut",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: false
+    },
+    plugins: {
+      legend: {
+        position: "right",
+        align: "start",
+        labels: {
+          usePointStyle: true,
+        },
+      }
+    }
+  }
+});
+</script>
+<!-- /*****************/
+/****instagram Languages doughnut chart****/ -->
+<script>
+var xValues = ["Caucasin", "Indian", "African American", "Hispanic", "Asian"];
+var yValues = [29, 21, 13, 12, 25];
+var barColors = [
+  "#6A9586",
+  "#F57070",
+  "#34BAB2",
+  "#F5A200",
+  "#707FDA"
+];
+
+new Chart("youtubeLanguagesDoughnutChart", {
+  type: "doughnut",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: false
+    },
+    plugins: {
+      legend: {
+        position: "right",
+        align: "start",
+        labels: {
+          usePointStyle: true,
+        },
+      }
+    }
+  }
+});
+</script>
+<!-- /*****************/
+/****instagram Countries doughnut chart****/ -->
+<script>
+var xValues = ["Caucasin", "Indian", "African American", "Hispanic", "Asian"];
+var yValues = [29, 21, 13, 12, 25];
+var barColors = [
+  "#6A9586",
+  "#F57070",
+  "#34BAB2",
+  "#F5A200",
+  "#707FDA"
+];
+
+new Chart("youtubeCountriesDoughnutChart", {
+  type: "doughnut",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: false
+    },
+    plugins: {
+      legend: {
+        position: "right",
+        align: "start",
+        labels: {
+          usePointStyle: true,
+        },
+      }
+    }
+  }
+});
+</script>
+<!-- /*****************/
+/****instagram Engatement doughnut chart****/ -->
+<script>
+var xValues = ["Likes", "Share", "Views", "Followers", "Comment"];
+var yValues = [29, 21, 13, 12, 25];
+var barColors = [
+  "#6A9586",
+  "#F57070",
+  "#34BAB2",
+  "#F5A200",
+  "#707FDA"
+];
+
+new Chart("youtubeEngatementDoughnutChart", {
+  type: "doughnut",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: false
+    },
+    plugins: {
+      legend: {
+        position: "right",
+        align: "start",
+        labels: {
+          usePointStyle: true,
+        },
+      }
+    }
+  }
+});
+</script>
+<!-- ************* -->
+
 </body>
 
 </html>

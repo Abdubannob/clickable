@@ -1,6 +1,6 @@
 .login,
 .login-brand{
-    min-height: 100vh;
+    min-height: 90vh;
     display: grid;
     padding-top: 60px;
     grid-template-columns: 40% 60%;
@@ -36,6 +36,13 @@
 	z-index: 2;
 	padding: 20px;
 }
+.login-influencer .login-left .heading,
+.login-brand .login-left .heading{
+	align-items: flex-start;
+	text-align: left;
+	max-width: 460px;
+	margin: 0 auto;
+} 
 /*.login-left .signup-btn{
 	position: absolute;
 	bottom: 64px;

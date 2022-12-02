@@ -1,13 +1,13 @@
 /****Alert****/
 .alert{
 	position: fixed;
-	padding: 20px;
+	padding: 8px 20px;
 	right: 10px;
-	top: 10px;
+	top: 70px;
 	display: flex;
-	align-items: center;
+	align-items: baseline;
 	justify-content: space-between;
-	width: 500px;
+	width: 250px;
 	border-radius: 6px;
 	background-color: #ffffff;
 	border: none;

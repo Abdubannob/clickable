@@ -1,88 +1,54 @@
-/**** landing page big main carousel ****/
-.main-carousel{
+.main-banner{
 	padding-top: 60px;
+	display: flex;
 }
-.main-carousel .carousel-item{
-	box-shadow: 0px 20px 50px rgba(66, 97, 204, 0.27);
-	max-height: 350px;
+.main-banner .item{
+	padding: 75px 100px;
 }
-.main-carousel .carousel-item img{
-	width: 100%;
+.main-banner .item.influencer{
+	background-image: url(../../images/landing/main.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
-.main-carousel .carousel-control-next, 
-.main-carousel .carousel-control-prev{
-	opacity: 1;
-	width: 8%;
+.main-banner .item.brand{
+	background-image: url(../../images/landing/main-brand.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
 }
-.main-carousel .carousel-control-next-icon{
-	background-image: url(../../images/landing/carousel-main-arrow-right.svg);
-}
-.main-carousel .carousel-control-prev-icon{
-	background-image: url(../../images/landing/carousel-main-arrow-left.svg);
-}
-.main-carousel.brand .carousel-control-next-icon{
-	background-image: url(../../images/landing/carousel-main-brand-arrow-right.svg);
-}
-.main-carousel.brand .carousel-control-prev-icon{
-	background-image: url(../../images/landing/carousel-main-brand-arrow-left.svg);
-}
-.main-carousel .carousel-control-next-icon, 
-.main-carousel .carousel-control-prev-icon {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-}
-.main-carousel .carousel-caption{
-	z-index: 1;
-	text-align: left;
-	max-width: 700px;
-	left: 8%;
-	right: 8%;
-}
-.main-carousel .carousel-item h5{
-	font-weight: bold;
-	font-size: 70px;
-	line-height: 82px;
+.main-banner h1{
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 70px;
 	color: #FFFFFF;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+	max-width: 420px;
 }
-.main-carousel .carousel-item p{
-	font-weight: normal;
+.main-banner p{
+	font-weight: 400;
 	font-size: 20px;
 	line-height: 30px;
 	color: #FFFFFF;
 	margin-bottom: 30px;
-	max-width: 500px;
 }
-.main-carousel .carousel-item .btn.inf-plan{
-	background: #E6EAFF;
+.main-banner .btn{
+	background-color: #FFFFFF;
 	box-shadow: 0px 4px 20px rgba(54, 72, 170, 0.27);
 	border-radius: 30px;
-	padding: 14px 26px;
-	font-weight: normal;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 18px;
+	text-align: center;
 	color: #707FDA;
-	margin-right: 20px;
+	padding: 14px;
+	width: 178px;
 }
-.main-carousel .carousel-item .btn.brand-plan{
-	background: #F9FFFE;
-	box-shadow: 0px 4px 20px rgba(54, 72, 170, 0.27);
-	border-radius: 30px;
-	padding: 14px 26px;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 18px;
+.main-banner .brand .btn{
 	color: #6A9586;
 }
-.main-carousel .carousel-indicators li{
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
-	margin-right: 10px;
-    margin-left: 10px;
-}
-/********************/
+
 /****secondary carousel*****/
 .secondary-carousel.influencer{
 	background-color: #F8F9FF;
@@ -98,7 +64,7 @@
 	font-size: 40px;
 	line-height: 42px;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 85px;
 }
 .secondary-carousel.influencer h2.title{
 	color: #707FDA;
@@ -218,68 +184,8 @@
 .secondary-carousel .carousel-control-next-icon{
 	transform: rotate(180deg);
 }
-.landing-stats{
-	padding: 30px 0;
-}
-.landing-stats .timer{
-	background: #FFFFFF;
-	box-shadow: 0px 0px 47px -7px #D4DDFB;
-	border-radius: 30px;
-	padding: 30px 60px 60px;
-}
-.landing-stats .timer h2{
-	font-weight: bold;
-	font-size: 32px;
-	line-height: 39px;
-	text-align: center;
-	color: #707FDA;
-	margin-bottom: 50px;
-}
-.landing-stats .stats{
-	padding: 30px;
-    text-align: center;
-    display: flex;
-    justify-self: stretch;
-    flex-direction: column;
-    justify-content: center;
-}
-.landing-stats .stats h3{
-	font-weight: bold;
-	font-size: 32px;
-	line-height: 39px;
-	color: #707FDA;
-	margin-bottom: 10px;
-}
-.landing-stats .stats p{
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 23px;
-	text-align: center;
-	color: #444444;
-}
-.landing-stats .stats-list{
-	display: flex;
-	margin: 0;
-	height: 100%;
-	background: #FFFFFF;
-	box-shadow: 0px 0px 47px -7px #D4DDFB;
-	border-radius: 30px;
-}
-.ClassyCountdown-wrapper{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-.ClassyCountdown-seconds{
-	display: none!important;
-}
-.ClassyCountdown-wrapper>div{
-	height: 100px!important;
-	width: 100px!important;
-}
-.ClassyCountdown-value{
-	margin-top: -28px!important;
-}
+
+
 @media (max-width: 1200px) and (min-width: 992px){
 	.main-carousel .carousel-caption{
 		top: 3%;

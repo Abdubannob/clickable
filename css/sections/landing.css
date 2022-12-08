@@ -4,6 +4,7 @@
 }
 .main-banner .item{
 	padding: 75px 100px;
+	width: 100%;
 }
 .main-banner .item.influencer{
 	background-image: url(../../images/landing/main.png);
@@ -32,6 +33,7 @@
 	line-height: 30px;
 	color: #FFFFFF;
 	margin-bottom: 30px;
+	max-width: 500px;
 }
 .main-banner .btn{
 	background-color: #FFFFFF;
@@ -186,12 +188,15 @@
 }
 
 
-@media (max-width: 1200px) and (min-width: 992px){
-	.main-carousel .carousel-caption{
-		top: 3%;
+@media (max-width: 1026px){
+	.main-banner .item{
+		padding: 60px 70px;
 	}
 }
-@media (max-width: 991.98px){
+@media (max-width: 991.98px){	
+	.main-banner{
+		flex-wrap: wrap;
+	}
 	.secondary-carousel .img img{
 		margin-top: 20px;
 		margin-bottom: 40px;
@@ -199,36 +204,12 @@
 	.secondary-carousel .text{
 		margin-top: 0!important;
 	}
-	.main-carousel .carousel-item h5 {
-	    font-size: 40px;
-	    line-height: 40px;
-	    margin-bottom: 20px;
-	}
-	.main-carousel .carousel-item p{
-		font-size: 18px;
-		line-height: 20px;
-	}
-	.main-carousel .carousel-item img{
-		width: auto;
-	}
-	.main-carousel .carousel-item{
-		max-height: 370px;
-	}
-	.main-carousel .carousel-caption{
-		top: 6%;
-	}
 }
 @media (max-width: 767.98px) {
 	/*.secondary-carousel .carousel-indicators hr{
 		width: 50px;
 	}*/
-	.main-carousel  .carousel-caption{
-		left: 15%;
-    	top: 14%;
-	}
-	.landing-stats .timer{
-		margin-top: 40px;
-	}
+	
 }
 @media (max-width: 575.98px) {
 	.secondary-carousel .carousel-indicators{
@@ -248,39 +229,17 @@
    	    font-size: 16px;
 	    line-height: 26px;
 	}
-	.main-carousel .carousel-control-next, 
-	.main-carousel .carousel-control-prev{
-		display: none;
-	}
-	.main-carousel  .carousel-caption{
-		width: 100%;
-		left: 0%;
-		right: 0%;
-		top: 4%;
-		padding: 20px;
-	}
-	.main-carousel .carousel-item h5{
-		font-size: 30px;
-		line-height: 35px;
-		margin-bottom: 12px;
-	}
-	.main-carousel .carousel-item p{
-		margin-bottom: 23px;
-		font-size: 16px;
-		line-height: 22px;
-	}
-	.main-carousel .carousel-item .btn{
-		width: 100%;
-	}
-	.main-carousel .carousel-item .btn.
-	{
-		margin-right: 0;
-		margin-bottom: 15px;
-	}
 	.secondary-carousel .carousel{
 		padding: 50px 0;
 	}
 	.secondary-carousel .carousel-inner{
 		margin-bottom: 0;
+	}
+	.main-banner .item{
+		padding: 30px;
+	}
+	.main-banner h1{
+		font-size: 48px;
+		line-height: 50px;
 	}
 }

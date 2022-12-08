@@ -82,7 +82,7 @@ nav .btn.avatar img{
 .sidebar .social a:after{
   position: absolute;
   top: -2px;
-  left: 13px;
+  left: 12px;
   width: 100%;
   height: 120%;
   content: "";
@@ -424,12 +424,16 @@ nav .btn.avatar img{
   top: 50%;
   right: 0;
   display: none;
-  background-color: #707fda;
+  background-color: #6A9586;
   border-bottom-right-radius: 50%;
   border-top-right-radius: 50%;
-  width: 35px;
+  width: 30px;
   height: 40px;
 }
+.violet .btn-sidebar{
+  background-color: #707fda;
+}
+.btn-sidebar
 .btn-sidebar img{
   margin-right: 0;
   margin-left: 8px;

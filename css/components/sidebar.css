@@ -241,6 +241,22 @@ nav .btn.avatar img{
   background-position: center;
 }
 
+.sidebar .violet a.withdrawal{background-image: url(../../images/icons/sidebar-social/withdrawal-white.svg);}
+.sidebar a.withdrawal{background-image: url(../../images/icons/sidebar-social/withdrawal-white.svg);}
+.sidebar a.withdrawal.active:after{
+  background-image: url(../../images/icons/sidebar-social/withdrawal-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sidebar .violet a.setting{background-image: url(../../images/icons/sidebar-social/setting-white.svg);}
+.sidebar a.setting{background-image: url(../../images/icons/sidebar-social/setting-white.svg);}
+.sidebar a.setting.active:after{
+  background-image: url(../../images/icons/sidebar-social/setting-active.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 .sidebar .violet a.sms{background-image: url(../../images/icons/sidebar-social/sms-white.svg);}
 .sidebar a.sms{background-image: url(../../images/icons/sidebar-social/sms-white.svg);}
@@ -249,6 +265,7 @@ nav .btn.avatar img{
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .sidebar .violet a.sms.active:after{
   background-image: url(../../images/icons/sidebar-social/sms-influencer.svg);
   background-repeat: no-repeat;

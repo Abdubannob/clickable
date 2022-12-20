@@ -3,8 +3,8 @@
 }
 .withdrawal-info-desk .item{
 	text-align: center;
-	border-left: 1px solid #E9EBF3;
-	border-right: 1px solid #E9EBF3;
+	/*border-left: 1px solid #E9EBF3;
+	border-right: 1px solid #E9EBF3;*/
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -33,53 +33,48 @@
 	display: block;
 }
 .withdrawals-manual .amount input{
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 28px;
-	color: #4E525D;
-	border: 1px solid #4E525D;
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	border-radius: 0;
-	background-color: transparent;
-	width: 100px;
-	padding: 6px 0;
+	font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #212121;
+    border: 2px solid #707FDA;
+    border-radius: 12px;
+    width: 150px;
+    background-color: transparent;
+    padding: 20px;
 }
 .withdrawals-manual .amount input:focus{
 	box-shadow: none;
 }
-.withdrawals-manual .calculation{
-	max-width: 435px;
-}
-.withdrawals-manual .calculation-info{
-	padding: 20px 0;
-	border-top: 1px solid #E9EBF3;
-	border-bottom: 1px solid #E9EBF3;
-}
-.withdrawals-manual .calculation-info .item{
+.withdrawals-manual .calculation .fee{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 }
-.withdrawals-manual .calculation-info p{
-	font-weight: bold;
-	font-size: 20px;
+.withdrawals-manual .calculation .fee p{
+	font-weight: 700;
+	font-size: 16px;
 	line-height: 28px;
-	color: #373E56;
-	opacity: 0.5;
+	margin-right: 16px;
+	color: #212121;
 }
-.withdrawals-manual .calculation-final{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	font-weight: 800;
+.withdrawals-manual .calculation .fee span{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #757575;
+}
+.withdrawals-manual .calculation .vl{
+	border-left: 1px solid #000000;
+	opacity: 0.3;
+	margin-right: 16px;
+  	height: 28px;
+}
+.withdrawals-manual .calculation .total p{
+	font-weight: 700;
 	font-size: 24px;
 	line-height: 28px;
-	color: #4E525D;
-	padding: 15px 0;
-	border-bottom: 1px solid rgba(55, 62, 86, 0.6);
-	margin-bottom: 40px;
+	color: #212121;
 }
 .add-withdrawal{
 	background: #F9F9FF;
@@ -130,13 +125,13 @@ a.add-withdrawal{
 	text-decoration-line: underline;
 }
 
-.withdrawal .card-select{
+..withdrawal .card-select{
     max-width: 720px;
 }
 .withdrawal .card-select .check-card{
     background: #FFFFFF;
     border: 1px solid #E5E5E5;
-    border-radius: 16px;
+    border-radius: 12px;
     padding: 16px;
     display: flex;
     align-items: center;
@@ -205,4 +200,36 @@ a.add-withdrawal{
 	font-size: 16px;
 	line-height: 28px;
 	color: #373E56;
+}
+
+.history caption{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #212121;
+	padding: 0 0 20px;
+}
+.history th{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	color: #212121;
+}
+.history td{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #212121;
+}
+.history th:last-child,
+.history td:last-child{
+	text-align: right;
+}
+.history tr:last-child{
+	border: 0px solid transparent;
+}
+.history .table>:not(caption)>*>*{
+	padding: 15px 0;
 }

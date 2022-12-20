@@ -19,15 +19,12 @@
             <div class="col">
                 <span style="font-size:30px;cursor:pointer" onclick="openSidebar()">&#9776;</span>
                 <div id="mySidebar" class="sidebar-overlay">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">CLOSE MENU &times;</a>
+                    <a href="javascript:void(0)" class="closebtn btn" onclick="closeSidebar()">CLOSE MENU &times;</a>
                     <div class="sidebar-overlay-content">
-                        <a href="edit-profile-influencer.html">Edit profile</a>
-                        <a href="email-password-influencer.html">Email & password</a>
-                        <a href="notification-influencer.html">Notifcation settings</a>
                         <a href="invoice-influencer.html">Invoices</a>
-                        <a href="payment-method-add-influencer.html">Payment method</a>
-                        <a href="withdrawal-method-add.html">Withdrawal method</a>
-                        <!-- <a href="subscription-influencer.html">Subscription</a> -->
+                        <a href="withdraw.html">Withdraw</a>
+                        <a href="withdrawal-history.html">Withdrawal history</a>
+                        <a href="withdrawal-method-add.html">Set withdrawal method</a>
                     </div>
                 </div>
             </div>
@@ -64,15 +61,12 @@
                 <button class="btn btn-sidebar" id="sidebtn"><img src="../../images/icons/sidebar-arrow.svg" alt="icon"></button>
             </div>
             <div class="menu violet" id="menu">
-                <h1 class="title">Edit profile</h1>
-                <li><a href="edit-profile-influencer.html" class="menu-edit">Edit profile</a></li>
-                <li><a href="email-password-influencer.html" class="menu-password">Email & password</a></li>
-                <li><a href="notification-influencer.html" class="menu-notification">Notifcation settings</a></li>
-                <hr>
+                <h1 class="title">Withdrawal</h1>
                 <li><a href="invoice-influencer.html" class="menu-invoice active">Invoices</a></li>
-                <li><a href="payment-method-add-influencer.html" class="menu-payment-method">Payment method</a></li>
-                <li><a href="withdrawal-method-add.html" class="menu-withdrawal">Withdrawal method</a></li>
-                <!-- <li><a href="subscription-influencer.html" class="menu-subscription">Subscription</a></li> -->
+                <li><a href="withdraw.html" class="menu-withdrawal">Withdraw</a></li>
+                <hr>
+                <li><a href="withdrawal-history.html" class="menu-invoice">Withdrawal history</a></li>
+                <li><a href="withdrawal-method-add.html" class="menu-withdrawal">Set withdrawal method</a></li>
             </div>
         </div>
     </div>
@@ -88,135 +82,110 @@
                 <div class="col-12 col-md-2 button">
                     
                 </div>
-                <div class="row custom-nav-tab violet">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="order-invoice-tab" data-bs-toggle="tab" data-bs-target="#order-invoice" type="button" role="tab" aria-controls="order-invoice" aria-selected="true">Oders Invoices</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="sub-invoice-tab" data-bs-toggle="tab" data-bs-target="#sub-invoice" type="button" role="tab" aria-controls="sub-invoice" aria-selected="false">Subscription Invoices</a>
-                    </li>
-                </ul>
-                </div>
             </div>
-            <div class="custom-nav-tab violet"><!-- 
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="order-invoice-tab" data-bs-toggle="tab" data-bs-target="#order-invoice" type="button" role="tab" aria-controls="order-invoice" aria-selected="true">Oders Invoices</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="sub-invoice-tab" data-bs-toggle="tab" data-bs-target="#sub-invoice" type="button" role="tab" aria-controls="sub-invoice" aria-selected="false">Subscription Invoices</a>
-                    </li>
-                </ul> -->
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade active show" id="order-invoice" role="tabpanel" aria-labelledby="order-invoice-tab">
-                        <div class="invoices">
-                            <div class="grand-total block-container">
-                                <h1>Grand Total $6 500</h1>
-                            </div> 
-                            <div>
-                                <div class="table-responsive">
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col" style="width: 52px;">#</th>
-                                                <th scope="col">Order number</th>
-                                                <th scope="col">Service Price</th>
-                                                <th scope="col" style="width: 70px;">Tax</th>
-                                                <th scope="col">Total</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr class="collapsed" data-bs-toggle="collapse" data-bs-target="#inv-list1" aria-expanded="true" aria-controls="inv-list1">
-                                                <td>1</td>
-                                                <td><a>Service order #0192348</a></td>
-                                                <td>$500</td>
-                                                <td>5%</td>
-                                                <td class="expand-button">$1 000</td>
-                                            </tr>
-                                            <tr class="hide-table-padding">
-                                                <td></td>
-                                                <td colspan="4">
-                                                    <div id="inv-list1" class="collapse">
-                                                        <div class="service-order-invoice">
-                                                            <div class="d-flex justify-content-between" style="margin-bottom: 30px; align-items: flex-start;">
-                                                                <div class="d-flex">
-                                                                    <div class="item" style="margin-right: 50px;">
-                                                                        <h1>Order status</h1>
-                                                                        <p>Delivered</p>
-                                                                    </div>
-                                                                    <div class="item">
-                                                                        <h1>Order date</h1>
-                                                                        <p>10.02.2020</p>
-                                                                    </div>
-                                                                </div>
-                                                                <button class="btn btn-solid-violet">Print</button>
-                                                            </div>
-                                                            <div class="d-flex justify-content-between">
-                                                                <div class="item">
-                                                                    <h1>Bill from</h1>
-                                                                    <p>New age Inc</p>
-                                                                    <p>some address</p>
-                                                                </div>
-                                                                <div class="item" style="text-align: right;">
-                                                                    <h1>Bill to</h1>
-                                                                    <p>New age Inc</p>
-                                                                    <p>some address</p>
-                                                                </div>
-                                                            </div>
+            <div class="invoices">
+                <div class="grand-total block-container">
+                    <h1>Grand Total $6 500</h1>
+                </div> 
+                <div>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col" style="width: 52px;">#</th>
+                                    <th scope="col">Order number</th>
+                                    <th scope="col">Service Price</th>
+                                    <th scope="col" style="width: 70px;">Tax</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="collapsed" data-bs-toggle="collapse" data-bs-target="#inv-list1" aria-expanded="true" aria-controls="inv-list1">
+                                    <td>1</td>
+                                    <td><a>Service order #0192348</a></td>
+                                    <td>$500</td>
+                                    <td>5%</td>
+                                    <td class="expand-button">$1 000</td>
+                                </tr>
+                                <tr class="hide-table-padding">
+                                    <td></td>
+                                    <td colspan="4">
+                                        <div id="inv-list1" class="collapse">
+                                            <div class="service-order-invoice">
+                                                <div class="d-flex justify-content-between" style="margin-bottom: 30px; align-items: flex-start;">
+                                                    <div class="d-flex">
+                                                        <div class="item" style="margin-right: 50px;">
+                                                            <h1>Order status</h1>
+                                                            <p>Delivered</p>
+                                                        </div>
+                                                        <div class="item">
+                                                            <h1>Order date</h1>
+                                                            <p>10.02.2020</p>
                                                         </div>
                                                     </div>
-                                                </td>
-                                            </tr>
-                                            <tr class="collapsed" data-bs-toggle="collapse" data-bs-target="#inv-list2" aria-expanded="true" aria-controls="inv-list2">
-                                                <td>2</td>
-                                                <td><a>Campaign order #1234929</a></td>
-                                                <td>$1 000</td>
-                                                <td>5%</td>
-                                                <td class="expand-button">$1 000</td>
-                                            </tr>
-                                            <tr class="hide-table-padding">
-                                                <td></td>
-                                                <td colspan="4">
-                                                    <div id="inv-list2" class="collapse">
-                                                        <div class="service-order-invoice">
-                                                            <div class="d-flex justify-content-between" style="margin-bottom: 30px; align-items: flex-start;">
-                                                                <div class="d-flex">
-                                                                    <div class="item" style="margin-right: 50px;">
-                                                                        <h1>Order status</h1>
-                                                                        <p>Delivered</p>
-                                                                    </div>
-                                                                    <div class="item">
-                                                                        <h1>Order date</h1>
-                                                                        <p>10.02.2020</p>
-                                                                    </div>
-                                                                </div>
-                                                                <button class="btn btn-solid-violet">Print</button>
-                                                            </div>
-                                                            <div class="d-flex justify-content-between">
-                                                                <div class="item">
-                                                                    <h1>Bill from</h1>
-                                                                    <p>New age Inc</p>
-                                                                    <p>some address</p>
-                                                                </div>
-                                                                <div class="item" style="text-align: right;">
-                                                                    <h1>Bill to</h1>
-                                                                    <p>New age Inc</p>
-                                                                    <p>some address</p>
-                                                                </div>
-                                                            </div>
+                                                    <button class="btn btn-solid-violet">Print</button>
+                                                </div>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="item">
+                                                        <h1>Bill from</h1>
+                                                        <p>New age Inc</p>
+                                                        <p>some address</p>
+                                                    </div>
+                                                    <div class="item" style="text-align: right;">
+                                                        <h1>Bill to</h1>
+                                                        <p>New age Inc</p>
+                                                        <p>some address</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="collapsed" data-bs-toggle="collapse" data-bs-target="#inv-list2" aria-expanded="true" aria-controls="inv-list2">
+                                    <td>2</td>
+                                    <td><a>Campaign order #1234929</a></td>
+                                    <td>$1 000</td>
+                                    <td>5%</td>
+                                    <td class="expand-button">$1 000</td>
+                                </tr>
+                                <tr class="hide-table-padding">
+                                    <td></td>
+                                    <td colspan="4">
+                                        <div id="inv-list2" class="collapse">
+                                            <div class="service-order-invoice">
+                                                <div class="d-flex justify-content-between" style="margin-bottom: 30px; align-items: flex-start;">
+                                                    <div class="d-flex">
+                                                        <div class="item" style="margin-right: 50px;">
+                                                            <h1>Order status</h1>
+                                                            <p>Delivered</p>
+                                                        </div>
+                                                        <div class="item">
+                                                            <h1>Order date</h1>
+                                                            <p>10.02.2020</p>
                                                         </div>
                                                     </div>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>   
-                        </div>
+                                                    <button class="btn btn-solid-violet">Print</button>
+                                                </div>
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="item">
+                                                        <h1>Bill from</h1>
+                                                        <p>New age Inc</p>
+                                                        <p>some address</p>
+                                                    </div>
+                                                    <div class="item" style="text-align: right;">
+                                                        <h1>Bill to</h1>
+                                                        <p>New age Inc</p>
+                                                        <p>some address</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="tab-pane fade" id="sub-invoice" role="tabpanel" aria-labelledby="sub-invoice-tab">Pending</div>
-                </div>
+                </div>   
             </div>
         </div>
         <footer>
@@ -291,9 +260,6 @@
             }
     </script>
 
-    
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="../../js/custom-chart.js"></script>
 </body>
 
 </html>

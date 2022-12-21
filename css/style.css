@@ -283,6 +283,21 @@ h1.block-title{
   flex-wrap: wrap;
   align-items: center;
 }
+.nav-sub{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.nav-sub img{
+  margin-right: 10px;
+}
+.nav-sub p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+  opacity: 0.7;
+}
 .nav-tab{
   align-items: baseline;
     display: flex;

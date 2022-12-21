@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, h6, p{
     background-color: #ffffff;
     border-radius: 12px;
     margin-bottom: 20px;
+    position: relative;
 }
 .box-body{
     padding: 20px;

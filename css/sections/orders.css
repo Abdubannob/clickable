@@ -129,6 +129,13 @@
 .order-service-info .info-item img{
 	margin-right: 5px;
 }
+.order-summary label{
+	font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #373E56;
+    margin-bottom: 10px;
+}
 
 .service-order-top{
 	display: flex;

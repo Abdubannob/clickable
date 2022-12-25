@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
     <link rel="stylesheet" href="../../vendor/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +25,7 @@
                     <div class="sidebar-overlay-content">
                         <a href="dashboard-brand.html">Dashboard</a>
                         <a href="campaigns-add-brand.html">Campaigns</a>
-                        <a href="service-order-add-brand.html">Service orders</a>
+                        <a href="service-order-pending-brand.html">Service orders</a>
                     </div>
                 </div>
             </div>
@@ -63,8 +65,8 @@
             <div class="menu" id="menu">
                 <h1 class="title">General</h1>
                 <li><a href="dashboard-brand.html" class="menu-dashboard">Dashboard</a></li>
-                <li><a href="campaigns-add-brand.html" class="menu-campaigns active">Campaigns</a></li>
-                <li><a href="service-order-add-brand.html" class="menu-service-order">Service orders</a></li>
+                <li><a href="campaigns-add-brand.html" class="menu-campaigns">Campaigns</a></li>
+                <li><a href="service-order-pending-brand.html" class="menu-service-order active">Service orders</a></li>
             </div>
         </div>
     </div>
@@ -73,10 +75,10 @@
         <div class="main-section">
             <div class="banner-title brand row">
                 <div class="col-12 col-md-2 nav-title-back">
-                    <a href="campaigns-add-brand.html" class="btn"><img src="../../images/icons/go-back.svg" alt="back">Go back</a>
+                    <!-- <a href="#" class="btn"><img src="../../images/icons/go-back.svg" alt="back">Go back</a> -->
                 </div>
                 <div class="col-12 col-md-8 title">
-                    <p class="text">Campaign order</p>
+                    <p class="text">Service order</p>
                     <span>#2453</span>
                 </div>
                 <div class="col-12 col-md-2 button">
@@ -89,13 +91,6 @@
                         <h2 style="margin-bottom: 30px;">Service Statistics</h2>
                         <div class="dashboard-stats-info">
                             <div class="item">
-                                <img src="../../images/dashboard/views-brand.svg" alt="icon">
-                                <div>
-                                    <h3>117</h3>
-                                    <p>Times viewed</p>
-                                </div>
-                            </div>
-                            <div class="item">
                                 <img src="../../images/dashboard/money-brand.svg" alt="icon">
                                 <div>
                                     <h3>4999 AED</h3>
@@ -103,17 +98,24 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="../../images/dashboard/inprogress-brand.svg" alt="icon">
+                                <img src="../../images/dashboard/time-brand.svg" alt="icon">
                                 <div>
-                                    <h3>6</h3>
-                                    <p>Completed</p>
+                                    <h3>12.01.2023</h3>
+                                    <p>Expected delivery date</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="../../images/dashboard/location-brand.svg" alt="icon">
+                                <div>
+                                    <h3>UAE</h3>
+                                    <p>Location</p>
                                 </div>
                             </div>
                             <div class="item">
                                 <img src="../../images/dashboard/inprogress-brand.svg" alt="icon">
                                 <div>
-                                    <h3>4</h3>
-                                    <p>In progress</p>
+                                    <h3>Pending</h3>
+                                    <p>Status</p>
                                 </div>
                             </div>
                         </div>
@@ -152,113 +154,86 @@
                 </div>
                 <div class="campaign-order">
                     <div class="center-title">
-                        <p>campaign details</p>
+                        <p>service  details</p>
                     </div>
                     <div class="box">
                         <div class="box-body info-text">
-                            <h2>campaign Title</h2>
+                            <h2>service Title</h2>
                             <p>Lorem ipsum dolor sit amet</p>
                         <hr>
-                            <h2>campaign DESCRIPTION</h2>
+                            <h2>service DESCRIPTION</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa nibh hendrerit velit commodo pellentesque tellus urna magna tincidunt. Sagittis egestas in amet purus justo. Imperdiet mattis sagittis nisi, risus cursus in aenean eu interdum. Morbi eu, nec augue nunc neque a, senectus felis. Mattis ipsum auctor fames dui. In ultrices pulvinar pharetra, erat turpis nulla imperdiet sed. Eleifend massa magna risus dictum at est. Vitae massa nibh ornare libero, elit, leo. Sapien, nunc ipsum ullamcorper pellentesque. Facilisis lorem nibh diam id mus. Ac ac rhoncus viverra viverra et egestas eget porttitor. At ac non praesent nec lectus.</p> 
+                        <hr>
+                            <h2>Delivery Details</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa nibh hendrerit velit commodo pellentesque tellus urna magna tincidunt. Sagittis egestas in amet purus justo. Imperdiet mattis sagittis nisi, risus cursus in aenean eu interdum. Morbi eu, nec augue nunc neque a, senectus felis. Mattis ipsum auctor fames dui. In ultrices pulvinar pharetra, erat turpis nulla imperdiet sed. Eleifend massa magna risus dictum at est. Vitae massa nibh ornare libero, elit, leo. Sapien, nunc ipsum ullamcorper pellentesque. Facilisis lorem nibh diam id mus. Ac ac rhoncus viverra viverra et egestas eget porttitor. At ac non praesent nec lectus.</p>
                         </div>
                     </div>
                     <div class="center-title">
-                        <p>delivery details</p>
+                        <p>ORDER details</p>
                     </div>
                     <div class="box">
                         <div class="box-body info-text">
-                            <h2>Delivery Details</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa nibh hendrerit velit commodo pellentesque tellus urna magna tincidunt. Sagittis egestas in amet purus justo. Imperdiet mattis sagittis nisi, risus cursus in aenean eu interdum. Morbi eu, nec augue nunc neque a, senectus felis. Mattis ipsum auctor fames dui. In ultrices pulvinar pharetra, erat turpis nulla imperdiet sed. Eleifend massa magna risus dictum at est. Vitae massa nibh ornare libero, elit, leo. Sapien, nunc ipsum ullamcorper pellentesque. Facilisis lorem nibh diam id mus. Ac ac rhoncus viverra viverra et egestas eget porttitor. At ac non praesent nec lectus.</p>
-                            <hr>
-                            <h2>giveaway</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa nibh hendrerit velit commodo pellentesque tellus urna magna tincidunt. Sagittis egestas in amet purus justo. Imperdiet mattis sagittis nisi, risus cursus in aenean eu interdum. Morbi eu, nec augue nunc neque a, senectus felis. Mattis ipsum auctor fames dui. In ultrices pulvinar pharetra, erat turpis nulla imperdiet sed. Eleifend massa magna risus dictum at est. Vitae massa nibh ornare libero, elit, leo. Sapien, nunc ipsum ullamcorper pellentesque. Facilisis lorem nibh diam id mus. Ac ac rhoncus viverra viverra et egestas eget porttitor. At ac non praesent nec lectus.</p>
-                            <hr>
                             <h2>order notes</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa nibh hendrerit velit commodo pellentesque tellus urna magna tincidunt. Sagittis egestas in amet purus justo. Imperdiet mattis sagittis nisi, risus cursus in aenean eu interdum. Morbi eu, nec augue nunc neque a, senectus felis. Mattis ipsum auctor fames dui. In ultrices pulvinar pharetra, erat turpis nulla imperdiet sed. Eleifend massa magna risus dictum at est. Vitae massa nibh ornare libero, elit, leo. Sapien, nunc ipsum ullamcorper pellentesque. Facilisis lorem nibh diam id mus. Ac ac rhoncus viverra viverra et egestas eget porttitor. At ac non praesent nec lectus.</p>
                         </div>
                     </div>
                     <div class="center-title">
-                        <p>InfluencerS</p>
+                        <p>INFLUENCER PRIVATE DELIVERY</p>
                     </div>
-                    <div class="box service-order-summary-list order-summary">
-                        <div class="box-body">
-                            <div class=" order-summary-head">
-                                <div class="d-flex align-items-center">
-                                    <img class="social-img" src="../../images/campaign-promotion/play_button.svg" alt="icon">
-                                    <div class="manager">
-                                        <img src="../../images/campaign-promotion/manager-ava.png" alt="ava">
-                                        <p>Darrell Steward</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex status status-pending">
-                                    <p>Pending</p>
+                    <div class="box">
+                        <div class="box-body service-statistics">
+                            <h1 class="title">SHARE camapign URL</h1>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="btn w-100" style="padding: 20px;" type="button">
+                                            <div class="url-copy d-flex w-100">
+                                                <img style="margin-right: 16px;" src="../../images/icons/url-copy.svg" alt="icon">
+                                                <form class="violet w-100" style="max-width: 100%;">
+                                                    <fieldset disabled="">
+                                                        <div class="form-group mb-0">
+                                                            <input id="disabledTextInput" type="text" class="form-control" aria-describedby="emailHelp" placeholder="https://www.youtube.com/channel/UCPGKizSs-jOR0sNoOEtnMXQ">
+                                                        </div>
+                                                    </fieldset>
+                                                </form>
+                                            </div>
+                                        </button>
+                                    </h2>
                                 </div>
                             </div>
-                            <h1 class="title">Campaign Delivery</h1>
-                            <div class="item">
-                                <div>
-                                    <div class="summary-info">
-                                        <img class="summary-img rounded" src="../../images/order-summary.png" alt="img">
-                                        <div>
-                                            <h1>How to make welding smoothly with bread</h1>
-                                            <p>Some descriptions</p>
-                                        </div>
+                            <hr>
+                            <h1 class="title">SHARE campaign image</h1>
+                            <div class="share-image" style="box-shadow: none;">
+                                <div id="secondary-slider" class="splide mb-3 splide--slide splide--ltr splide--draggable splide--nav is-active is-overflow is-initialized" role="region" aria-roledescription="carousel">
+                                    <div class="splide__arrows splide__arrows--ltr"><button class="splide__arrow splide__arrow--prev" type="button" disabled="" aria-label="Previous slide" aria-controls="secondary-slider-track"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg></button><button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide" aria-controls="secondary-slider-track"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg></button></div><div class="splide__track splide__track--slide splide__track--ltr splide__track--draggable splide__track--nav" id="secondary-slider-track" style="padding-left: 0px; padding-right: 0px;">
+                                        <ul class="splide__list" id="secondary-slider-list" role="presentation" style="transform: translateX(0px);">
+                                            <li class="splide__slide is-active is-visible" id="secondary-slider-slide01" role="button" aria-label="Go to slide 1" aria-current="true" tabindex="0" style="margin-right: 36px; width: 90px; height: 76px; background: url(&quot;file:///D:/GitHub/mnwho_web/images/campaign-promotion/gallery-sm1.png&quot;) center center / cover no-repeat;">
+                                                <img src="../../images/campaign-promotion/gallery-sm1.png" style="display: none;">
+                                            </li>
+                                            <li class="splide__slide is-visible is-next" id="secondary-slider-slide02" role="button" aria-label="Go to slide 2" tabindex="0" style="margin-right: 36px; width: 90px; height: 76px; background: url(&quot;file:///D:/GitHub/mnwho_web/images/campaign-promotion/gallery-sm2.png&quot;) center center / cover no-repeat;">
+                                                <img src="../../images/campaign-promotion/gallery-sm2.png" style="display: none;">
+                                            </li>
+                                            <li class="splide__slide is-visible" id="secondary-slider-slide03" role="button" aria-label="Go to slide 3" tabindex="0" style="margin-right: 36px; width: 90px; height: 76px; background: url(&quot;file:///D:/GitHub/mnwho_web/images/campaign-promotion/gallery-sm3.png&quot;) center center / cover no-repeat;">
+                                                <img src="../../images/campaign-promotion/gallery-sm3.png" style="display: none;">
+                                            </li>
+                                            <li class="splide__slide is-visible" id="secondary-slider-slide04" role="button" aria-label="Go to slide 4" tabindex="0" style="margin-right: 36px; width: 90px; height: 76px; background: url(&quot;file:///D:/GitHub/mnwho_web/images/campaign-promotion/gallery-sm4.png&quot;) center center / cover no-repeat;">
+                                                <img src="../../images/campaign-promotion/gallery-sm4.png" style="display: none;">
+                                            </li>
+                                            <li class="splide__slide" id="secondary-slider-slide05" role="button" aria-label="Go to slide 5" aria-hidden="true" tabindex="-1" style="margin-right: 36px; width: 90px; height: 76px; background: url(&quot;file:///D:/GitHub/mnwho_web/images/campaign-promotion/gallery-sm5.png&quot;) center center / cover no-repeat;">
+                                                <img src="../../images/campaign-promotion/gallery-sm5.png" style="display: none;">
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <ul class="stats">
-                                        <li><img src="../../images/icons/summary-view.svg" alt="icon">34K</li>
-                                        <li><img src="../../images/icons/summary-time.svg" alt="icon">45 sec</li>
-                                        <li><img src="../../images/icons/summary-date.svg" alt="icon">12/05/2020</li>
-                                    </ul>
-                                </div>
-                                <a href="campaign-video-brand.html"><img src="../../images/campaign-promotion/external_link.svg" alt="icon"></a>
+                                <ul class="splide__pagination splide__pagination--ltr" role="tablist" aria-label="Select a slide to show"><li role="presentation"><button class="splide__pagination__page is-active" type="button" role="tab" aria-controls="secondary-slider-slide01" aria-label="Go to slide 1" aria-selected="true"></button></li><li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="secondary-slider-slide02" aria-label="Go to slide 2" tabindex="-1"></button></li><li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="secondary-slider-slide03" aria-label="Go to slide 3" tabindex="-1"></button></li><li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="secondary-slider-slide04" aria-label="Go to slide 4" tabindex="-1"></button></li><li role="presentation"><button class="splide__pagination__page" type="button" role="tab" aria-controls="secondary-slider-slide05" aria-label="Go to slide 5" tabindex="-1"></button></li></ul></div>
                             </div>
-                            <div class="item">
-                                <div>
-                                    <div class="summary-info">
-                                        <img class="summary-img rounded" src="../../images/order-summary.png" alt="img">
-                                        <div>
-                                            <h1>How to make welding smoothly with bread</h1>
-                                            <p>Some descriptions</p>
-                                        </div>
-                                    </div>
-                                    <ul class="stats">
-                                        <li><img src="../../images/icons/summary-view.svg" alt="icon">34K</li>
-                                        <li><img src="../../images/icons/summary-time.svg" alt="icon">45 sec</li>
-                                        <li><img src="../../images/icons/summary-date.svg" alt="icon">12/05/2020</li>
-                                    </ul>
-                                </div>
-                                <a href="#"><img src="../../images/campaign-promotion/external_link.svg" alt="icon"></a>
-                            </div>
-                            <div class="d-flex" style="justify-content: flex-end; margin-top: 20px;">
+                            <hr>
+                            <div class="d-flex flex-wrap justify-content-end">
                                 <button class="btn btn-solid-grey" style="margin-right: 10px;">Reject</button>
-                                <button class="btn btn-solid">Complete</button>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="box-body">
-                            <div class="order-summary-head">
-                                <div class="d-flex align-items-center">
-                                    <img class="social-img" src="../../images/campaign-promotion/play_button.svg" alt="icon">
-                                    <div class="manager">
-                                        <img src="../../images/campaign-promotion/manager-ava.png" alt="ava">
-                                        <p>Darrell Steward</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex status status-pending">
-                                    <p>Pending</p>
-                                </div>
-                            </div>
-                            <h1 class="title">Campaign Delivery</h1>
-                            <div class="uploaded">
-                                <img src="../../images/campaigns/uploaded1.png" alt="uploaded">
-                                <img src="../../images/campaigns/uploaded2.png" alt="uploaded">
-                                <img src="../../images/campaigns/uploaded3.png" alt="uploaded">
-                                <img src="../../images/campaigns/uploaded4.png" alt="uploaded">
-                            </div>
-                            <div class="d-flex" style="justify-content: flex-end; margin-top: 20px;">
-                                <button class="btn btn-solid-grey" style="margin-right: 10px;">Reject</button>
-                                <button class="btn btn-solid">Complete</button>
+                                <a href="#" style="margin-right: 10px;" class="btn btn-solid">Accept</a>
+                                <div class="vl"></div>
+                                <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                                  <img src="../../images/icons/info.svg" alt="icon">
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -267,12 +242,12 @@
                     </div>
                     <div class="box">
                         <div class="box-body">
-                            <h1 class="title">campaign Status</h1>
+                            <h1 class="title">Order Status</h1>
                             <div class="d-flex status status-in-progress mb-3" style="align-items: center;">
                                 <p>In progress</p>
                             </div>
                             <div class="d-flex">
-                                <a href="campaign-inprogress-3-brand.html" class="btn btn-solid w-100">Complete all</a>
+                                <a href="service-order-approved-brand.html" class="btn btn-solid w-100">Completed</a>
                             </div>
                         </div>
                     </div>     
@@ -492,7 +467,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="../../js/index.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <script>
     let btn = document.querySelector("#sidebtn");    
@@ -777,6 +754,28 @@ new Chart("youtubeEngatementDoughnutChart", {
 });
 </script>
 <!-- ************* -->
+    <script>
+document.addEventListener( 'DOMContentLoaded', function () {
+    var secondarySlider = new Splide( '#secondary-slider', {
+        fixedWidth  : 90,
+        height      : 76,
+        gap         : 36,
+        cover       : true,
+        isNavigation: true,
+        focus       : 'center',
+        // breakpoints : {
+        //     '600': {
+        //         fixedWidth: 66,
+        //         height    : 40,
+        //     }
+        // },
+    } ).mount();
+    
+    
+    
+} );
+    </script>
+
 
 </body>
 

@@ -23,7 +23,7 @@
                     <div class="sidebar-overlay-content">
                         <a href="dashboard-brand.html">Dashboard</a>
                         <a href="campaigns-add-brand.html">Campaigns</a>
-                        <a href="service-order-add-brand.html">Service orders</a>
+                        <a href="service-order-pending-brand.html">Service orders</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                 <h1 class="title">General</h1>
                 <li><a href="dashboard-brand.html" class="menu-dashboard">Dashboard</a></li>
                 <li><a href="campaigns-add-brand.html" class="menu-campaigns active">Campaigns</a></li>
-                <li><a href="service-order-add-brand.html" class="menu-service-order">Service orders</a></li>
+                <li><a href="service-order-pending-brand.html" class="menu-service-order">Service orders</a></li>
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@
                     <a href="campaigns-add-brand.html" class="btn"><img src="../../images/icons/go-back.svg" alt="back">Go back</a>
                 </div>
                 <div class="col-12 col-md-8 title">
-                    <p class="text">Campaigns</p>
+                    <p class="text">Custom service orders</p>
                 </div>
                 <div class="col-12 col-md-2 button">
                     <!-- <button class="btn btn-solid-white">sadsd</button> -->
@@ -105,21 +105,31 @@
             <div class="block-container campaign-creation">
                 <form style="max-width: initial;">
                     <div class="form-group" style="max-width: 500px;">
-                        <label for="exampleInputEmail1">Title </label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="The name of your campaign">
+                        <label for="exampleInputEmail1">Select <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
+                        <select class="form-control" id="numberOfEmployees">
+                            <option>Select</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
                     </div>
                     <div class="form-group" style="max-width: 500px;">
-                        <label for="exampleFormControlTextarea1">Description</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Your campaign focus and goals"></textarea>
-                        <small id="emailHelp" class="form-text text-muted">Describe your campaign focus and goals</small>
+                        <label for="exampleFormControlTextarea1">Description <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Your custom service focus and goals"></textarea>
+                        <small id="emailHelp" class="form-text text-muted">Describe your Custom service focus and goals</small>
                     </div>
                     <div class="form-group" style="max-width: 500px;">
-                        <label for="exampleFormControlTextarea1">Delivery Type</label>
+                        <label for="exampleFormControlTextarea1">Delivery Type <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="What will you be delivering to the client as part of your service."></textarea>
                         <small id="emailHelp" class="form-text text-muted">What will you be delivering to the client as part of your service.</small>
                     </div>
                     <div class="form-group" style="max-width: 500px;">
-                        <label for="numberOfEmployees">Location</label>
+                        <label for="numberOfEmployees">Location <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
                         <select class="form-control" id="numberOfEmployees">
                             <option>Select location</option>
                             <option>2</option>
@@ -127,7 +137,7 @@
                             <option>4</option>
                             <option>5</option>
                         </select>
-                        <small id="emailHelp" class="form-text text-muted">Select one or more location of your campaign</small>
+                        <small id="emailHelp" class="form-text text-muted">Select one or more languages of your Custom service</small>
                         <div class="selected-items">
                             <ul>
                                 <li>United Arab Emirates<button class="btn"><img src="../../images/campaigns/cancel-selected.svg" alt="cancel-icon"></button></li>
@@ -136,7 +146,8 @@
                         </div>
                     </div>
                     <div class="form-group" style="max-width: 500px;">
-                        <label for="numberOfEmployees">Language</label>
+                        <label for="numberOfEmployees">Language <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
                         <select class="form-control" id="numberOfEmployees">
                             <option>Select language</option>
                             <option>2</option>
@@ -144,7 +155,7 @@
                             <option>4</option>
                             <option>5</option>
                         </select>
-                        <small id="emailHelp" class="form-text text-muted">Select one or more languages of your campaign</small>
+                        <small id="emailHelp" class="form-text text-muted">Select one or more languages of your Custom service</small>
                         <div class="selected-items">
                             <ul>
                                 <li>English<button class="btn"><img src="../../images/campaigns/cancel-selected.svg" alt="cancel-icon"></button></li>
@@ -153,7 +164,8 @@
                         </div>
                     </div>
                     <div class="form-group" style="max-width: 500px;">
-                        <label for="numberOfEmployees">Category</label>
+                        <label for="numberOfEmployees">Category <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
                         <select class="form-control" id="numberOfEmployees">
                             <option>Select category</option>
                             <option>2</option>
@@ -161,7 +173,7 @@
                             <option>4</option>
                             <option>5</option>
                         </select>
-                        <small id="emailHelp" class="form-text text-muted">Select one or more categories of your campaign</small>
+                        <small id="emailHelp" class="form-text text-muted">Select one or more categories of your Custom service</small>
                         <div class="selected-items">
                             <ul>
                                 <li>Web development<button class="btn"><img src="../../images/campaigns/cancel-selected.svg" alt="cancel-icon"></button></li>
@@ -169,7 +181,8 @@
                         </div>
                     </div>
                     <div class="form-group" style="max-width: 500px;">
-                        <label for="numberOfEmployees">Social Networks to rum the campaign on</label>
+                        <label for="numberOfEmployees">Social Networks to rum the Custom service on <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
                         <select class="form-control" id="numberOfEmployees">
                             <option>Select social network</option>
                             <option>2</option>
@@ -177,7 +190,7 @@
                             <option>4</option>
                             <option>5</option>
                         </select>
-                        <small id="emailHelp" class="form-text text-muted">Select one or more social networks to run the campaign</small>
+                        <small id="emailHelp" class="form-text text-muted">Select one or more social networks to run the Custom service</small>
                         <div class="selected-items">
                             <ul>
                                 <li>Facebook<button class="btn"><img src="../../images/campaigns/cancel-selected.svg" alt="cancel-icon"></button></li>
@@ -187,7 +200,8 @@
                         </div>
                     </div>
                     <div class="form-group" style="max-width: 584px;">
-                        <label for="exampleInputEmail1">Campaign Duration</label>
+                        <label for="exampleInputEmail1">Custom service Duration <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
                         <div class="d-flex justify-content-between" style="flex-wrap: wrap;">
                             <div style="max-width: 282px; width: 100%;">
                                 <input type="date" class="form-control" id="date" aria-describedby="date">
@@ -198,7 +212,8 @@
                         </div>
                     </div>
                     <div class="form-group" style="max-width: 500px;">
-                        <label for="title">Campaign Images</label>
+                        <label for="title">Custom service Images (optional) <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
                         <label class="btn form-control drop-file">
                             <input type="file" id="id_image" name="image" style="display: none" accept="image/*" class="form-control" data-com.bitwarden.browser.user-edit="yes">
                             <img src="../../images/campaigns/drop-img.svg" alt="picture">
@@ -225,7 +240,8 @@
                             </div>
                         </div>
                     </div>
-                    <label for="title">Campaign URLs (optional)</label>
+                    <label for="title">Custom service URLs (optional) <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
                     <div class="campaign-management">
                         <div class="add-url">
                             <div style="max-width: 500px;">
@@ -256,11 +272,28 @@
                             </div>
                         </div>
                     </div>
+                    <div class="form-group" style="max-width: 500px;">
+                        <label for="exampleFormControlTextarea1">Custom service Giveaway (optional)  <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="The name of your campaign giveaway"></textarea>
+                        <small id="emailHelp" class="form-text text-muted">Describe your Custom service giveaway</small>
+                    </div>
+                    <div class="form-group" style="max-width: 500px;">
+                        <label for="title">Price per infleuncer  <button type="button" class="btn p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"><img src="../../images/icons/info-grey.svg" alt="img">
+                        </button></label>
+                        <input type="text" class="form-control" disabled id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" value="500 AED">
+                    </div>
                     <div class="campaign-management">
                         <div class="budget">
-                            <div class="form-group mb-0"  style="max-width: 500px;">
-                                <label for="title">Budget</label>
-                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                            <div class="form-group" style="max-width: 500px;">
+                                <label>Number of infleuncers</label>
+                                <div class="input-group plus-minus">
+                                    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon2">
+                                    <div class="input-group-append d-flex">
+                                        <button class="btn mt-0" type="button"><img src="../../images/login/minus.svg" alt="icon"></button>
+                                        <button class="btn mt-0" type="button"><img src="../../images/login/plus.svg" alt="icon"></button>
+                                    </div>
+                                </div>
                             </div>
                             <div class="budget-info">
                                 <div class="d-flex justify-content-between">
@@ -275,33 +308,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group" style="max-width: 500px;">
-                        <label for="numberOfEmployees">Select Account ID of the brand channel you want to promote (optional)</label>
-                        <select class="form-control" id="numberOfEmployees">
-                            <option>Select social network</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
-                    <div class="form-group" style="max-width: 500px;">
-                        <div class="input-group plus-minus">
-                            <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon2">
-                            <div class="input-group-append d-flex">
-                                <button class="btn mt-0" type="button"><img src="../../images/login/minus.svg" alt="icon"></button>
-                                <button class="btn mt-0" type="button"><img src="../../images/login/plus.svg" alt="icon"></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group" style="max-width: 500px;">
-                        <label for="exampleFormControlTextarea1">Campaign Giveaway (optional)</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="The name of your campaign giveaway"></textarea>
-                        <small id="emailHelp" class="form-text text-muted">Describe your campaign giveaway</small>
-                    </div>
                     <div class="d-flex flex-wrap">
-                        <a href="campaign-creation-done-brand.html" type="submit" class="btn btn-solid" style="margin-right: 20px">Submit Campaign</a>
-                        <button type="submit" class="btn btn-solid-grey">Save Campaign</button>
+                        <a href="campaign-creation-done-brand.html" type="submit" class="btn btn-solid" style="margin-right: 20px">Submit custom service </a>
+                        <button type="submit" class="btn btn-solid-grey">Save custom service</button>
                     </div>
                 </form>
             </div>

@@ -66,6 +66,14 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 16px;
     color: #757575;
 }
+.box-sub-title{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #112E3F;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
 /*****************/
 /****add***/
 .add{

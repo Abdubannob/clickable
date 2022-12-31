@@ -69,7 +69,7 @@
 .account-info p.description{
 	font-weight: normal;
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 200%;
 	color: #757575;
 	display: -webkit-box;
     -webkit-line-clamp: 7;

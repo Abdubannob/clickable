@@ -102,11 +102,10 @@
 	margin-left: 10px; 
 }
 .career-details .big-img img{
-	margin-bottom: 30px;
-	width: 100%;
+	width: 50%;
+	display: block;
+	margin: 0 auto 30px;
 	border-radius: 12px;
-	max-height: 530px;
-	max-width: 940px;
 }
 .career-details .date p{
 	font-weight: normal;

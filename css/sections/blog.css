@@ -1,6 +1,20 @@
 .blog{
 	padding: 40px 40px;
 }
+.bg-blog{
+    background-image: url(../../images/landing/blog-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 233px;
+    padding: 50px 0;
+}
+.bg-blog h1{
+	font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
 .blog-title h1{
 	font-weight: bold;
 	font-size: 36px;
@@ -104,8 +118,9 @@
 	margin-left: 10px; 
 }
 .blog-info .big-img img{
-	margin-bottom: 30px;
-	width: 100%;
+	display: block;
+	margin: 0 auto 30px;
+	width: 50%;
 	border-radius: 12px;
 }
 .blog-info .date p{
@@ -125,7 +140,7 @@
 .blog-info p.blog-info-text{
 	font-weight: normal;
 	font-size: 18px;
-	line-height: 20px;
+	line-height: 200%;
 	color: #757575;
 	margin-bottom: 45px;
 }

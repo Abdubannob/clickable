@@ -58,9 +58,7 @@
 	box-shadow: 0px 20px 50px rgba(66, 97, 204, 0.27);
 	max-height: 232px;
 }
-.main-carousel .carousel-item img{
-	width: 100%;
-}
+
 .main-carousel .carousel-control-next, 
 .main-carousel .carousel-control-prev{
 	opacity: 1;
@@ -87,7 +85,8 @@
 .main-carousel .carousel-caption{
 	z-index: 1;
 	text-align: left;
-	max-width: 700px;
+	max-width: 1200px;
+	margin: 0 auto;
 	left: 8%;
 	right: 8%;
 }
@@ -103,7 +102,7 @@
 	font-size: 20px;
 	line-height: 32px;
 	color: #FFFFFF;
-	max-width: 500px;
+	max-width: 700px;
 }
 .main-carousel .carousel-item .btn.inf-plan{
 	background: #E6EAFF;
@@ -149,12 +148,12 @@
 }
 .learn-more .item h1{
 	font-weight: 700;
-	font-size: 33px;
-	line-height: 39px;
-	margin-bottom: 15px;
+	font-size: 30px;
+	line-height: 45px;
+	margin-bottom: 8px;
 }
 .learn-more .item p{
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 30px;
 	margin-bottom: 35px;
@@ -162,7 +161,7 @@
 /****secondary carousel*****/
 .secondary-carousel.influencer{
 	background-color: #F8F9FF;
-	padding: 40px 0;
+	padding: 35px 0;
 }
 .secondary-carousel.influencer .box{
 	box-shadow: 0px 0px 60px -7.48052px #D4DDFB;
@@ -171,7 +170,7 @@
 }
 .secondary-carousel.brand{
 	background-color: #F9FFFE;
-	padding: 40px 0;
+	padding: 35px 0;
 }
 .secondary-carousel.brand .box{
 	box-shadow: 0px 0px 60px -7.48052px rgba(106, 149, 134, 0.29);
@@ -179,12 +178,12 @@
 	padding: 0 40px;
 }
 .secondary-carousel .carousel{
-	padding: 55px 0;
+	padding: 40px 0;
 }
 .secondary-carousel h2.title{
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 40px;
-	line-height: 42px;
+	line-height: 39px;
 	text-align: center;
 	padding-top: 40px;
 }
@@ -195,10 +194,10 @@
 	color: #6A9586;
 }
 .secondary-carousel .text h3{
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 28px;
 	line-height: 42px;
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 }
 .secondary-carousel.influencer .text h3{
 	color: #707FDA;
@@ -208,7 +207,7 @@
 }
 .secondary-carousel .text p,
 .secondary-carousel .text li{
-	font-weight: normal;
+	font-weight: 500;
 	font-size: 17px;
 	line-height: 200%;
 	color: #444444;
@@ -306,8 +305,15 @@
 .secondary-carousel .carousel-control-next-icon{
 	transform: rotate(180deg);
 }
+.secondary-carousel .box{
+	margin-bottom: 0;
+}
 
-
+@media (min-width: 1440px){
+	.main-carousel .carousel-item img{
+		width: 100%;
+	}
+}
 @media (max-width: 1026px){
 	.main-banner .item{
 		padding: 60px 70px;

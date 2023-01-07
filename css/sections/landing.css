@@ -224,8 +224,10 @@
 	margin-top: 0!important;
 }
 .secondary-carousel .img img{
-	max-width: 630px;
-	width: 100%;
+	max-width: 460px;
+	max-height: 260px;
+	margin: auto;
+	display: block;
 }
 .secondary-carousel .carousel-inner{
 	margin-bottom: 40px;
@@ -434,6 +436,9 @@
 	.main-banner h1{
 		font-size: 48px;
 		line-height: 50px;
+	}
+	.secondary-carousel .img img{
+		width: 100%;
 	}
 
 }

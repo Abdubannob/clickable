@@ -683,6 +683,47 @@ form .form-inline{
 .nav-right span{
     display: none;
   }
+
+.social-media-video-comment .item{
+  display: flex;
+}
+.social-media-video-comment .item img.user{
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+.social-media-video-comment .item .head{
+  display: flex;
+}
+.social-media-video-comment .item .head h3{
+  margin-right: 8px;
+  margin-bottom: 0;
+}
+.social-media-video-comment .item .head label{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #757575;
+}
+.social-media-video-comment .like{
+  display: flex;
+  align-items: center;
+}
+.social-media-video-comment .like img{
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+.social-media-video-comment .like .btn{
+  padding: 0;
+}
+.social-media-video-comment .like span{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #757575;
+}
+
 @media screen and (max-width: 900px){
   .nav-right span{
     display: block;

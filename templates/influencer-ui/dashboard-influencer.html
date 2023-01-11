@@ -776,13 +776,13 @@
 
     <script>
         document.querySelectorAll('.splide').forEach(carousel => new Splide( carousel, {
-          type: 'loop',
-          perPage: 3,
+          perPage: 1,
           perMove: 1,
+          trimSpace  : false,
           fixedWidth: 340,
           gap: 20,
           arrows: false,
-          pagination: false 
+          pagination: false,
         } ).mount());
     </script>
 

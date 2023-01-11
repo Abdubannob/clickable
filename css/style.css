@@ -244,6 +244,9 @@ h1.block-title{
 .banner-title.facebook{
   background-color: #4267B2;
 }
+.banner-title.linkedin{
+  background-color: #0077b7;
+}
 .banner-title.instagram{
   background: linear-gradient(270deg, #576BE8 -0.52%, #E24379 90.21%, #FFBA4F 113.72%);
 }

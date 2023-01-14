@@ -1,3 +1,6 @@
+.influencer .main-banner{
+	background-color: #707FDA;	
+}
 .main-banner{
 	background-color: #FDFDFE;
 	padding: 130px 0 100px;
@@ -10,6 +13,9 @@
 	max-width: 530px;
 	width: 100%;
 }
+.influencer .main-banner h1{
+	color: #ffffff;
+}
 .main-banner h1{
 	font-weight: 700;
 	font-size: 48px;
@@ -18,6 +24,9 @@
 	color: #161E4A;
 	margin-bottom: 10px;
 	max-width: 500px;
+}
+.influencer .main-banner p{
+	color: #ffffff;
 }
 .main-banner p{
 	font-weight: 400;

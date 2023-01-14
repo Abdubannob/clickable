@@ -15,6 +15,17 @@
     color: #FFFFFF;
     margin-bottom: 25px;
 }
+.blog-info-text ul{
+	padding-left: 32px;
+	margin-top: 6px;
+}
+.blog-info-text ul li{
+	list-style: initial;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #757575;
+}
 .blog-title h1{
 	font-weight: bold;
 	font-size: 36px;

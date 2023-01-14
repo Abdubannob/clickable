@@ -607,7 +607,6 @@ form .form-inline{
   background-color: #ffffff!important;
 }
 .top-navbar ul li a:hover{
-  color: #ffffff;
   transform: translateY(-2px);
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0 2px 8px 0 rgb(136 144 195 / 22%), 0 8px 15px 0 rgb(37 44 97 / 17%);
@@ -756,6 +755,9 @@ form .form-inline{
 footer{
   background: #3F414E;
 }
+footer.footer-white{
+  background-color: #FFFFFF;
+}
 footer hr{
   color: #E9EBF3;
   opacity: 1;
@@ -807,6 +809,11 @@ footer hr{
   line-height: 20px;
   color: #FFFFFF;
   opacity: 0.7;
+}
+.footer-white .footer-link a,
+.footer-white .footer-bottom p,
+.footer-white .footer-bottom a{
+  color: #333333;
 }
 .footer-bottom a{
   font-weight: normal;

@@ -1,55 +1,155 @@
 .main-banner{
-	padding-top: 60px;
+	background-color: #FDFDFE;
+	padding: 130px 0 100px;
+}
+.banner-img{
 	display: flex;
+	justify-content: end;
 }
-.main-banner .item{
-	padding: 75px 100px;
+.banner-img img{
+	max-width: 530px;
 	width: 100%;
-}
-.main-banner .item.influencer{
-	background-image: url(../../images/landing/main.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.main-banner .item.brand{
-	background-image: url(../../images/landing/main-brand.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-
 }
 .main-banner h1{
 	font-weight: 700;
-	font-size: 60px;
-	line-height: 70px;
-	color: #FFFFFF;
-	margin-bottom: 20px;
-	max-width: 420px;
+	font-size: 48px;
+	line-height: 64px;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+	color: #161E4A;
+	margin-bottom: 10px;
+	max-width: 500px;
 }
 .main-banner p{
 	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-	color: #FFFFFF;
-	margin-bottom: 30px;
+	font-size: 16px;
+	line-height: 150%;
+	color: #525773;
+	margin-bottom: 40px;
 	max-width: 500px;
 }
-.main-banner .btn{
+.info-content h1{
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 140%;
+	color: #333333;
+	max-width: 500px;
+}
+.info-content p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #525773;
+	max-width: 600px;
+}
+.section-one{
+	background-color: #F5F6FF; 
+	padding: 50px 0;
+}
+.section-one .info-content{
+	max-width: 500px;
+	margin: auto;
+}
+.section-one h1{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.section-one p{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.section-one .card{
+	margin-bottom: 0;
 	background-color: #FFFFFF;
-	box-shadow: 0px 4px 20px rgba(54, 72, 170, 0.27);
-	border-radius: 30px;
+	box-shadow: 0px 0px 40px -10px #E5E5E5;
+	border-radius: 20px;
+	padding: 10px;
+}
+.section-one .card .card-body h5{
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 32px;
+	color: #333333;
+	margin-bottom: 10px;
+}
+.section-one .card p.card-text{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #666666;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.section-one .card .card-footer, 
+.section-one .card .card-footer:last-child{
+	background: #e2e5f8;
+	border-radius: 0px 0px 20px 20px;
+	height: 150px;
+	padding: 0;
+	overflow: hidden;
+}
+.section-img{
+    background: #e2e5f8;
+    padding: 0;
+    overflow: hidden;
+}
+.section-img img{
+    top: 50%;
+    left: 50%;
+    min-height: 350px;
+    min-width: 612px;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+.section-two .info-content{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	max-width: 500px;
+	margin-left: 40px;
+}
+.section-two .info-content h1{
+	margin-bottom: 15px;
+}
+
+.section-two .accordion-header{
+	padding: 0;
+}
+.section-two .accordion-item{
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	border-radius: 12px;
+	border: 1px solid #BFEEDE;
+}
+.section-two .accordion-button:not(.collapsed){
+	color: #333333;
+	background-color: transparent;
+}
+.section-two .accordion-button:focus{
+	box-shadow: none;
+}
+.section-two .accordion-button{
+	border: none;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 18px;
-	text-align: center;
-	color: #707FDA;
-	padding: 14px;
-	width: 178px;
+	line-height: 20px;
+	color: #333333;
+	padding: 13px 20px;
 }
-.main-banner .brand .btn{
-	color: #6A9586;
+.section-two .accordion-collapse{
+	border: none;
 }
+.section-two .accordion-body{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #666666;
+}
+.section-two .accordion-button::after{
+	background-image: url(../../images/landing/colapse-plus.svg);
+}
+.section-two .accordion-button:not(.collapsed)::after{
+	background-image: url(../../images/landing/colapse-minus.svg);
+}
+/****************************
 /**** landing page big main carousel ****/
 .main-carousel{
 	padding-top: 60px;
@@ -328,7 +428,14 @@
 }
 @media (max-width: 991.98px){	
 	.main-banner{
-		flex-wrap: wrap;
+		padding: 100px 0 50px;
+	}
+	.main-banner h1{
+		font-size: 34px;
+    	line-height: 48px;
+	}
+	.main-banner .btn{
+		margin-bottom: 10px;
 	}
 	.secondary-carousel .img img{
 		margin-top: 20px;
@@ -355,6 +462,10 @@
 	.main-carousel .carousel-caption{
 		top: 6%;
 	}
+	.info-content h1{
+		font-size: 30px;
+	    line-height: 120%;
+	}
 }
 @media (max-width: 767.98px) {
 	/*.secondary-carousel .carousel-indicators hr{
@@ -364,6 +475,9 @@
 		left: 15%;
     	top: 14%;
 	}	
+	.section-two .info-content{
+		margin-left: 0;
+	}
 	.learn-more .item.influencer{
 		margin-bottom: 20px;
 	}
@@ -441,4 +555,10 @@
 		width: 100%;
 	}
 
+}
+@media (max-width: 388px){
+	.section-one .btn-solid-white{
+		margin-bottom: 10px;
+		margin-right: 0!important;
+	}
 }

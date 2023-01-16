@@ -15,11 +15,11 @@
     color: #FFFFFF;
     margin-bottom: 25px;
 }
-.blog-info-text ul{
+.blog-info ul{
 	padding-left: 32px;
 	margin-top: 6px;
 }
-.blog-info-text ul li{
+.blog-info ul li{
 	list-style: initial;
     font-weight: normal;
     font-size: 18px;

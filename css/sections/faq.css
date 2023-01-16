@@ -82,6 +82,17 @@
 	background-color: #707FDA;
 	color: #ffffff;
 }
+.faq-card-body ul{
+	padding-left: 32px;
+	margin-top: 6px;
+}
+.faq-card-body ul li{
+	list-style: initial;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #757575;
+}
 .faq-tag,
 .faq-share{
 	display: flex;
@@ -103,6 +114,8 @@
 .faq-share ul{
 	display: flex;
 	flex-wrap: wrap;
+	padding-left: 0;
+	margin-top: 0;
 }
 .faq-tag li{
 	border: 1px solid #C7CBE0;
@@ -114,10 +127,12 @@
 	font-size: 14px;
 	line-height: 16px;
 	color: #383B50;
+	list-style: none;
 }
 .faq-share li{
 	margin-right: 30px;
 	margin-bottom: 14px;
+	list-style: none;
 }
 
 
@@ -148,12 +163,11 @@
 	line-height: 18px;
 	color: #212121;
 }
-.faq-card-body p.text{
+.faq-card-body p{
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 200%;
 	color: #212121;
-	margin-bottom: 25px;
 }
 #faq .faq-card .faq-card-header .btn-header-link:after {
   content: url(../../images/blog/arrow-down.svg);
@@ -177,17 +191,7 @@
   color: #222;
 }
 
-.faq-card-body .text ul{
-	padding-left: 32px;
-	margin-top: 6px;
-}
-.faq-card-body .text ul li{
-	list-style: initial;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 150%;
-    color: #757575;
-}
+
 
 @media (max-width: 575.98px) {
 	.faq-left{

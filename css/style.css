@@ -633,7 +633,11 @@ form .form-inline{
 .top-navbar ul li a:active{
   transform: translateY(-1px);
 }
-    
+
+.navbar{
+  flex-wrap: nowrap;
+}
+
 .topnav-overlay {
   height: 0%;
   width: 100%;

@@ -90,24 +90,16 @@
 }
 .section-one .card .card-footer, 
 .section-one .card .card-footer:last-child{
-	background: #e2e5f8;
 	border-radius: 0px 0px 20px 20px;
-	height: 150px;
 	padding: 0;
 	overflow: hidden;
 }
 .section-img{
-    background: #e2e5f8;
     padding: 0;
     overflow: hidden;
 }
 .section-img img{
-    top: 50%;
-    left: 50%;
-    min-height: 350px;
-    min-width: 612px;
-    transform: translate(-50%, -50%);
-    position: relative;
+    width: 100%;
 }
 .section-two .info-content{
 	margin-top: 50px;

@@ -9,6 +9,10 @@
 	display: flex;
 	align-items: center;
 }
+.service-report .box,
+.service-report .block{
+	background-color: #F7F7F7;
+}
 .service-report-card .item img{
 	width: 60px;
 	height: 60px;
@@ -52,7 +56,7 @@
 	color: #757575;
 }
 .service-report-card .item-table{
-	grid-column: 2/4;
+	grid-column: 1/2;
 }
 .service-report-card tr th{
 	padding: 30px 20px 20px;

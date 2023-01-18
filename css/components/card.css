@@ -225,6 +225,14 @@
 	border-radius: 20px;
 	background-color: #F5F5F5;
 }
+.social-media-list .account-card{
+	background-color: #F5F5F5;
+	box-shadow: 0px 0px 20px rgba(255, 43, 43, 0.5);
+}
+.social-media-list .status,
+.social-media-list .tree-dot.dropdown{
+	background: #ffffff;
+}
 .social-list.active-border{
 	border: 5px solid #FFA674;
 }
@@ -579,4 +587,10 @@
 	border-radius: 12px;
 	z-index: 2;
 	bottom: 0;
+}
+
+.social-media-list .splide__track{
+	padding-left: 20px!important;
+	overflow: initial!important;
+	overflow-x: clip!important;
 }

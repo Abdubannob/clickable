@@ -19,7 +19,7 @@
 
 <body>
     <nav class="navbar justify-content-between fixed-top violet">
-<!--         <div class="row d-block d-lg-none">
+        <!-- <div class="row d-block d-lg-none">
             <div class="col">
                 <span style="font-size:30px;cursor:pointer" onclick="openSidebar()">&#9776;</span>
                 <div id="mySidebar" class="sidebar-overlay">
@@ -67,10 +67,11 @@
         <div class="main-section">
             <div class="banner-title row">
                 <div class="col-12 col-md-2 nav-title-back">
-                    
+                    <a href="social-media-service.html" class="btn"><img src="../../images/icons/go-back.svg" alt="back">Go back</a>
                 </div>
                 <div class="col-12 col-md-8 title">
-                    <p class="text">Social media accounts</p>
+                    <img src="../../images/icons/banner-youtube.svg" alt="icon">
+                    <p class="text">Services</p>
                 </div>
                 <div class="col-12 col-md-2 button">
                     <!-- <button class="btn btn-solid-white">sadsd</button> -->
@@ -78,55 +79,12 @@
             </div>
             <div class="box">
                 <div class="box-body">
-                    <!-- <div class="nav-title">
-                        <h1>Step 1: Add a social media account</h1>
-                    </div> -->
-                    <section class="mb-0 splide splide--slide splide--ltr splide--draggable is-active is-initialized" aria-label="Splide" id="splide01" aria-roledescription="carousel">
-                        <div class="splide__track splide__track--slide splide__track--ltr splide__track--draggable" id="splide01-track" style="padding-left: 0px; padding-right: 0px;" aria-live="polite" aria-atomic="true" aria-busy="false">
-                            <ul class="splide__list" id="splide01-list" role="presentation" style="transform: translateX(0px);">
-                                <li class="splide__slide is-active is-visible" id="splide01-slide01" role="group" aria-roledescription="slide" aria-label="1 of 3" style="margin-right: 20px; width: 340px;">
-                                    <div class="add-card">
-                                        <div class="add-body">
-                                            <img class="logo" src="../../images/icons/social/youtube.svg" alt="logo">
-                                            <h2>Add YouTube</h2>
-                                            <p>Adding your social account would allow you to view your account metrics and offer services</p>
-                                            <a href="social-media-creation.html" class="btn"><img src="../../images/icons/add.svg" alt="add-icon"></a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="splide__slide is-active is-visible" id="splide01-slide01" role="group" aria-roledescription="slide" aria-label="1 of 3" style="margin-right: 20px; width: 340px;">
-                                    <div class="add-card">
-                                        <div class="add-body">
-                                            <img class="logo" src="../../images/icons/social/facebook.svg" alt="logo">
-                                            <h2>Add Facebook</h2>
-                                            <p>Adding your social account would allow you to view your account metrics and offer services</p>
-                                            <a href="social-media-creation.html" class="btn"><img src="../../images/icons/add.svg" alt="add-icon"></a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="splide__slide is-active is-visible" id="splide01-slide01" role="group" aria-roledescription="slide" aria-label="1 of 3" style="margin-right: 20px; width: 340px;">
-                                    <div class="add-card">
-                                        <div class="add-body">
-                                            <img class="logo" src="../../images/icons/social/instagram.svg" alt="logo">
-                                            <h2>Add Instagram</h2>
-                                            <p>Adding your social account would allow you to view your account metrics and offer services</p>
-                                            <a href="social-media-creation.html" class="btn"><img src="../../images/icons/add.svg" alt="add-icon"></a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="splide__slide is-active is-visible" id="splide01-slide01" role="group" aria-roledescription="slide" aria-label="1 of 3" style="margin-right: 20px; width: 340px;">
-                                    <div class="add-card">
-                                        <div class="add-body">
-                                            <img class="logo" src="../../images/icons/social/twitter.svg" alt="logo">
-                                            <h2>Add Twitter</h2>
-                                            <p>Adding your social account would allow you to view your account metrics and offer services</p>
-                                            <a href="social-media-creation.html" class="btn"><img src="../../images/icons/add.svg" alt="add-icon"></a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
+                    <div class="add">
+                        <img src="../../images/icons/done.svg">
+                        <h1>Service succesfully added!</h1>
+                        <p class="mb-1">The network will be added after 3 minutes.</p>
+                        <p><a href="social-media-service.html">Add another social netowork</a> or go to your <a href="social-media-list.html">social network list view.</a></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -189,15 +147,15 @@
         } ).mount());
     </script>
 
-  <script>
-    let btn = document.querySelector("#sidebtn");    
-    let sidebar = document.querySelector(".sidebar");    
-    let overlay = document.querySelector(".overlay");    
-    
-    btn.onclick = function() {
-        sidebar.classList.toggle("active"),
-        overlay.classList.toggle("active")
-    }
+    <script>
+        let btn = document.querySelector("#sidebtn");    
+        let sidebar = document.querySelector(".sidebar");    
+        let overlay = document.querySelector(".overlay");    
+        
+        btn.onclick = function() {
+            sidebar.classList.toggle("active"),
+            overlay.classList.toggle("active")
+        }
     </script>
     <script>
         let checkboxes = document.querySelectorAll("input[type='checkbox']");

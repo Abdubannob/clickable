@@ -175,7 +175,7 @@ nav .btn.avatar img{
   background-repeat: no-repeat;
   background-position: center;
 }
-/*
+
 .sidebar .violet a.youtube{background-image: url(../../images/icons/sidebar-social/youtube-white.svg);}
 .sidebar a.youtube{background-image: url(../../images/icons/sidebar-social/youtube-white.svg);}
 .sidebar a.youtube.active:after{
@@ -239,7 +239,7 @@ nav .btn.avatar img{
   background-image: url(../../images/icons/sidebar-social/soundcloud-active.svg);
   background-repeat: no-repeat;
   background-position: center;
-}*/
+}
 
 .sidebar .violet a.list{background-image: url(../../images/icons/sidebar-social/list-white.svg);}
 .sidebar a.list{background-image: url(../../images/icons/sidebar-social/list-white.svg);}

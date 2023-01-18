@@ -77,14 +77,76 @@
                 </div>
             </div>
             <div class="box">
-                <div class="box-body">
+                <div class="box-body" style="padding-left: 0;">
                     <!-- <div class="nav-title">
                         <h1>Step 1: Add a social media account</h1>
                     </div> -->
-                    <section class="mb-0 splide splide--slide splide--ltr splide--draggable is-active is-initialized" aria-label="Splide" id="splide01" aria-roledescription="carousel">
-                        <div class="splide__track splide__track--slide splide__track--ltr splide__track--draggable" id="splide01-track" style="padding-left: 0px; padding-right: 0px;" aria-live="polite" aria-atomic="true" aria-busy="false">
-                            <ul class="splide__list" id="splide01-list" role="presentation" style="transform: translateX(0px);">
-                                <li class="splide__slide is-active is-visible" id="splide01-slide01" role="group" aria-roledescription="slide" aria-label="1 of 3" style="margin-right: 20px; width: 340px;">
+                    <section class="mb-0 splide social-media-list">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide box account-card">
+                                    <div class="box-body">
+                                        <div class="account-info">
+                                            <div class="account-status">
+                                                <div class="d-flex">
+                                                    <img class="social-logo" src="../../images/icons/social/youtube-logo.svg" alt="logo">
+                                                    <div class="d-flex status status-in-progress" style="align-items: center;">
+                                                        <p>Active</p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="dropleft tree-dot dropdown show">
+                                                    <button class="btn" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <svg width="19" height="5" viewBox="0 0 19 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <circle cx="2.00391" cy="2.01172" r="2" fill="#707FDA"></circle>
+                                                        <circle cx="9.00391" cy="2.01172" r="2" fill="#707FDA"></circle>
+                                                        <circle cx="16.0039" cy="2.01172" r="2" fill="#707FDA"></circle>
+                                                        </svg>
+                                                    </button>
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="">
+                                                        <a class="dropdown-item" href="#">Edit</a>
+                                                        <a class="dropdown-item" href="#">Disable</a>
+                                                        <a class="dropdown-item" href="#">Enable</a>
+                                                        <a class="dropdown-item" href="#">Delete</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="account-head">
+                                                <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava">
+                                                <div>
+                                                    <h2 class="title">LabelCom<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 13C10.0899 13 13 10.0899 13 6.5C13 2.91015 10.0899 0 6.5 0C2.91015 0 0 2.91015 0 6.5C0 10.0899 2.91015 13 6.5 13ZM9.57617 5.48014C9.84134 5.16193 9.79835 4.68901 9.48014 4.42383C9.16193 4.15866 8.68901 4.20165 8.42383 4.51986L5.63977 7.86074L4.55287 6.67502C4.27297 6.36969 3.79855 6.34906 3.49321 6.62895C3.18787 6.90885 3.16724 7.38327 3.44713 7.68861L5.1138 9.50679C5.26003 9.66631 5.46803 9.7549 5.68437 9.74979C5.90071 9.74468 6.1043 9.64638 6.24283 9.48014L9.57617 5.48014Z" fill="#707FDA"></path>
+                                                    </svg>
+                                                    </h2>
+                                                    <h3 class="sub-title">Influencer Name</h3>
+                                                </div>
+                                            </a>
+                                            <div class="account-stats">
+                                                <div class="d-flex align-items-center flex-wrap">
+                                                    <div class="item">
+                                                        <h3>343</h3>
+                                                        <p>Videos</p>
+                                                    </div>
+                                                    <div class="item">
+                                                        <h3>112M</h3>
+                                                        <p>Subscribers</p>
+                                                    </div>
+                                                    <div class="item">
+                                                        <h3>112M</h3>
+                                                        <p>Views</p>
+                                                    </div>
+                                                    <div class="item">
+                                                        <h3>46K</h3>
+                                                        <p>Comments</p>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <p class="description">This is a description of the channel I use for social media influencing brand promotions...This is a description of the channel I use for social media influencing brand promotions... This is a description of the channel I use for social media influencing brand promotions.</p> 
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
                                     <div class="add-card">
                                         <div class="add-body">
                                             <img class="logo" src="../../images/icons/social/youtube.svg" alt="logo">
@@ -94,7 +156,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="splide__slide is-active is-visible" id="splide01-slide01" role="group" aria-roledescription="slide" aria-label="1 of 3" style="margin-right: 20px; width: 340px;">
+                                <li class="splide__slide">
                                     <div class="add-card">
                                         <div class="add-body">
                                             <img class="logo" src="../../images/icons/social/facebook.svg" alt="logo">
@@ -104,7 +166,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="splide__slide is-active is-visible" id="splide01-slide01" role="group" aria-roledescription="slide" aria-label="1 of 3" style="margin-right: 20px; width: 340px;">
+                                <li class="splide__slide">
                                     <div class="add-card">
                                         <div class="add-body">
                                             <img class="logo" src="../../images/icons/social/instagram.svg" alt="logo">
@@ -114,7 +176,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="splide__slide is-active is-visible" id="splide01-slide01" role="group" aria-roledescription="slide" aria-label="1 of 3" style="margin-right: 20px; width: 340px;">
+                                <li class="splide__slide">
                                     <div class="add-card">
                                         <div class="add-body">
                                             <img class="logo" src="../../images/icons/social/twitter.svg" alt="logo">

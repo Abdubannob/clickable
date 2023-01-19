@@ -100,6 +100,10 @@
 .card .like-save .like.active {
     background-image: url(../../img/icons/like.svg);
 }
+.social-profile .service-card{
+	border: 1px solid #DFE3F4;
+	margin-bottom: 0;
+}
 .service-card .top{
 	display: flex;
 }
@@ -111,6 +115,13 @@
 .service-card .top-right{
 	padding: 20px;
 	width: 100%;
+}
+.service-card .top-right img{
+	width: 26px;
+	height: 26px;
+	margin-top: 7px;
+	margin-bottom: 20px;
+	mix-blend-mode: normal!important;
 }
 .service-card .status{
 	margin-bottom: 20px;
@@ -176,6 +187,12 @@
 	border: 2px dashed #707FDA;
 	border-radius: 6px;
 }
+.social-profile .add-card{
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+}
+
 .add-card.brand{
 	width: 480px;
 	height: 275px;
@@ -193,6 +210,7 @@
 	align-items: center;
 	height: inherit;
 	flex-direction: column;
+	padding: 20px;
 }
 .add-card h2{
 	font-weight: 700;
@@ -227,7 +245,21 @@
 }
 .social-media-list .account-card{
 	background-color: #F5F5F5;
+}
+.social-media-list .account-card.youtube{
 	box-shadow: 0px 0px 20px rgba(255, 43, 43, 0.5);
+}
+.social-media-list .account-card.facebook{
+	box-shadow: 0px 0px 40px rgba(19, 97, 255, 0.3);
+}
+.social-media-list .account-card.instagram{
+	box-shadow: 0px 0px 30px rgba(183, 17, 206, 0.28);
+}
+.social-media-list .account-card.twitter{
+	box-shadow: 0px 0px 40px rgba(99, 196, 255, 0.35);
+}
+.social-media-list .account-card.tiktok{
+	box-shadow: 0px 0px 40px rgba(87, 255, 255, 0.2);
 }
 .social-media-list .status,
 .social-media-list .tree-dot.dropdown{
@@ -271,9 +303,12 @@
 
 .account-list{
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 340px);
+	grid-template-columns: repeat(auto-fill, minmax(240px, 340px));
 	grid-gap: 20px;
 	margin-bottom: 40px;
+}
+.social-profile .channel-card {
+	margin-bottom: 0;
 }
 .channel-card .card-image{
 	max-height: 160px;
@@ -445,8 +480,6 @@
 	opacity: 0.7;
 }
 
-
-
 .bookmark-card
 { 
     background: #FFFFFF;
@@ -593,4 +626,20 @@
 	padding-left: 20px!important;
 	overflow: initial!important;
 	overflow-x: clip!important;
+}
+@media (max-width: 399.98px){
+	.service-card .top{
+		flex-wrap: wrap;
+	}
+	.service-card .top img{
+		width: 100%;
+		height: initial;
+		border-top-right-radius: 12px;
+	}
+	.service-card .top-right img{
+		width: 26px;
+		height: 26px;
+		margin-top: 7px;
+		mix-blend-mode: normal!important;
+	}
 }

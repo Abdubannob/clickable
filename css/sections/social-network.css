@@ -331,6 +331,25 @@ img.account-img{
 	color: #373E56;
 	margin-bottom: 40px;
 }
+
+.box.social-profile{
+	background: #F8F9FD;
+}
+.box.social-profile.youtube{
+	box-shadow: 0px 0px 20px rgba(255, 43, 43, 0.5);
+}
+.box.social-profile.facebook{
+	box-shadow: 0px 0px 40px rgba(19, 97, 255, 0.3);
+}
+.box.social-profile.instagram{
+	box-shadow: 0px 0px 30px rgba(183, 17, 206, 0.28);
+}
+.box.social-profile.twitter{
+	box-shadow: 0px 0px 40px rgba(99, 196, 255, 0.35);
+}
+.box.social-profile.tiktok{
+	box-shadow: 0px 0px 40px rgba(87, 255, 255, 0.2);
+}
 /******************/
 @media(max-width: 1300px){
 	.account-status{
@@ -341,10 +360,10 @@ img.account-img{
 	.account-info{
 		flex-wrap: wrap;
 	}
-	img.account-img{
+/*	img.account-img{
 		margin-bottom: 15px;
 		margin-top: 15px;
-	}
+	}*/
 	.youtube .social-media-post-detail{
 		height: 475px;
 	}

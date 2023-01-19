@@ -11,7 +11,6 @@
 }
 .influencer-page-info{
 	display: flex;
-	flex-wrap: wrap;
 }
 .influencer-page-img img{
 	width: 100px;
@@ -19,6 +18,7 @@
 	margin-right: 15px;
 	margin-bottom: 10px;
 }
+
 .influencer-page-info .user-info h1{
 	font-weight: 500;
 	font-size: 16px;
@@ -32,6 +32,9 @@
 	line-height: 16px;
 	color: #212121;
 	margin-bottom: 20px;
+}
+.social-profile-logo{
+	margin-right: 10px;
 }
 .influencer-page p.description{
 	font-weight: normal;
@@ -69,9 +72,10 @@
 	color: #757575;
 }
 .influencer-page-rating .rate{
+	background-color: #ffffff;
 	padding: 18px 25px;
-	border-radius: 18px;
-	margin-bottom: 40px;
+	border-radius: 100px;
+	margin-bottom: 20px;
 }
 .influencer-page-rating h2{
 	font-weight: bold;
@@ -154,11 +158,22 @@
 		margin-top: 20px;
 	}
 }
+@media(max-width: 765.98px){
+	.influencer-page-info{
+		flex-wrap: wrap;
+	}
+}
 @media(max-width: 575.98px){
 	.influencer-page-video{
 		display: grid;
 		grid-gap: 20px;
 		grid-template-columns: repeat(1, 1fr);
 		margin-top: 20px;
+	}
+	.influencer-page-info{
+		margin-bottom: 20px;
+	}
+	.influencer-block{
+		flex-wrap: wrap;
 	}
 }

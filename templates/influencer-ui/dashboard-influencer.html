@@ -19,19 +19,6 @@
 
 <body>
     <nav class="navbar justify-content-between fixed-top violet">
-        <div class="row d-block d-lg-none">
-            <div class="col">
-                <span style="font-size:30px;cursor:pointer" onclick="openSidebar()">&#9776;</span>
-                <div id="mySidebar" class="sidebar-overlay">
-                    <a href="javascript:void(0)" class="closebtn btn" onclick="closeSidebar()">CLOSE MENU &times;</a>
-                    <div class="sidebar-overlay-content">
-                        <a href="dashboard-influencer.html">Home</a>
-                        <a href="services-list-influencer.html">Services</a>
-                        <a href="orders-list-influencer.html">Orders</a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="row">
             <div class="col">
                 <a href="dashboard-influencer.html" class="navbar-brand"><img src="../../images/Logo-mnWho.svg" alt="logo"></a>
@@ -48,13 +35,10 @@
         <div class="sidebar-body d-flex" style="height: auto; min-height: -webkit-fill-available;">
             <div class="social violet">
                 <ul>
-                    <li><a href="dashboard-influencer.html" class="home active"></a></li>
-                    <li><a href="youtube/youtube-add.html" class="youtube"></a></li>
-                    <li><a href="instagram/instagram-add.html" class="instagram"></a></li>
-                    <li><a href="facebook/facebook-add.html" class="facebook"></a></li>
-                    <li><a href="twitter/twitter-add.html" class="twitter"></a></li>
-                    <li><a href="tiktok/tiktok-add.html" class="tiktok"></a></li>
-                    <li><a href="linkedin/linkedin-add.html" class="linkedIn"></a></li>
+                    <li><a href="marketplace.html" class="home"></a></li>
+                    <li><a href="dashboard-influencer.html" class="service active"></a></li>
+                    <li><a href="list.html" class="list"></a></li>
+                    <li><a href="social-media.html" class="social-media"></a></li>
                     <div class="divider"></div>
                     <li><a href="invoice-influencer.html" class="withdrawal"></a></li>
                     <li><a href="edit-profile-influencer.html" class="setting"></a></li>                    
@@ -63,17 +47,10 @@
                 </ul>
                 <button class="btn btn-sidebar" id="sidebtn"><img src="../../images/icons/sidebar-arrow.svg" alt="icon"></button>
             </div>
-            <div class="menu violet" id="menu">
-                <h1 class="title">General</h1>
-                <li><a href="dashboard-influencer.html" class="menu-dashboard active">Home</a></li>
-                <li><a href="services-list-influencer.html" class="menu-service">Services</a></li>
-                <li><a href="orders-list-influencer.html" class="menu-service-order">Orders</a></li><!-- 
-                <li><a href="withdrawal-influencer.html" class="menu-withdrawal">Withdrawals</a></li> -->
-            </div>
         </div>
     </div>
     <div class="overlay"></div>
-    <main id="main">
+    <main id="main"  class="no-menu">
         <div class="main-section dashboard">
             <div class="banner-title row">
                 <div class="col-12 col-md-2 nav-title-back">

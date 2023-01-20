@@ -627,6 +627,47 @@
 	overflow: initial!important;
 	overflow-x: clip!important;
 }
+.content-create{
+	background: #FFFFFF;
+	border: 2px dashed #707FDA;
+	border-radius: 6px;
+	padding: 30px;
+	max-width: 846px;
+}
+.content-create h3{
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+	color: #212121;
+	margin-bottom: 10px;
+}
+.content-create p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #757575;
+	margin-bottom: 15px;
+}
+.content-create .form-control{
+	background-color: transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #707FDA;
+	padding: 15px 0;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	color: #707FDA;
+	margin-bottom: 30px;
+}
+.content-create .form-control:focus{
+	box-shadow: none;
+	border-bottom: 1px solid #707FDA;
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+
+}
+
 @media (max-width: 399.98px){
 	.service-card .top{
 		flex-wrap: wrap;

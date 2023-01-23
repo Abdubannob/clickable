@@ -182,6 +182,8 @@ img.account-img{
 	max-width: 1060px;
 	height: 595px;
 	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
 }
 .social-media-post-detail img{
 	width: 100%;

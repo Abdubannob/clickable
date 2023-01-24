@@ -76,10 +76,25 @@
                     <!-- <button class="btn btn-solid-white">sadsd</button> -->
                 </div>
             </div>
+            <section class="splide" id="main-splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="../../images/landing/market-place.png" alt="img">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="../../images/landing/market-place.png" alt="img">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="../../images/landing/market-place.png" alt="img">
+                        </li>
+                    </ul>
+                </div>
+            </section>
             <div class="nav-title">
                 <h1>Trending orders</h1>
             </div>
-            <section class="splide">
+            <section class="splide" id="splide">
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide box service-card">
@@ -344,7 +359,16 @@
 
 
     <script>
-        document.querySelectorAll('.splide').forEach(carousel => new Splide( carousel, {
+        document.querySelectorAll('#main-splide').forEach(carousel => new Splide( carousel, {
+          type : 'loop',
+          fixedHeight: 300,
+          arrows: false,
+          autoplay: true,
+          interval: 3000
+        } ).mount());
+    </script>
+    <script>
+        document.querySelectorAll('#splide').forEach(carousel => new Splide( carousel, {
           perPage: 1,
           perMove: 1,
           fixedWidth: 340,

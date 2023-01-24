@@ -978,6 +978,12 @@ footer hr{
 section.splide{
   margin-bottom: 40px;
 }
+#main-splide .splide__slide img{
+  width: 100%;
+}
+#main-splide .splide__track{
+  border-radius: 12px;
+}
 /****container****/
 .container {
         max-width: 1280px;

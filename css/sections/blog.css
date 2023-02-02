@@ -142,7 +142,7 @@
 	color: #6E7391;
 	margin-bottom: 10px;
 }
-.blog-info h1.blog-info-title{
+.blog-info h1{
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 20px;
@@ -150,7 +150,8 @@
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
-.blog-info p.blog-info-text{
+.blog-info p,
+.blog-info span{
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 200%;

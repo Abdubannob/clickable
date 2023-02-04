@@ -995,6 +995,7 @@ section.splide{
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 80px;
+  background-size: contain;
 }
 .marketplace-banner .item{
   width: 50%;
@@ -1031,6 +1032,12 @@ section.splide{
     }
     .container{
       padding: 0 20px;
+    }
+    .marketplace-banner{
+      background-image: none;
+    }
+    .marketplace-banner .item{
+      width: 100%;
     }
 }
 /***********************/

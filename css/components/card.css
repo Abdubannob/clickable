@@ -107,10 +107,16 @@
 .service-card .top{
 	display: flex;
 }
-.service-card .top img{
+.service-card .top .img{
 	border-top-left-radius: 12px;
 	width: 160px;
 	height: 180px;
+	overflow: hidden;
+	flex: none;
+}
+.service-card .top img{
+	width: 100%;
+	height: auto;
 }
 .service-card .top-right{
 	padding: 20px;

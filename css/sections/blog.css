@@ -60,14 +60,14 @@
 .blog-items .item-body h3{
 	font-weight: bold;
 	font-size: 18px;
-	line-height: 20px;
+	line-height: 22px;
 	color: #383B50;
 	margin-bottom: 10px;
 }
 .blog-items .item-body p{
 	font-weight: normal;
 	font-size: 16px;
-	line-height: 18px;
+	line-height: 20px;
 	color: #6E7391;
 }
 .blog-items .item-footer{
@@ -81,7 +81,7 @@
 .blog-manager .manager{
 	display: flex;
 	align-items: center;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .blog-manager .manager img{
 	width: 56px;
@@ -140,7 +140,7 @@
 	font-size: 16px;
 	line-height: 18px;
 	color: #6E7391;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 .blog-info h1{
 	font-weight: bold;
@@ -148,7 +148,7 @@
 	line-height: 20px;
 	color: #383B50;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 }
 .blog-info p,
 .blog-info span{

@@ -126,7 +126,9 @@
                     <ul class="splide__list">
                         <li class="splide__slide box service-card">
                             <div class="top">
-                                <img src="../../images/dashboard/service-card.png" alt="service-card">
+                                <div class="img">
+                                    <img class="" src="../../images/dashboard/service-card.png" alt="service-card">
+                                </div>
                                 <div class="top-right">
                                     <div class="d-flex status status-in-progress">
                                         <p>Active</p>
@@ -161,7 +163,9 @@
                         </li>
                         <li class="splide__slide box service-card disable brand">
                             <div class="top">
-                                <img src="../../images/dashboard/service-card.png" alt="service-card">
+                                <div class="img">
+                                    <img class="" src="../../images/dashboard/service-card.png" alt="service-card">
+                                </div>
                                 <div class="top-right">
                                     <div class="d-flex status status-pending">
                                         <p>Pending</p>
@@ -196,7 +200,9 @@
                         </li>
                         <li class="splide__slide box service-card">
                             <div class="top">
-                                <img src="../../images/dashboard/service-card.png" alt="service-card">
+                                <div class="img">
+                                    <img class="" src="../../images/dashboard/service-card.png" alt="service-card">
+                                </div>
                                 <div class="top-right">
                                     <div class="d-flex status status-in-progress">
                                         <p>Active</p>
@@ -231,7 +237,9 @@
                         </li>
                         <li class="splide__slide box service-card">
                             <div class="top">
-                                <img src="../../images/dashboard/service-card.png" alt="service-card">
+                                <div class="img">
+                                    <img class="" src="../../images/dashboard/service-card.png" alt="service-card">
+                                </div>
                                 <div class="top-right">
                                     <div class="d-flex status status-in-progress">
                                         <p>Active</p>
@@ -266,7 +274,9 @@
                         </li>
                         <li class="splide__slide box service-card">
                             <div class="top">
-                                <img src="../../images/dashboard/service-card.png" alt="service-card">
+                                <div class="img">
+                                    <img class="" src="../../images/dashboard/service-card.png" alt="service-card">
+                                </div>
                                 <div class="top-right">
                                     <div class="d-flex status status-in-progress">
                                         <p>Active</p>
@@ -301,7 +311,9 @@
                         </li>
                         <li class="splide__slide box service-card">
                             <div class="top">
-                                <img src="../../images/dashboard/service-card.png" alt="service-card">
+                                <div class="img">
+                                    <img class="" src="../../images/dashboard/service-card.png" alt="service-card">
+                                </div>
                                 <div class="top-right">
                                     <div class="d-flex status status-in-progress">
                                         <p>Active</p>
@@ -610,18 +622,25 @@
 
     <script>
         document.querySelectorAll('#splide').forEach(carousel => new Splide( carousel, {
-          perPage: 3,
+          perPage: 1,
           perMove: 1,
+          trimSpace  : false,
           fixedWidth: 460,
           gap: 20,
           arrows: false,
-          pagination: false 
+          pagination: false,
+          breakpoints: {
+            480: {
+              fixedWidth: 280,
+            },
+          },
         } ).mount());
     </script>
     <script>
         var splide1 = new Splide( '#splide1', {
-          perPage: 3,
+          perPage: 1,
           perMove: 1,
+          trimSpace  : false,
           fixedWidth: 300,
           gap: 20,
           arrows: false,

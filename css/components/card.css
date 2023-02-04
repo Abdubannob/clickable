@@ -391,8 +391,9 @@
 }
 .campaign-card .campaing-head .img{
 	margin-right: 15px;
-	width: 115px;
+	width: 100px;
 	height: 100px;
+	flex: none;
 	overflow: hidden;
 	border-radius: 6px;
 }
@@ -679,19 +680,23 @@
 
 }
 
-@media (max-width: 399.98px){
+@media (max-width: 480px){
 	.service-card .top{
 		flex-wrap: wrap;
 	}
 	.service-card .top img{
-		width: 100%;
-		height: initial;
 		border-top-right-radius: 12px;
+	}
+	.service-card .top .img{
+		width: 100%;
 	}
 	.service-card .top-right img{
 		width: 26px;
 		height: 26px;
 		margin-top: 7px;
 		mix-blend-mode: normal!important;
+	}
+	.add-card{
+		width: 100%;
 	}
 }

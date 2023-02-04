@@ -368,7 +368,6 @@
     <script>
         document.querySelectorAll('#main-splide').forEach(carousel => new Splide( carousel, {
           type : 'loop',
-          fixedHeight: 300,
           arrows: false,
           autoplay: true,
           interval: 3000
@@ -382,7 +381,12 @@
           gap: 20,
           trimSpace  : false,
           arrows: false,
-          pagination: false 
+          pagination: false,
+          breakpoints: {
+            480: {
+              fixedWidth: 280,
+            },
+          },
         } ).mount());
     </script>
 

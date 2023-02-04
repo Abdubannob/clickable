@@ -385,8 +385,13 @@
 }
 .campaign-card .campaing-head .img{
 	margin-right: 15px;
-	width: 100px;
+	width: 115px;
 	height: 100px;
+	overflow: hidden;
+	border-radius: 6px;
+}
+.campaign-card .campaing-head .img img{
+	width: 100%;
 }
 .campaign-card .campaing-head h6{
 	font-weight: 500;

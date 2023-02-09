@@ -48,9 +48,12 @@ nav .btn.avatar img{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #707FDA;
+  background-color: #6A9586;
   padding-top: 30px;
   height: 100%;
+}
+.sidebar .social.violet {
+  background-color: #707FDA;
 }
 .sidebar-bottom{
   width: 100px;

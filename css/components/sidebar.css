@@ -505,6 +505,12 @@ nav .btn.avatar img{
 .menu.violet .menu-influencer-support{background-image: url('../../images/icons/sidebar-menu/influencer-support-v.svg');}
 .menu.violet .menu-influencer-support.active{background-image: url('../../images/icons/sidebar-menu/influencer-support-v-a.svg');}
 
+.menu.violet .menu-upgrade-subscription{background-image: url('../../images/icons/sidebar-menu/upgrade-subscription-v.svg');}
+.menu.violet .menu-upgrade-subscription.active{background-image: url('../../images/icons/sidebar-menu/upgrade-subscription-v-a.svg');}
+
+.menu.violet .menu-p-score{background-image: url('../../images/icons/sidebar-menu/p-score-v.svg');}
+.menu.violet .menu-p-score.active{background-image: url('../../images/icons/sidebar-menu/p-score-v-a.svg');}
+
 
 .btn-sidebar{
   position: absolute;

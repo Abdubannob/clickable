@@ -50,15 +50,24 @@ nav .btn.avatar img{
   justify-content: space-between;
   background-color: #6A9586;
   padding-top: 30px;
+  height: 100%;
 }
 .sidebar .social.violet {
   background-color: #707FDA;
 }
+.sidebar-bottom{
+  width: 100px;
+  margin-bottom: 30px;
+}
+.sidebar-bottom li {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
 .sidebar .social ul{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #6A9586;
 }
 .sidebar .social.violet ul{
   background-color: #707FDA;
@@ -67,8 +76,18 @@ nav .btn.avatar img{
   margin-bottom: 5px;
   width: 100%;
 }
-
 .sidebar .social a{
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.sidebar-bottom a{
   padding: 10px;
   text-decoration: none;
   display: flex;
@@ -321,7 +340,8 @@ nav .btn.avatar img{
   background-repeat: no-repeat;
   background-position: center;
 }
-
+.sidebar-bottom a.logout{background-image: url(../../images/icons/sidebar-social/logout.svg);}
+}
 
 
 .sidebar-overlay {
@@ -484,6 +504,12 @@ nav .btn.avatar img{
 
 .menu.violet .menu-influencer-support{background-image: url('../../images/icons/sidebar-menu/influencer-support-v.svg');}
 .menu.violet .menu-influencer-support.active{background-image: url('../../images/icons/sidebar-menu/influencer-support-v-a.svg');}
+
+.menu.violet .menu-upgrade-subscription{background-image: url('../../images/icons/sidebar-menu/upgrade-subscription-v.svg');}
+.menu.violet .menu-upgrade-subscription.active{background-image: url('../../images/icons/sidebar-menu/upgrade-subscription-v-a.svg');}
+
+.menu.violet .menu-p-score{background-image: url('../../images/icons/sidebar-menu/p-score-v.svg');}
+.menu.violet .menu-p-score.active{background-image: url('../../images/icons/sidebar-menu/p-score-v-a.svg');}
 
 
 .btn-sidebar{

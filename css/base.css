@@ -2,7 +2,11 @@
     --green: #6A9586;
     --violet: #707FDA;
 }
-
+* { 
+    zoom: 98%; 
+    -moz-transform: scale(98%); 
+    -moz-transform-origin: 0 0;
+}
 
 button,
 input,

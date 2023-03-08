@@ -57,3 +57,11 @@
 .modal-footer>*{
 	margin: 0;
 }
+
+.splide-modal .modal-content{
+	max-width: initial;
+}
+.splide-modal .modal-body{
+	margin: 0;
+	height: 500px;
+}

@@ -190,6 +190,11 @@ nav .btn.avatar img{
 .sidebar .violet a.home{background-image: url(../../images/icons/sidebar-social/home-white.svg);}
 .sidebar a.home{background-image: url(../../images/icons/sidebar-social/home-white.svg);}
 .sidebar a.home.active:after{
+  background: url(../../images/icons/sidebar-social/home-active-brand.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sidebar .violet a.home.active:after{
   background: url(../../images/icons/sidebar-social/home-active.svg);
   background-repeat: no-repeat;
   background-position: center;

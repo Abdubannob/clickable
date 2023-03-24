@@ -980,6 +980,7 @@ section.splide{
 }
 #main-splide .splide__slide img{
   width: 100%;
+  height: 100%;
 }
 #main-splide .splide__track{
   border-radius: 12px;

@@ -35,19 +35,17 @@
         <div class="sidebar-body d-flex" style="height: auto; min-height: -webkit-fill-available;">
             <div class="social violet">
                 <ul>
-                    <li><a href="marketplace.html" class="home"></a></li>
-                    <li><a href="dashboard-influencer.html" class="service active"></a></li>
-                    <li><a href="list.html" class="list"></a></li>
-                    <li><a href="social-media.html" class="social-media"></a></li>
+                    <li class="active"><p><a href="dashboard-influencer.html" class="dashboard">Dashboard</a></p></li>
+                    <li><a href="marketplace.html" class="request">Requests</a></li>
+                    <li><a href="" class="service">Services</a></li>
+                    <li><a href="" class="channel">Channels</a></li>
+                    <li><a href="" class="order">Orders</a></li>
+                    <li><a href="" class="payment">Payments</a></li>             
                     <div class="divider"></div>
-                    <li><a href="invoice-influencer.html" class="withdrawal"></a></li>
-                    <li><a href="edit-profile-influencer.html" class="setting"></a></li>                    
-                    <div class="divider"></div>
-                    <li><a href="#" class="sms"></a></li>
+                    <li><a href="edit-profile-influencer.html" class="setting">Settings</a></li>
                 </ul>
                 <button class="btn btn-sidebar" id="sidebtn"><img src="../../images/icons/sidebar-arrow.svg" alt="icon"></button>
                 <div class="sidebar-bottom">
-                    <li><a href="#" class="logout"></a></li>
                 </div>
             </div>
         </div>
@@ -682,16 +680,14 @@
                 }
             }
     </script>
-<script>
-    $(function() {
-      $(".heart").on("click", function() {
-        $(this).toggleClass("is-active");
-      });
-    });
-</script>
-    
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="../../js/custom-chart.js"></script>
+    <script>
+        $(function() {
+          $(".heart").on("click", function() {
+            $(this).toggleClass("is-active");
+          });
+        });
+    </script>
+
 </body>
 
 </html>

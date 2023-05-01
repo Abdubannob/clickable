@@ -1,13 +1,13 @@
 
 nav {
-  background-color: #6A9586;
+  background-color: #ffffff;
   color: white;
   height: 60px;
   padding: 10px 20px;
 }
-nav.violet{
+/*nav.violet{
   background-color: #707FDA;
-}
+}*/
 
 nav a {
   color: white;
@@ -188,8 +188,6 @@ nav .btn.avatar img{
   bottom: -20px;
 }
 
-
-
 .sidebar .social .divider{
   border: 1px solid rgba(255, 255, 255, 0.14);
   width: 100px;
@@ -215,15 +213,17 @@ nav .btn.avatar img{
 }
 
 .badge{
-  background-color: #FF540A;
+  background-color: #F5A200;
   border-radius: 4px;
-  padding: 1px 4px;
-  font-weight: bold;
+  padding: 3px 4px;
+  font-weight: 700;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 10px;
   text-align: center;
   color: #FFFFFF;
-  margin-left: 10px;
+  position: absolute;
+  top: 6px;
+  right: 28px;
 }
 .menu .title{
   font-weight: bold;

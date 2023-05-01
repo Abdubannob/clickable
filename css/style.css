@@ -173,8 +173,8 @@ h1.title{
 .main-section{
   min-height: calc(100vh - 173px);
   position: relative;
-  padding: 0 20px 30px;
-  background-color: #F5F5F5;
+  padding: 0 50px 30px;
+  background-color: #F9F9FF;
 }
 .block-container{
   padding: 20px;
@@ -224,18 +224,12 @@ h1.block-title{
   margin-bottom: 10px;
 }
 .banner-title{
-  background-image: url(../images/banner-title.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #707FDA;
-  min-height: 120px;
   margin-bottom: 20px;
-  border-radius: 0 0 12px 12px;
+  padding-top: 40px;
+  display: flex;
   align-items: center;
-  padding: 20px;
-  --bs-gutter-x: 0;
 }
-.banner-title.brand{
+/*.banner-title.brand{
   background-color: #6A9586;;
 }
 .banner-title.youtube{
@@ -249,18 +243,21 @@ h1.block-title{
 }
 .banner-title.instagram{
   background: linear-gradient(270deg, #576BE8 -0.52%, #E24379 90.21%, #FFBA4F 113.72%);
-}
+}*/
 .banner-title .title{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+
+}
+.nav-title-back a{
+  padding: 0;
+}
+.nav-title-back img{
+  margin-right: 20px;
 }
 .banner-title .title p.text{
   font-weight: 700;
-  font-size: 24px;
-  line-height: 24px;
-  color: #FFFFFF;
-  margin-top: 5px;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
 }
 .banner-title .title span{
   font-weight: 600;
@@ -531,7 +528,7 @@ form .form-inline{
 }
 /****status color***/
 .status p{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 19px;
     color: #4CAF50;
@@ -763,12 +760,12 @@ footer.footer-white{
   background-color: #FFFFFF;
 }
 footer hr{
-  color: #E9EBF3;
-  opacity: 1;
+  color: #5A5C67;
+  opacity: 0.4;
   margin: 0;
 }
 .footer-body{
-  padding: 17px 0;
+  padding: 20px 0 15px;
   align-items: center;
 }
 .footer-link{
@@ -784,7 +781,7 @@ footer hr{
 }
 .footer-link a{
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 18px;
   color: #ffffff;
 }
@@ -793,7 +790,16 @@ footer hr{
   justify-content: flex-end;
 }
 .footer-social .btn{
-  padding: 5px;
+  padding: 0;
+}
+.footer-social li{
+  padding: 0 5px;
+}
+.footer-social li:first-child{
+  padding-left: 0;
+}
+.footer-social li:last-child{
+  padding-right: 0;
 }
 .footer-logo img{
   max-width: 140px;
@@ -802,17 +808,17 @@ footer hr{
 }
 
 .footer-bottom{
-  padding: 8px 0;
+  padding: 15px 0 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .footer-bottom p{
-  font-weight: normal;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 20px;
   color: #FFFFFF;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .footer-white .footer-link a,
 .footer-white .footer-bottom p,
@@ -824,7 +830,7 @@ footer hr{
   font-size: 14px;
   line-height: 20px;
   color: #FFFFFF;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 /*****btn toggle icon***/

@@ -221,7 +221,7 @@ nav .btn.avatar img{
   line-height: 10px;
   text-align: center;
   color: #FFFFFF;
-  position: absolute;
+/*  position: absolute;*/
   top: 6px;
   right: 30px;
 }

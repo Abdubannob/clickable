@@ -136,6 +136,111 @@
                     <p>Responses only</p>
                 </div>
             </div>
+<div class="container">
+<!--   <div class="dropdown mt-3">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="multiSelectDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+      <span id="filterButtonText">Select filters</span> (<span id="filterCount">0</span>)
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="multiSelectDropdown">
+      <li>
+        <input class="form-control" type="text" id="searchFilter" placeholder="Search filters...">
+      </li>
+      <li><hr class="dropdown-divider"></li>
+      <li><input class="form-check-input" type="checkbox" value="red" id="redFilter"><label class="form-check-label" for="redFilter">Red</label></li>
+      <li><input class="form-check-input" type="checkbox" value="white" id="whiteFilter"><label class="form-check-label" for="whiteFilter">White</label></li>
+      <li><input class="form-check-input" type="checkbox" value="green" id="greenFilter"><label class="form-check-label" for="greenFilter">Green</label></li>
+      <li><input class="form-check-input" type="checkbox" value="blue" id="blueFilter"><label class="form-check-label" for="blueFilter">Blue</label></li>
+      <li><input class="form-check-input" type="checkbox" value="1" id="1"><label class="form-check-label" for="1">1</label></li>
+      <li><input class="form-check-input" type="checkbox" value="2" id="2"><label class="form-check-label" for="2">2</label></li>
+      <li><input class="form-check-input" type="checkbox" value="3" id="3"><label class="form-check-label" for="3">3</label></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><button type="button" class="btn btn-outline-secondary" id="clearButton">Clear</button></li>
+    </ul>
+  </div>
+  <div id="selected-filters" class="mt-2"></div> -->
+
+
+<!-- Categories Container -->
+<div class="d-flex justify-content-around">
+  <!-- Filter Category 1 -->
+  <div>
+    
+    <div class="dropdown d-inline">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="Categories-dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span id="Categories-filterButtonText">Categories</span>
+        <span id="Categories-filterCount"></span>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="Categories-dropdownMenuButton">
+        <input type="text" id="searchFilter-Categories" placeholder="Search Category 1">
+        <button id="Categories-clearButton">Clear</button>
+        <div class="form-check">
+          <input type="checkbox" id="Categories-option1-Filter" class="form-check-input" data-category="Categories" value="Categories1">
+          <label for="Categories-option1-Filter">Categories 1</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" id="Categories-option2-Filter" class="form-check-input" data-category="Categories" value="Categories2">
+          <label for="Categories-option2-Filter">Categories 2</label>
+        </div>
+        <!-- Add more checkboxes for Category 1 -->
+      </div>
+    </div>
+    <div id="Categories-selected-filters"></div>
+  </div>
+
+  <!-- Filter Category 2 -->
+  <div>
+    <div class="dropdown d-inline">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="Budget-dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span id="Budget-filterButtonText">Budget</span>
+        <span id="Budget-filterCount"></span>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="Budget-dropdownMenuButton">
+    <input type="text" id="searchFilter-Budget" placeholder="Search Category 2">
+        <button id="Budget-clearButton">Clear</button>
+        <div class="form-check">
+          <input type="checkbox" id="Budget-option1-Filter" class="form-check-input" data-category="Budget" value="Budget1">
+          <label for="Budget-option1-Filter">Budget 1</label>
+        </div>
+        <!-- Add more checkboxes for Category 2 -->
+      </div>
+    </div>
+    <div id="Budget-selected-filters"></div>
+  </div>
+
+  <!-- Filter Category 3 -->
+  <div>
+    <div class="dropdown d-inline">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="Social Networks-dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span id="Social Networks-filterButtonText">Social Networks</span>
+        <span id="Social Networks-filterCount"></span>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="Social Networks-dropdownMenuButton">
+    <input type="text" id="searchFilter-Social Networks" placeholder="Search Category 3">
+        <button id="Social Networks-clearButton">Clear</button>
+        <div class="form-check">
+          <input type="checkbox" id="Social Networks-option1-Filter" class="form-check-input" data-category="Social Networks" value="Social Networks1">
+          <label for="Social Networks-option1-Filter">Social Networks 1</label>
+        </div>
+
+        <!-- Add more checkboxes for Category 3 -->
+      </div>
+    </div>
+    <div id="Social Networks-selected-filters"></div>
+  </div>
+</div>
+
+<!-- Item List -->
+<div id="item-list">
+  <ul class="list-group">
+    <li class="list-group-item" data-category="Categories1">Categories 1</li>
+    <li class="list-group-item" data-category="Categories2">Categories 2</li>
+    <li class="list-group-item" data-category="Budget1">Budget 1</li>
+    <li class="list-group-item" data-category="Social Networks1">Social Networks 1</li>
+  </ul>
+</div>
+
+
+</div>
             <div class="nav-title">
                 <h1>The most suitable ones for you</h1>
                 <a href="#">See all<img src="../../images/icons/arrow-narrow-right.svg" alt="alt" style="margin-left: 5px;"></a>
@@ -282,7 +387,7 @@
         overlay.classList.toggle("active")
     }
     </script>
-    <script>
+<!--     <script>
         let checkboxes = document.querySelectorAll("input[type='checkbox']");
             checkboxes.forEach(function (checkbox) {
                 checkbox.addEventListener("click", checkboxHandler);
@@ -294,7 +399,7 @@
                     this.closest(".checkbox-group").classList.remove("checked");
                 }
             }
-    </script>
+    </script> -->
     <script>
         $(function() {
           $(".heart").on("click", function() {
@@ -302,6 +407,167 @@
           });
         });
     </script>
+
+
+
+<script>
+    const itemList = document.getElementById('item-list');
+document.addEventListener("DOMContentLoaded", () => {
+  const categories = ["Categories", "Budget", "Social Networks"];
+
+  categories.forEach((category) => {
+    const filterCheckboxes = document.querySelectorAll(
+      ".form-check-input[data-category='" + category + "']"
+    );
+    const clearButton = document.getElementById(category + "-clearButton");
+    const selectedFilters = document.getElementById(
+      category + "-selected-filters"
+    );
+    const searchFilter = document.getElementById("searchFilter-" + category);
+    const filterButtonText = document.getElementById(
+      category + "-filterButtonText"
+    );
+    const filterCount = document.getElementById(category + "-filterCount");
+
+    function updateFilterButtonName() {
+      const selectedFiltersCount = [...filterCheckboxes].filter(
+        (checkbox) => checkbox.checked
+      ).length;
+      filterCount.textContent = selectedFiltersCount;
+      filterButtonText.textContent =
+        selectedFiltersCount > 0 ? category : category;
+    }
+
+    function updateSelectedFilters() {
+      const activeFilters = [...filterCheckboxes]
+        .filter((checkbox) => checkbox.checked)
+        .map((checkbox) => checkbox.value);
+
+      selectedFilters.innerHTML = "";
+
+      activeFilters.forEach((filter) => {
+        const filterBadge = document.createElement("span");
+        filterBadge.classList.add(
+          "badge",
+          "bg-primary",
+          "me-2",
+          "mb-2"
+        );
+        filterBadge.textContent = filter;
+
+        const closeButton = document.createElement("button");
+        closeButton.classList.add("btn-close");
+        closeButton.type = "button";
+        closeButton.dataset.filterValue = filter;
+        closeButton.addEventListener("click", removeSelectedFilter);
+
+        filterBadge.appendChild(closeButton);
+        selectedFilters.appendChild(filterBadge);
+      });
+    }
+
+    function removeSelectedFilter(event) {
+      const filterValue = event.target.dataset.filterValue;
+      const checkbox = document.getElementById(category + "-option" + (filterValue.slice(-1)) + "-Filter");
+
+      if (checkbox) {
+        checkbox.checked = false;
+        updateSelectedFilters();
+        filterItems();
+        updateFilterButtonName();
+      }
+    }
+    
+    clearButton.addEventListener("click", () => {
+      filterCheckboxes.forEach((checkbox) => {
+        checkbox.checked = false;
+      });
+      updateSelectedFilters();
+      filterItems();
+      updateFilterButtonName();
+    });
+
+    function filterItems() {
+      const activeFilters = [...filterCheckboxes]
+        .filter(checkbox => checkbox.checked)
+        .map(checkbox => checkbox.value);
+
+      const items = itemList.querySelectorAll('.list-group-item');
+
+      items.forEach(item => {
+        if (activeFilters.length === 0 || activeFilters.includes(item.dataset.category)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    filterCheckboxes.forEach((checkbox) => {
+      checkbox.addEventListener("change", () => {
+        updateSelectedFilters();
+        filterItems();
+        updateFilterButtonName();
+      });
+    });
+
+    searchFilter.addEventListener("input", () => {
+      const searchTerm = searchFilter.value.toLowerCase();
+      filterCheckboxes.forEach((checkbox) => {
+        const label = checkbox.nextElementSibling.textContent.toLowerCase();
+        const listItem = checkbox.parentElement;
+        listItem.style.display = label.includes(searchTerm)
+          ? "block"
+          : "none";
+      });
+    });
+
+    updateSelectedFilters();
+    updateFilterButtonName();
+  });
+});
+</script>
+
+
+
+
+
+<!-- from django.http import JsonResponse
+
+def get_items(request):
+    items = [
+        {'id': 1, 'name': 'Red item 1', 'category': 'red'},
+        {'id': 2, 'name': 'Green item 1', 'category': 'green'},
+        {'id': 3, 'name': 'Blue item 1', 'category': 'blue'},
+        {'id': 4, 'name': 'Red item 2', 'category': 'red'},
+        {'id': 5, 'name': 'Green item 2', 'category': 'green'},
+        {'id': 6, 'name': 'Blue item 2', 'category': 'blue'},
+    ]
+
+    return JsonResponse({'items': items}) -->
+
+<!-- from django.urls import path
+from . import views
+
+urlpatterns = [
+    # Your other URLs here
+    path('api/items/', views.get_items, name='get_items'),
+] -->
+
+<!-- let items;
+
+fetch('/api/items/')
+  .then(response => response.json())
+  .then(data => {
+    items = data.items.map(item => {
+      const li = document.createElement('li');
+      li.classList.add('list-group-item');
+      li.dataset.category = item.category;
+      li.textContent = item.name;
+      itemList.appendChild(li);
+      return li;
+    });
+  }); -->
 
 </body>
 

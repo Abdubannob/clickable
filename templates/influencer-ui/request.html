@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../vendor/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar justify-content-between fixed-top violet">
+        <div class="row">
+            <div class="col">
+                <a href="dashboard-influencer.html" class="navbar-brand"><img src="../../images/tech-logo.svg" alt="logo"></a>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">
+                <button class="btn p-0"><img class="m-0" src="../../images/icons/nav-bell.svg" alt="Bell"></button>
+                <a href="edit-profile-influencer.html" class="btn avatar"><img class="rounded-circle" src="../../images/ava.png" alt="ava"></a>
+            </div>
+        </div>
+    </nav>
+    <div class="sidebar">
+        <div class="sidebar-body d-flex" style="height: auto; min-height: -webkit-fill-available;">
+            <div class="social violet">
+                <ul>
+                    <li><p><a href="dashboard-influencer.html" class="dashboard">Dashboard</a></p></li>
+                    <li class="active"><p><a href="request.html" class="request">Requests</a></p></li>
+                    <li><p><a href="#" class="service">Services</a></p></li>
+                    <li><p><a href="#" class="channel">Channels</a></p></li>
+                    <li><p><a href="#" class="order">Orders</a><span class="badge">2</span></p></li>
+                    <li><p><a href="#" class="payment">Payments</a></p></li>             
+                    <div class="divider"></div>
+                    <li><p><a href="#" class="setting">Settings</a></p></li>
+                </ul>
+                <button class="btn btn-sidebar" id="sidebtn"><img src="../../images/icons/sidebar-arrow.svg" alt="icon"></button>
+                <div class="sidebar-bottom">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <main id="main"  class="no-menu">
+        <div class="main-section dashboard">
+            <div class="banner-title">
+                <div class="d-flex align-items-center">
+                    <!-- <div class="nav-title-back">
+                        <a href="#" class="btn"><img src="../../images/icons/go-back.svg" alt="back"></a>
+                    </div> -->
+                    <div class="title">
+                        <p class="text">Request portal</p>
+                    </div>
+                </div>
+                <div class="banner-text">
+                    <p>Explore service requests from brands. Respond to requests that are right for you.</p>
+                </div>
+            </div>
+            
+            <div class="header-filter">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Budget
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                        Social Networks
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Languages
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Locations
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Delivery time
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <div class="notification-switch d-flex align-items-center">
+                    <label class="switch violet">
+                        <input type="checkbox" checked="">
+                        <span class="slider round"></span>
+                    </label>
+                    <p>Responses only</p>
+                </div>
+            </div>
+            <div class="nav-title">
+                <h1>The most suitable ones for you</h1>
+                <a href="#">See all<img src="../../images/icons/arrow-narrow-right.svg" alt="alt" style="margin-left: 5px;"></a>
+            </div>
+            <section class="splide request-card">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide box">
+                            <div class="top">
+                                <div class="img">
+                                    <img class="" src="../../images/dashboard/service-card.png" alt="service-card">
+                                </div>
+                                <div class="placement">
+                                    <div class="heart"></div>
+                                </div>
+                            </div>
+                            <div class="body">
+                                <div class="d-flex status status-in-progress p-0" style="align-items: center; background-color: transparent;">
+                                    <p>In progress</p>
+                                </div>
+                                <div class="ava">
+                                    <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava">
+                                    <p>Albert Flores</p>
+                                </div>
+                                <hr>
+                            </div>
+                        </li>
+                        <li class="splide__slide box service-card-two">
+                            <div class="top">
+                                <div class="img">
+                                    <img class="" src="../../images/dashboard/service-card.png" alt="service-card">
+                                </div>
+                            </div>
+                            <div class="box-body">
+                                <div class="top-right">
+                                    <div class="d-flex justify-content-between head">
+                                        <div class="ava">
+                                            <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava">
+                                            <p>John Doe</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <img class="social-logo" src="../../images/icons/social/youtube-logo.svg" alt="logo">
+                                            <div class="d-flex status status-in-progress" style="align-items: center;">
+                                                <p>In progress</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</h4>
+                                </div>
+                                <div class="items">
+                                    <div class="item">
+                                        <p>Price:</p>
+                                        <span>3000,00 AED</span>
+                                    </div>
+                                    <div class="item">
+                                        <p>Account</p>
+                                        <span>smotraTV</span>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="bottom">
+                                    
+                                    <div class="price">
+                                        <p>3000,00 AED</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer-body row">
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-logo"><img src="../../images/tech-white-logo.svg"></div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="footer-link">
+                            <ul>
+                                <li><a href="#">Brand</a></li>
+                                <li><a href="#">Influencer</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-12">
+                        <div class="footer-social">
+                            <ul>
+                                <li><button class="btn"><img src="../../images/icons/linkedin.svg" alt="icon"></button></li>
+                                <li><button class="btn"><img src="../../images/icons/instagram.svg" alt="icon"></button></li>
+                                <li><button class="btn"><img src="../../images/icons/facebook.svg" alt="icon"></button></li>
+                                <li><button class="btn"><img src="../../images/icons/twitter.svg" alt="icon"></button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="footer-bottom">
+                    <p>© Techfluencers 2023. All rights reserved</p>
+                    <a href="#">Terms and Conditions</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="../../js/index.js"></script>
+
+
+    <script>
+        document.querySelectorAll('.splide').forEach(carousel => new Splide( carousel, {
+          perPage: 1,
+          perMove: 1,
+          trimSpace  : false,
+          fixedWidth: 295,
+          gap: 20,
+          pagination: false,
+          breakpoints: {
+            480: {
+              fixedWidth: 280,
+            },
+          },
+        } ).mount());
+    </script>
+
+  <script>
+    let btn = document.querySelector("#sidebtn");    
+    let sidebar = document.querySelector(".sidebar");    
+    let overlay = document.querySelector(".overlay");    
+    
+    btn.onclick = function() {
+        sidebar.classList.toggle("active"),
+        overlay.classList.toggle("active")
+    }
+    </script>
+    <script>
+        let checkboxes = document.querySelectorAll("input[type='checkbox']");
+            checkboxes.forEach(function (checkbox) {
+                checkbox.addEventListener("click", checkboxHandler);
+            });
+            function checkboxHandler() {
+                if (this.checked === true) {
+                    this.closest(".checkbox-group").classList.add("checked");
+                } else {
+                    this.closest(".checkbox-group").classList.remove("checked");
+                }
+            }
+    </script>
+    <script>
+        $(function() {
+          $(".heart").on("click", function() {
+            $(this).toggleClass("is-active");
+          });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -36,7 +36,7 @@
             <div class="social violet">
                 <ul>
                     <li class="active"><p><a href="dashboard-influencer.html" class="dashboard">Dashboard</a></p></li>
-                    <li><a href="marketplace.html" class="request">Requests</a></li>
+                    <li><a href="request.html" class="request">Requests</a></li>
                     <li><a href="" class="service">Services</a></li>
                     <li><a href="" class="channel">Channels</a></li>
                     <li><a href="" class="order">Orders</a>
@@ -364,23 +364,6 @@
     <script src="../../js/index.js"></script>
 
 
-    <script>
-        document.querySelectorAll('.splide').forEach(carousel => new Splide( carousel, {
-          perPage: 1,
-          perMove: 1,
-          trimSpace  : false,
-          fixedWidth: 340,
-          gap: 20,
-          arrows: false,
-          pagination: false,
-          breakpoints: {
-            480: {
-              fixedWidth: 280,
-            },
-          },
-        } ).mount());
-    </script>
-
   <script>
     let btn = document.querySelector("#sidebtn");    
     let sidebar = document.querySelector(".sidebar");    
@@ -403,13 +386,6 @@
                     this.closest(".checkbox-group").classList.remove("checked");
                 }
             }
-    </script>
-    <script>
-        $(function() {
-          $(".heart").on("click", function() {
-            $(this).toggleClass("is-active");
-          });
-        });
     </script>
 
 </body>

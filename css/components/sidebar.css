@@ -264,27 +264,27 @@ nav .btn.avatar img{
 }
 
 .sidebar a.service{background-image: url(../../images/icons/side-tab/service-w.svg);}
-.sidebar a.service.active:after{
+.sidebar .active a.service:after{
   background-image: url(../../images/icons/side-tab/service-b.svg);
 }
 
 .sidebar a.channel{background-image: url(../../images/icons/side-tab/channel-w.svg);}
-.sidebar a.channel.active:after{
+.sidebar .active a.channel:after{
   background-image: url(../../images/icons/side-tab/channel-b.svg);
 }
 
 .sidebar a.order{background-image: url(../../images/icons/side-tab/order-w.svg);}
-.sidebar a.order.active:after{
+.sidebar .active a.order:after{
   background-image: url(../../images/icons/side-tab/order-b.svg);
 }
 
 .sidebar a.payment{background-image: url(../../images/icons/side-tab/payment-w.svg);}
-.sidebar a.payment.active:after{
+.sidebar .active a.payment:after{
   background-image: url(../../images/icons/side-tab/payment-b.svg);
 }
 
 .sidebar a.setting{background-image: url(../../images/icons/side-tab/setting-w.svg);}
-.sidebar a.setting.active:after{
+.sidebar .active a.setting:after{
   background-image: url(../../images/icons/side-tab/setting-b.svg);
 }
 

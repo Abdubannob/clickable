@@ -376,16 +376,16 @@
     </script>
     <script>
         let checkboxes = document.querySelectorAll("input[type='checkbox']");
-            checkboxes.forEach(function (checkbox) {
-                checkbox.addEventListener("click", checkboxHandler);
-            });
-            function checkboxHandler() {
-                if (this.checked === true) {
-                    this.closest(".checkbox-group").classList.add("checked");
-                } else {
-                    this.closest(".checkbox-group").classList.remove("checked");
-                }
+        checkboxes.forEach(function (checkbox) {
+            checkbox.addEventListener("click", checkboxHandler);
+        });
+        function checkboxHandler() {
+            if (this.checked === true) {
+                this.closest(".checkbox-group").classList.add("checked");
+            } else {
+                this.closest(".checkbox-group").classList.remove("checked");
             }
+        }
     </script>
 
 </body>

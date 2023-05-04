@@ -57,7 +57,7 @@
 .card-select .check-card{
     background: #FFFFFF;
     border: 1px solid #B1CDBA;
-    border-radius: 6px;
+    border-radius: 12px;
     padding: 15px 20px 15px 40px;
     margin-bottom: 20px;
 }
@@ -66,7 +66,7 @@
     border: 2px solid #6A9586;
 }
 .card-select .check-card img{
-    margin-right: 20px;
+    margin-right: 4px;
 }
 .card-select .violet .check-card{
     border: 1px solid #C7CBE0;

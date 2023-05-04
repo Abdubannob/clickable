@@ -151,7 +151,7 @@ span {
 
 /**************/
 .right-frame {
-    max-width: 460px;
+    max-width: 350px;
 }
 /*****info text(header and content for text inside box)*****/
 .info-text .item {
@@ -181,10 +181,10 @@ span {
     margin-bottom: 4px;
 }
 .info-text p {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 200%;
-    color: #757575;
+    line-height: 22px;
+    color: #212121;
 }
 /****************/
 .notification-switch p {

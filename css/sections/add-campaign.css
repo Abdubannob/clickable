@@ -259,7 +259,29 @@ label.text-bold {
     line-height: 18px;
     color: #6E7391;
 }
-
+.service-stats li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #E9EBF3;
+}
+.service-stats li:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.service-stats li p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+}
+.service-stats li span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
 @media (max-width: 767.98px){
   .nav-title{
     display: block;

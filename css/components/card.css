@@ -956,6 +956,7 @@
 .request-card .service-info img{
     margin-right: 4px;
 }
+.request-type img{margin-right: 5px;}
 /***********************/
 
 @media (max-width: 480px) {

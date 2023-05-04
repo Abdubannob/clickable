@@ -932,6 +932,30 @@
 .request-card .splide__arrow:disabled {
     opacity: 0.5;
 }
+.request-card label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+    margin-right: 6px;
+}
+.request-card .service-info{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.request-card .service-info li{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9397B2;
+}
+.request-card .service-info img{
+    margin-right: 4px;
+}
 /***********************/
 
 @media (max-width: 480px) {

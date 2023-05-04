@@ -1,6 +1,8 @@
 .header-filter {
     display: flex;
     margin-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
 }
 .header-filter .dropdown-toggle {
     border: 1px solid #c7cbe0;

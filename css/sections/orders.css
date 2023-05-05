@@ -136,7 +136,65 @@
     color: #373e56;
     margin-bottom: 10px;
 }
-
+.order-main-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.order-main-info img{
+    width: 65px;
+    height: 51px;
+    margin-right: 20px;
+}
+.order-main-info h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #212121;
+    margin-bottom: 5px;
+}
+.order-main-info p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.uploaded-url .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F7FC;
+    border: 1px solid #E9EBF3;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.uploaded-url .main-img{
+    width: 83px;
+    height: 59px;
+    margin-right: 15px;
+    border-radius: 6px;
+}
+.uploaded-url h1{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #212121;
+}
+.uploaded-url p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+}
+.uploaded-url .btn{
+    padding: 10px;
+}
 .service-order-list .status {
     padding: 0;
     margin-left: 25px;

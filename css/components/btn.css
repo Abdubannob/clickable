@@ -124,3 +124,31 @@
    appearance: none;
 
  }
+
+ .custom-expand-btn .expand-button.collapsed:after {
+  background-image: url(../../images/influencer-list/accardion-expand.svg);
+  transform: rotate(180deg);
+  transition: ease-in-out .3s;
+}
+.custom-expand-btn .expand-button:after {
+  content: " ";
+  width: 10px;
+  height: 5px;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 5px;
+  background-image: url(../../images/influencer-list/accardion-expand.svg);
+  background-repeat: no-repeat;
+  transition: ease-in-out .3s;
+}
+.custom-expand-btn .btn{
+  background: #F9F9FF;
+border: 1px solid #E9EBF3;
+border-radius: 4px;
+padding: 10px;
+width: 100%;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #212121;
+}

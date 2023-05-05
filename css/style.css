@@ -309,6 +309,37 @@ h1.block-title {
     display: flex;
     justify-content: flex-end;
 }
+.banner-title .divider{
+    height: 21px;
+    border-left: 1px solid #e9ebf3;
+    margin: 0 20px;
+}
+.banner-title .date p{
+    font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #212121;
+}
+.banner-title .type{
+    display: flex;
+    align-items: center;
+}
+.banner-title .type label{
+    font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #757575;
+margin-right: 5px;
+}
+.banner-title .type p{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: #212121;
+margin-left: 4px;
+}
 
 .nav-title {
     display: flex;

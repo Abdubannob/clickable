@@ -956,6 +956,30 @@
 .request-card .service-info img{
     margin-right: 4px;
 }
+.request-card .info{
+    display: flex;
+}
+.request-card .info .item{
+    flex-grow: 1;
+}
+.request-card .info label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+    margin-bottom: 2px;
+}
+.request-card .info p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+.request-card .info img{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
 .request-type img{margin-right: 5px;}
 /***********************/
 

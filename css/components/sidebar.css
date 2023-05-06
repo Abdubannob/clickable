@@ -126,6 +126,11 @@ nav .btn.avatar img {
 .sidebar p {
     float: left;
     width: 100%;
+    background: #6A9586;
+}
+.sidebar .violet p {
+    float: left;
+    width: 100%;
     background: #707fda;
 }
 .sidebar li:before,
@@ -156,7 +161,13 @@ nav .btn.avatar img {
 /* Squares */
 .sidebar li:before,
 .sidebar li:after {
-    background: #707fda;
+    /*background: #6a9586;*/
+    width: 10px;
+    height: 10px;
+}
+.sidebar .violet li:before,
+.sidebar .violet li:after {
+    /*background: #707fda;*/
     width: 10px;
     height: 10px;
 }
@@ -180,6 +191,10 @@ nav .btn.avatar img {
 }
 .sidebar .active p:after,
 .sidebar .active p:before {
+    background: #6a9586;
+}
+.sidebar .violet .active p:after,
+.sidebar .violet .active p:before {
     background: #707fda;
 }
 .sidebar li p:before {
@@ -299,6 +314,20 @@ nav .btn.avatar img {
 }
 .sidebar .active a.setting:after {
     background-image: url(../../images/icons/side-tab/setting-b.svg);
+}
+
+.sidebar a.marketplace {
+    background-image: url(../../images/icons/side-tab/marketplace-w.svg);
+}
+.sidebar .active a.marketplace:after {
+    background-image: url(../../images/icons/side-tab/marketplace-b.svg);
+}
+
+.sidebar a.influencer {
+    background-image: url(../../images/icons/side-tab/influencer-w.svg);
+}
+.sidebar .active a.influencer:after {
+    background-image: url(../../images/icons/side-tab/influencer-b.svg);
 }
 
 /*

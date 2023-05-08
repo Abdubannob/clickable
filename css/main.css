@@ -11,6 +11,7 @@
 @import './components/three-dot-dropdown.css';
 @import './components/modal.css';
 @import './components/filter.css';
+@import './components/offcanvas.css';
 
 @import './sections/campaigns.css';
 @import './sections/campaign-promotion.css';

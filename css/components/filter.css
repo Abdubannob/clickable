@@ -61,6 +61,12 @@
 .header-filter .clear{
     padding: 0;
     float: right;
+    color: #6a9586;
+}
+.header-filter.violet .clear{
+    padding: 0;
+    float: right;
+    color: #707FDA;
 }
 .header-filter .dropdown-menu .list{
     max-height: 265px;
@@ -96,6 +102,10 @@
     color: #9397B2;
 }
 .header-filter .form-check-input:checked {
+    background-color: #6a9586;
+    border-color: #6a9586;
+}
+.header-filter.violet .form-check-input:checked {
     background-color: #707FDA;
     border-color: #707FDA;
 }

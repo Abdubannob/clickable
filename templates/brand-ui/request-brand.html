@@ -35,14 +35,14 @@
                         <li>
                             <p><a href="dashboard-influencer.html" class="dashboard">Dashboard</a></p>
                         </li>
-                        <li class="active">
+                        <li>
                             <p><a href="" class="marketplace">Marketplace</a></p>
                         </li>
                         <li>
                             <p><a href="" class="influencer">Influencer</a></p>
                         </li>
-                        <li>
-                            <p><a href="request.html" class="request">Requests</a></p>
+                        <li class="active">
+                            <p><a href="#" class="request">Requests</a></p>
                         </li>
                         <li>
                             <p><a href="" class="order">Orders</a> <span class="sidebar-badge">2</span></p>
@@ -67,11 +67,12 @@
                     <!-- <div class="nav-title-back">
                 <a href="#" class="btn"><img src="../../images/icons/go-back.svg" alt="back"></a>
             </div> -->
-                    <div class="title">
-                        <p class="text">Marketplace</p>
+                    <div class="title d-flex justify-content-between align-items-center">
+                        <p class="text">Custom Requests</p>
+                        <button class="btn btn-solid"><img src="../../images/icons/btn-plus.svg" alt="icon" /> New Request</button>
                     </div>
                     <div class="banner-text">
-                        <p>Explore service requests from brands. Respond to requests that are right for you.</p>
+                        <p>You can post a custom request for the necessary service and receive offers from influencers.</p>
                     </div>
                 </div>
                 <div class="header-filter violet">
@@ -220,252 +221,16 @@
                             </div>
                             <div id="Delivery time-selected-filters" class="selected-filter"></div>
                         </div>
+                        <div class="notification-switch d-flex mt-2">
+                            <label class="switch violet">
+                                <input type="checkbox" />
+                                <span class="slider round"></span>
+                            </label>
+                            <p>Responses only</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="nav-title">
-                    <h1>Trending services</h1>
-                </div>
-                <section class="splide request-card" id="splide">
-                    <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide box">
-                                <div class="top">
-                                    <div class="img">
-                                        <img class="" src="../../images/dashboard/service-card.png" alt="service-card" />
-                                    </div>
-                                    <div class="placement">
-                                        <div class="heart"></div>
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <div class="ava mb-2">
-                                        <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava" />
-                                        <p>Albert Flores</p>
-                                    </div>
-                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus ...</p>
-                                    <div class="info">
-                                        <div class="item">
-                                            <label>Channel</label>
-                                            <p><img src="../../images/smotraTV.svg" alt="img" />smotraTV</p>
-                                        </div>
-                                        <div class="item">
-                                            <label>Subscribers</label>
-                                            <p>112M</p>
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <h3>3000,00 AED</h3>
-                                    <ul class="list">
-                                        <li><img src="../../images/icons/location-brand.svg" alt="icon" />UAE, Saudi Arabia</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="splide__slide box">
-                                <div class="top">
-                                    <div class="img">
-                                        <img class="" src="../../images/dashboard/service-card.png" alt="service-card" />
-                                    </div>
-                                    <div class="placement">
-                                        <div class="heart"></div>
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <div class="ava mb-2">
-                                        <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava" />
-                                        <p>Albert Flores</p>
-                                    </div>
-                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus ...</p>
-                                    <div class="info">
-                                        <div class="item">
-                                            <label>Channel</label>
-                                            <p><img src="../../images/smotraTV.svg" alt="img" />smotraTV</p>
-                                        </div>
-                                        <div class="item">
-                                            <label>Subscribers</label>
-                                            <p>112M</p>
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <h3>3000,00 AED</h3>
-                                    <ul class="list">
-                                        <li><img src="../../images/icons/location-brand.svg" alt="icon" />UAE, Saudi Arabia</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="splide__slide box">
-                                <div class="top">
-                                    <div class="img">
-                                        <img class="" src="../../images/dashboard/service-card.png" alt="service-card" />
-                                    </div>
-                                    <div class="placement">
-                                        <div class="heart"></div>
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <div class="ava mb-2">
-                                        <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava" />
-                                        <p>Albert Flores</p>
-                                    </div>
-                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus ...</p>
-                                    <div class="info">
-                                        <div class="item">
-                                            <label>Channel</label>
-                                            <p><img src="../../images/smotraTV.svg" alt="img" />smotraTV</p>
-                                        </div>
-                                        <div class="item">
-                                            <label>Subscribers</label>
-                                            <p>112M</p>
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <h3>3000,00 AED</h3>
-                                    <ul class="list">
-                                        <li><img src="../../images/icons/location-brand.svg" alt="icon" />UAE, Saudi Arabia</li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <div class="nav-title">
-                    <h1>Staff picks</h1>
-                </div>
-                <section class="splide request-card" id="splide">
-                    <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide box">
-                                <div class="top">
-                                    <div class="img">
-                                        <img class="" src="../../images/dashboard/service-card.png" alt="service-card" />
-                                    </div>
-                                    <div class="placement">
-                                        <div class="heart"></div>
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <div class="ava mb-2">
-                                        <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava" />
-                                        <p>Albert Flores</p>
-                                    </div>
-                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus ...</p>
-                                    <div class="info">
-                                        <div class="item">
-                                            <label>Channel</label>
-                                            <p><img src="../../images/smotraTV.svg" alt="img" />smotraTV</p>
-                                        </div>
-                                        <div class="item">
-                                            <label>Subscribers</label>
-                                            <p>112M</p>
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <h3>3000,00 AED</h3>
-                                    <ul class="list">
-                                        <li><img src="../../images/icons/location-brand.svg" alt="icon" />UAE, Saudi Arabia</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="splide__slide box">
-                                <div class="top">
-                                    <div class="img">
-                                        <img class="" src="../../images/dashboard/service-card.png" alt="service-card" />
-                                    </div>
-                                    <div class="placement">
-                                        <div class="heart"></div>
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <div class="ava mb-2">
-                                        <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava" />
-                                        <p>Albert Flores</p>
-                                    </div>
-                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus ...</p>
-                                    <div class="info">
-                                        <div class="item">
-                                            <label>Channel</label>
-                                            <p><img src="../../images/smotraTV.svg" alt="img" />smotraTV</p>
-                                        </div>
-                                        <div class="item">
-                                            <label>Subscribers</label>
-                                            <p>112M</p>
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <h3>3000,00 AED</h3>
-                                    <ul class="list">
-                                        <li><img src="../../images/icons/location-brand.svg" alt="icon" />UAE, Saudi Arabia</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="splide__slide box">
-                                <div class="top">
-                                    <div class="img">
-                                        <img class="" src="../../images/dashboard/service-card.png" alt="service-card" />
-                                    </div>
-                                    <div class="placement">
-                                        <div class="heart"></div>
-                                    </div>
-                                </div>
-                                <div class="body">
-                                    <div class="ava mb-2">
-                                        <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava" />
-                                        <p>Albert Flores</p>
-                                    </div>
-                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus ...</p>
-                                    <div class="info">
-                                        <div class="item">
-                                            <label>Channel</label>
-                                            <p><img src="../../images/smotraTV.svg" alt="img" />smotraTV</p>
-                                        </div>
-                                        <div class="item">
-                                            <label>Subscribers</label>
-                                            <p>112M</p>
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <h3>3000,00 AED</h3>
-                                    <ul class="list">
-                                        <li><img src="../../images/icons/location-brand.svg" alt="icon" />UAE, Saudi Arabia</li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="splide" id="main-splide">
-                    <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide">
-                                <img src="../../images/banner-header.png" alt="img" />
-                                <div style="position: absolute; top: 24px; padding: 0 60px">
-                                    <h1>Some Bannet Title</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur. Senectus elementum consectetur.</p>
-                                    <button class="btn">Call to Action</button>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <img src="../../images/banner-header.png" alt="img" />
-                                <div style="position: absolute; top: 24px; padding: 0 60px">
-                                    <h1>Some Bannet Title</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur. Senectus elementum consectetur.</p>
-                                    <button class="btn">Call to Action</button>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <img src="../../images/banner-header.png" alt="img" />
-                                <div style="position: absolute; top: 24px; padding: 0 60px">
-                                    <h1>Some Bannet Title</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur. Senectus elementum consectetur.</p>
-                                    <button class="btn">Call to Action</button>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <div class="nav-title">
-                    <h1>Recent Requests</h1>
-                </div>
                 <div class="request-card">
                     <ul class="request-card-list">
                         <li class="box">
@@ -473,31 +238,35 @@
                                 <div class="img">
                                     <img class="" src="../../images/dashboard/service-card.png" alt="service-card" />
                                 </div>
-                                <div class="placement">
-                                    <div class="heart"></div>
-                                </div>
                             </div>
                             <div class="body">
-                                <div class="ava mb-2">
-                                    <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava" />
-                                    <p>Albert Flores</p>
+                                <div class="d-flex status status-in-progress p-0" style="align-items: center; background-color: transparent">
+                                    <p>In progress</p>
+                                </div>
+                                <div class="date">
+                                    <img src="../../images/icons/date-brand.svg" alt="icon" />
+                                    <p>Feb. 12 – Feb. 24</p>
                                 </div>
                                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus ...</p>
-                                <div class="info">
-                                    <div class="item">
-                                        <label>Channel</label>
-                                        <p><img src="../../images/smotraTV.svg" alt="img" />smotraTV</p>
-                                    </div>
-                                    <div class="item">
-                                        <label>Subscribers</label>
-                                        <p>112M</p>
-                                    </div>
-                                </div>
-                                <hr />
+
                                 <h3>3000,00 AED</h3>
                                 <ul class="list">
                                     <li><img src="../../images/icons/location-brand.svg" alt="icon" />UAE, Saudi Arabia</li>
+                                    <li><img src="../../images/icons/language.svg" alt="icon" />English</li>
+                                    <li><img src="../../images/icons/folder-brand.svg" alt="icon" />Web development</li>
+                                    <li><img src="../../images/icons/megaphone.svg" alt="icon" />Instagram, Youtube</li>
                                 </ul>
+                                <hr />
+                                <div style="margin: 0" class="campaign-item d-flex align-items-center justify-content-between">
+                                    <div class="img-group">
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/ellipse.svg" alt="influencer" />
+                                        <p>+12 Responses</p>
+                                    </div>
+                                    <button class="btn btn-solid" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">See all</button>
+                                </div>
                             </div>
                         </li>
                         <li class="box">
@@ -505,31 +274,35 @@
                                 <div class="img">
                                     <img class="" src="../../images/dashboard/service-card.png" alt="service-card" />
                                 </div>
-                                <div class="placement">
-                                    <div class="heart"></div>
-                                </div>
                             </div>
                             <div class="body">
-                                <div class="ava mb-2">
-                                    <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava" />
-                                    <p>Albert Flores</p>
+                                <div class="d-flex status status-in-progress p-0" style="align-items: center; background-color: transparent">
+                                    <p>In progress</p>
+                                </div>
+                                <div class="date">
+                                    <img src="../../images/icons/date-brand.svg" alt="icon" />
+                                    <p>Feb. 12 – Feb. 24</p>
                                 </div>
                                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus ...</p>
-                                <div class="info">
-                                    <div class="item">
-                                        <label>Channel</label>
-                                        <p><img src="../../images/smotraTV.svg" alt="img" />smotraTV</p>
-                                    </div>
-                                    <div class="item">
-                                        <label>Subscribers</label>
-                                        <p>112M</p>
-                                    </div>
-                                </div>
-                                <hr />
+
                                 <h3>3000,00 AED</h3>
                                 <ul class="list">
                                     <li><img src="../../images/icons/location-brand.svg" alt="icon" />UAE, Saudi Arabia</li>
+                                    <li><img src="../../images/icons/language.svg" alt="icon" />English</li>
+                                    <li><img src="../../images/icons/folder-brand.svg" alt="icon" />Web development</li>
+                                    <li><img src="../../images/icons/megaphone.svg" alt="icon" />Instagram, Youtube</li>
                                 </ul>
+                                <hr />
+                                <div style="margin: 0" class="campaign-item d-flex align-items-center justify-content-between">
+                                    <div class="img-group">
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/ellipse.svg" alt="influencer" />
+                                        <p>+12 Responses</p>
+                                    </div>
+                                    <button class="btn btn-solid">See all</button>
+                                </div>
                             </div>
                         </li>
                         <li class="box">
@@ -537,31 +310,35 @@
                                 <div class="img">
                                     <img class="" src="../../images/dashboard/service-card.png" alt="service-card" />
                                 </div>
-                                <div class="placement">
-                                    <div class="heart"></div>
-                                </div>
                             </div>
                             <div class="body">
-                                <div class="ava mb-2">
-                                    <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava" />
-                                    <p>Albert Flores</p>
+                                <div class="d-flex status status-in-progress p-0" style="align-items: center; background-color: transparent">
+                                    <p>In progress</p>
+                                </div>
+                                <div class="date">
+                                    <img src="../../images/icons/date-brand.svg" alt="icon" />
+                                    <p>Feb. 12 – Feb. 24</p>
                                 </div>
                                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus ...</p>
-                                <div class="info">
-                                    <div class="item">
-                                        <label>Channel</label>
-                                        <p><img src="../../images/smotraTV.svg" alt="img" />smotraTV</p>
-                                    </div>
-                                    <div class="item">
-                                        <label>Subscribers</label>
-                                        <p>112M</p>
-                                    </div>
-                                </div>
-                                <hr />
+
                                 <h3>3000,00 AED</h3>
                                 <ul class="list">
                                     <li><img src="../../images/icons/location-brand.svg" alt="icon" />UAE, Saudi Arabia</li>
+                                    <li><img src="../../images/icons/language.svg" alt="icon" />English</li>
+                                    <li><img src="../../images/icons/folder-brand.svg" alt="icon" />Web development</li>
+                                    <li><img src="../../images/icons/megaphone.svg" alt="icon" />Instagram, Youtube</li>
                                 </ul>
+                                <hr />
+                                <div style="margin: 0" class="campaign-item d-flex align-items-center justify-content-between">
+                                    <div class="img-group">
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/ellipse.svg" alt="influencer" />
+                                        <p>+12 Responses</p>
+                                    </div>
+                                    <button class="btn btn-solid">See all</button>
+                                </div>
                             </div>
                         </li>
                         <li class="box">
@@ -569,35 +346,130 @@
                                 <div class="img">
                                     <img class="" src="../../images/dashboard/service-card.png" alt="service-card" />
                                 </div>
-                                <div class="placement">
-                                    <div class="heart"></div>
-                                </div>
                             </div>
                             <div class="body">
-                                <div class="ava mb-2">
-                                    <img class="account-img rounded-circle" src="../../images/social-accaunt-ava.png" alt="ava" />
-                                    <p>Albert Flores</p>
+                                <div class="d-flex status status-in-progress p-0" style="align-items: center; background-color: transparent">
+                                    <p>In progress</p>
+                                </div>
+                                <div class="date">
+                                    <img src="../../images/icons/date-brand.svg" alt="icon" />
+                                    <p>Feb. 12 – Feb. 24</p>
                                 </div>
                                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus ...</p>
-                                <div class="info">
-                                    <div class="item">
-                                        <label>Channel</label>
-                                        <p><img src="../../images/smotraTV.svg" alt="img" />smotraTV</p>
-                                    </div>
-                                    <div class="item">
-                                        <label>Subscribers</label>
-                                        <p>112M</p>
-                                    </div>
-                                </div>
-                                <hr />
+
                                 <h3>3000,00 AED</h3>
                                 <ul class="list">
                                     <li><img src="../../images/icons/location-brand.svg" alt="icon" />UAE, Saudi Arabia</li>
+                                    <li><img src="../../images/icons/language.svg" alt="icon" />English</li>
+                                    <li><img src="../../images/icons/folder-brand.svg" alt="icon" />Web development</li>
+                                    <li><img src="../../images/icons/megaphone.svg" alt="icon" />Instagram, Youtube</li>
                                 </ul>
+                                <hr />
+                                <div style="margin: 0" class="campaign-item d-flex align-items-center justify-content-between">
+                                    <div class="img-group">
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/ellipse.svg" alt="influencer" />
+                                        <p>+12 Responses</p>
+                                    </div>
+                                    <button class="btn btn-solid">See all</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="box">
+                            <div class="top">
+                                <div class="img">
+                                    <img class="" src="../../images/dashboard/service-card.png" alt="service-card" />
+                                </div>
+                            </div>
+                            <div class="body">
+                                <div class="d-flex status status-in-progress p-0" style="align-items: center; background-color: transparent">
+                                    <p>In progress</p>
+                                </div>
+                                <div class="date">
+                                    <img src="../../images/icons/date-brand.svg" alt="icon" />
+                                    <p>Feb. 12 – Feb. 24</p>
+                                </div>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus ...</p>
+
+                                <h3>3000,00 AED</h3>
+                                <ul class="list">
+                                    <li><img src="../../images/icons/location-brand.svg" alt="icon" />UAE, Saudi Arabia</li>
+                                    <li><img src="../../images/icons/language.svg" alt="icon" />English</li>
+                                    <li><img src="../../images/icons/folder-brand.svg" alt="icon" />Web development</li>
+                                    <li><img src="../../images/icons/megaphone.svg" alt="icon" />Instagram, Youtube</li>
+                                </ul>
+                                <hr />
+                                <div style="margin: 0" class="campaign-item d-flex align-items-center justify-content-between">
+                                    <div class="img-group">
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/influencers.png" alt="influencer" />
+                                        <img src="../../images/campaigns/ellipse.svg" alt="influencer" />
+                                        <p>+12 Responses</p>
+                                    </div>
+                                    <button class="btn btn-solid">See all</button>
+                                </div>
                             </div>
                         </li>
                     </ul>
                     <p class="load">Loading ...</p>
+                </div>
+            </div>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <div class="left">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                    </div>
+                    <div class="right">
+                        <img src="../../images/campaigns/itemimg.png" alt="img" />
+                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                    </div>
+                </div>
+                <div class="offcanvas-body see-all">
+                    <div class="box">
+                        <div class="box-body">
+                            <div class="top">
+                                <div class="manager">
+                                    <img src="../../images/campaign-promotion/manager-ava.png" alt="ava" class="manager-ava" />
+                                    <p><img src="../../images/dashboard/player.svg" alt="icon" style="margin-right: 5px; width: 24px; height: 24px" />smotraTV</p>
+                                </div>
+                                <div class="link">
+                                    <a href="#">View channel<img src="../../images/icons/link-external.svg" alt="icon" style="margin-left: 5px" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="box-body">
+                            <div class="bottom">
+                                <div class="stats">
+                                    <div class="item">
+                                        <h3>343</h3>
+                                        <p>Videos</p>
+                                    </div>
+                                    <div class="item">
+                                        <h3>112M</h3>
+                                        <p>Subscribers</p>
+                                    </div>
+                                    <div class="item">
+                                        <h3>112M</h3>
+                                        <p>Views</p>
+                                    </div>
+                                    <div class="item">
+                                        <h3>46K</h3>
+                                        <p>Commends</p>
+                                    </div>
+                                </div>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum ut egestas facilisis nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-solid-grey w-50" style="margin-right: 20px">Accept</a>
+                                    <a href="#" class="btn btn-solid w-50" style="padding: 11px">Reject</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <footer>
@@ -654,58 +526,6 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
         <script src="../../js/index.js"></script>
-
-        <script>
-            document.querySelectorAll("#splide").forEach((carousel) =>
-                new Splide(carousel, {
-                    perPage: 1,
-                    perMove: 1,
-                    trimSpace: false,
-                    fixedWidth: 295,
-                    gap: 20,
-                    pagination: false,
-                    breakpoints: {
-                        480: {
-                            fixedWidth: 280,
-                        },
-                    },
-                }).mount()
-            );
-        </script>
-        <script>
-            document.querySelectorAll("#main-splide").forEach((carousel) =>
-                new Splide(carousel, {
-                    type: "loop",
-                    fixedHeight: 320,
-                    arrows: false,
-                    autoplay: false,
-                    interval: 3000,
-                    breakpoints: {
-                        1440: {
-                            fixedHeight: 280,
-                        },
-                        1080: {
-                            fixedHeight: 260,
-                        },
-                        990: {
-                            fixedHeight: 240,
-                        },
-                        760: {
-                            fixedHeight: 220,
-                        },
-                        600: {
-                            fixedHeight: 210,
-                        },
-                        500: {
-                            fixedHeight: 200,
-                        },
-                        400: {
-                            fixedHeight: 180,
-                        },
-                    },
-                }).mount()
-            );
-        </script>
 
         <script>
             let btn = document.querySelector("#sidebtn");

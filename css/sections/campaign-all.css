@@ -127,6 +127,7 @@
 	display: flex;
 	margin-left: 10px;
 	margin-right: 5px;
+	align-items: center;
 }
 .campaign-item .img-group img{
 	margin-left: -10px;
@@ -135,6 +136,13 @@
 	border-radius: 50%;
 	width: 26px;
 	height: 26px;
+}
+.campaign-item .img-group p{
+	margin-left: -18px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #252323;
 }
 .campaign-item .item-footer-left p{
 	font-weight: normal;

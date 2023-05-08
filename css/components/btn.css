@@ -59,6 +59,9 @@
   text-align: center;
   color: #FFFFFF;
 }
+.btn-solid:hover{
+  color: #ffffff;
+}
 .btn-solid-grey{
   background: #F4F5F9;
   border-radius: 6px;

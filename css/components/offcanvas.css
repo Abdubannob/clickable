@@ -113,3 +113,28 @@
     text-overflow: ellipsis;
     margin-bottom: 15px;
 }
+.offcanvas .notification .body{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E9EBF3;
+}
+.offcanvas .notification label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.offcanvas .notification h3{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #212121;
+}
+.offcanvas .notification p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #212121;
+    margin-bottom: 10px;
+}

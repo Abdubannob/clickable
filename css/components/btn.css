@@ -156,6 +156,16 @@
   line-height: 20px;
   color: #212121;
 }
+.custom-expand-btn .btn span,
+.custom-expand-btn .btn b{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212121;
+}
+.custom-expand-btn b{display:inline}
+.custom-expand-btn :not(.collapsed)  span{display:none}
+.custom-expand-btn .collapsed b {display:none}
 
 .uploaded-submition-btn .btn{
   padding: 0;

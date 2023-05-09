@@ -63,7 +63,34 @@
 
 
 
-
+.custom-nav-tab-green .nav-tabs{
+	margin-bottom: 30px;
+	border-bottom: 1px solid #E9EBF3;
+}
+.custom-nav-tab-green .nav-tabs .nav-link{
+	padding: 10px 0;
+    margin-right: 40px;
+	border-radius: 0;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #757575;
+	border: none;
+}
+.custom-nav-tab-green .nav-tabs .nav-item.show .nav-link, 
+.custom-nav-tab-green .nav-tabs .nav-link.active{
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #212121;
+	border: none;
+	border-bottom: 2px solid #6a9586;
+	background-color: transparent;
+}
+.custom-nav-tab-green .nav-tabs .nav-item.show .nav-link, 
+.custom-nav-tab-green .nav-tabs .nav-link.active{
+	border-bottom: 2px solid #6a9586;
+}
 
 .custom-nav-tab-blue .nav-tabs{
 	margin-bottom: 30px;

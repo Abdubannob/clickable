@@ -108,3 +108,81 @@
     line-height: 28px;
     color: #212121;
 }
+.payment-timeline{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+.payment-timeline .left .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment-timeline .left .info-left{
+    display: flex;
+    align-items: center;
+}
+.payment-timeline .left .info-left img{
+    width: 66px;
+    height: 52px;
+    margin-right: 15px;
+}
+.payment-timeline .left .info-left h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #212121;
+    margin-bottom: 10px;
+}
+.payment-timeline .left .info-left p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #212121;
+}
+.payment-timeline .left .info-right label{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #757575;
+    margin-bottom: 5px;
+}
+.payment-timeline .left .info-right  h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #212121;
+}
+.select-method h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #212121;
+    margin-bottom: 15px;
+}
+.select-method p{
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #212121;
+margin-bottom: 15px;
+}
+.select-method .input-group{
+    background-color: #F5F5F5;
+    border-radius: 6px;
+}
+.select-method .input-group img{
+    width: 25px;
+    height: 25px;
+}
+.form-control:disabled, 
+.form-control[readonly]{
+    background-color: #F5F5F5;
+}
+.select-method .btn.change{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #4F8C77;
+}

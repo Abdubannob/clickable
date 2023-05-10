@@ -1,34 +1,3 @@
-/*.nav-actions {
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-start;
-}
-
-.nav-actions button {
-    width: 164px;
-    height: 40px;
-    background: #6A9586;
-    border-radius: 6px;
-    color: white;
-    margin-right: 10px;
-    border: none;
-}*/
-
-/*.tabs {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 10px;
-}
-
-.tabs p {
-    margin-right: 10px;
-}*/
-
-/*.campaign {
-    background: #FFFFFF;
-    border-radius: 12px;
-}*/
 .campaigns{
     display: grid;
     justify-content: center;
@@ -45,9 +14,10 @@
     margin-bottom: 20px;
 }
 .campaigns p{
+    font-weight: 500;
     font-size: 18px;
     line-height: 20px;
-    color: #7E847F;
+    color: #212121;
     margin-bottom: 40px;
 }
 .campaigns button img{

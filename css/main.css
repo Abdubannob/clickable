@@ -12,6 +12,7 @@
 @import './components/modal.css';
 @import './components/filter.css';
 @import './components/offcanvas.css';
+@import './components/collapse.css';
 
 @import './sections/campaigns.css';
 @import './sections/campaign-promotion.css';

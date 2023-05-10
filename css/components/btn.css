@@ -128,13 +128,13 @@
 
  }
 
- .custom-expand-btn .expand-button.collapsed:after,
+ .custom-expand-btn.expand-button.collapsed:after,
  .uploaded-submition-btn .expand-button.collapsed:after{
   background-image: url(../../images/influencer-list/accardion-expand.svg);
   transform: rotate(180deg);
   transition: ease-in-out .3s;
 }
-.custom-expand-btn .expand-button:after {
+.custom-expand-btn.expand-button:after {
   content: " ";
   width: 10px;
   height: 5px;
@@ -145,7 +145,7 @@
   background-repeat: no-repeat;
   transition: ease-in-out .3s;
 }
-.custom-expand-btn .btn{
+.custom-expand-btn.btn{
   background: #F9F9FF;
   border: 1px solid #E9EBF3;
   border-radius: 4px;
@@ -156,16 +156,19 @@
   line-height: 20px;
   color: #212121;
 }
-.custom-expand-btn .btn span,
-.custom-expand-btn .btn b{
+.custom-expand-btn.btn span,
+.custom-expand-btn.btn b{
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #212121;
 }
 .custom-expand-btn b{display:inline}
-.custom-expand-btn :not(.collapsed)  span{display:none}
-.custom-expand-btn .collapsed b {display:none}
+.custom-expand-btn:not(.collapsed)  span{display:none}
+.custom-expand-btn.collapsed b {display:none}
+
+.expand-button:not(.collapsed) ~ .order-main-info {display:none}
+
 
 .uploaded-submition-btn .btn{
   padding: 0;

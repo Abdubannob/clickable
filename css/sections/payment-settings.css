@@ -186,3 +186,37 @@ margin-bottom: 15px;
     text-decoration-line: underline;
     color: #4F8C77;
 }
+.payment-timeline .timeline li{
+    display: flex;
+    align-items: flex-start;
+}
+.payment-timeline .timeline .number{
+    background: #FFFFFF;
+    border: 2px solid #6A9586;
+    border-radius: 50%;
+    padding: 14px 19px 15px;
+    z-index: 1;
+}
+.payment-timeline .timeline .number p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6A9586;
+}
+.payment-timeline .timeline .text{
+    max-width: 225px;
+    border-left: 1px dashed #6A9586;
+    margin-left: -25px;
+    padding-left: 45px;
+    padding-bottom: 25px;
+    z-index: 0;
+}
+.payment-timeline .timeline li:last-child .text{
+    border-left: none;
+}
+.payment-timeline .timeline .text p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}

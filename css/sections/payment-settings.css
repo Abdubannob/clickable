@@ -1,94 +1,94 @@
-#payment .btn-header-link:before{
+#payment .btn-header-link:before {
     content: url(../../images/icons/checked.svg);
     height: 20px;
 }
-#payment .btn-header-link.collapsed:before{
+#payment .btn-header-link.collapsed:before {
     content: url(../../images/icons/check.svg);
 }
-#payment .brand .btn-header-link:before{
+#payment .brand .btn-header-link:before {
     content: url(../../images/icons/checked-brand.svg);
     height: 20px;
 }
-#payment .brand .btn-header-link.collapsed:before{
+#payment .brand .btn-header-link.collapsed:before {
     content: url(../../images/icons/check-brand.svg);
 }
-.payment-card a{
+.payment-card a {
     display: flex;
     align-items: center;
     padding: 20px 0;
 }
-.payment-card a img{
+.payment-card a img {
     margin-left: 15px;
 }
-.payment-card{
-    border-bottom: 1px solid #E9EBF3;;
+.payment-card {
+    border-bottom: 1px solid #e9ebf3;
 }
-.payment-card:last-child{
-    border-bottom:  none;
+.payment-card:last-child {
+    border-bottom: none;
 }
-.payment-card .item{
+.payment-card .item {
     display: flex;
     align-items: center;
     width: 500px;
     justify-content: space-between;
 }
-.payment-card .item p{
+.payment-card .item p {
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
-    color: #373E56;
+    color: #373e56;
     margin-left: 15px;
 }
 
 /******payment-default-card*******/
-.payment-card-select{
+.payment-card-select {
     margin-top: 30px;
 }
-.payment-card-select h1{
+.payment-card-select h1 {
     font-weight: bold;
     font-size: 16px;
     line-height: 18px;
     color: #212121;
     margin-bottom: 12px;
 }
-.card-select{
+.card-select {
     max-width: 500px;
 }
-.card-select .check-card{
-    background: #FFFFFF;
-    border: 1px solid #B1CDBA;
+.card-select .check-card {
+    background: #ffffff;
+    border: 1px solid #b1cdba;
     border-radius: 12px;
     padding: 15px 20px 15px 40px;
     margin-bottom: 20px;
 }
 .card-select .check-card:focus,
-.card-select .check-card.active{
-    border: 2px solid #6A9586;
+.card-select .check-card.active {
+    border: 2px solid #6a9586;
 }
-.card-select .check-card img{
+.card-select .check-card img {
     margin-right: 4px;
 }
-.card-select .violet .check-card{
-    border: 1px solid #C7CBE0;
+.card-select .violet .check-card {
+    border: 1px solid #c7cbe0;
 }
 .card-select .violet .check-card:focus,
 .card-select .violet .check-card.active {
-    border: 2px solid #707FDA;
+    border: 2px solid #707fda;
 }
 
-.bank-trasfer .table tr:first-child td{
+.bank-trasfer .table tr:first-child td {
     padding: 15px 0;
 }
-.bank-trasfer .table>:not(caption)>*>*{
+.bank-trasfer .table > :not(caption) > * > * {
     padding: 15px 0;
 }
-.bank-trasfer .head{
+.bank-trasfer .head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
-.bank-trasfer .head h1{
+.bank-trasfer .head h1 {
     font-weight: bold;
     font-size: 14px;
     line-height: 14px;
@@ -96,125 +96,125 @@
     text-transform: uppercase;
     color: #212121;
 }
-.bank-trasfer .head .btn{
+.bank-trasfer .head .btn {
     padding: 0;
 }
-.bank-trasfer .head .btn img{
+.bank-trasfer .head .btn img {
     margin: 0;
 }
-.bank-trasfer h3.sub-title{
+.bank-trasfer h3.sub-title {
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
     color: #212121;
 }
-.payment-timeline{
+.payment-timeline {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
-.payment-timeline .left .info{
+.payment-timeline .left .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.payment-timeline .left .info-left{
+.payment-timeline .left .info-left {
     display: flex;
     align-items: center;
 }
-.payment-timeline .left .info-left img{
+.payment-timeline .left .info-left img {
     width: 66px;
     height: 52px;
     margin-right: 15px;
 }
-.payment-timeline .left .info-left h4{
+.payment-timeline .left .info-left h4 {
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
     color: #212121;
     margin-bottom: 10px;
 }
-.payment-timeline .left .info-left p{
+.payment-timeline .left .info-left p {
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
     color: #212121;
 }
-.payment-timeline .left .info-right label{
+.payment-timeline .left .info-right label {
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
     color: #757575;
     margin-bottom: 5px;
 }
-.payment-timeline .left .info-right  h3{
+.payment-timeline .left .info-right h3 {
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     color: #212121;
 }
-.select-method h2{
+.select-method h2 {
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     color: #212121;
     margin-bottom: 15px;
 }
-.select-method p{
-font-weight: 400;
-font-size: 15px;
-line-height: 18px;
-color: #212121;
-margin-bottom: 15px;
+.select-method p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #212121;
+    margin-bottom: 15px;
 }
-.select-method .input-group{
-    background-color: #F5F5F5;
+.select-method .input-group {
+    background-color: #f5f5f5;
     border-radius: 6px;
 }
-.select-method .input-group img{
+.select-method .input-group img {
     width: 25px;
     height: 25px;
 }
-.form-control:disabled, 
-.form-control[readonly]{
-    background-color: #F5F5F5;
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #f5f5f5;
 }
-.select-method .btn.change{
+.select-method .btn.change {
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
     text-decoration-line: underline;
-    color: #4F8C77;
+    color: #4f8c77;
 }
-.payment-timeline .timeline li{
+.payment-timeline .timeline li {
     display: flex;
     align-items: flex-start;
 }
-.payment-timeline .timeline .number{
-    background: #FFFFFF;
-    border: 2px solid #6A9586;
+.payment-timeline .timeline .number {
+    background: #ffffff;
+    border: 2px solid #6a9586;
     border-radius: 50%;
     padding: 14px 19px 15px;
     z-index: 1;
 }
-.payment-timeline .timeline .number p{
+.payment-timeline .timeline .number p {
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
-    color: #6A9586;
+    color: #6a9586;
 }
-.payment-timeline .timeline .text{
+.payment-timeline .timeline .text {
     max-width: 225px;
-    border-left: 1px dashed #6A9586;
+    border-left: 1px dashed #6a9586;
     margin-left: -25px;
     padding-left: 45px;
     padding-bottom: 25px;
     z-index: 0;
 }
-.payment-timeline .timeline li:last-child .text{
+.payment-timeline .timeline li:last-child .text {
     border-left: none;
 }
-.payment-timeline .timeline .text p{
+.payment-timeline .timeline .text p {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;

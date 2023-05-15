@@ -1,11 +1,12 @@
-.campaigns{
+.campaigns {
     display: grid;
     justify-content: center;
     text-align: center;
     align-content: center;
     margin-top: 60px;
 }
-.campaigns h1{
+
+.campaigns h1 {
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
@@ -13,13 +14,15 @@
     margin-top: 50px;
     margin-bottom: 20px;
 }
-.campaigns p{
+
+.campaigns p {
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
     color: #212121;
     margin-bottom: 40px;
 }
-.campaigns button img{
+
+.campaigns button img {
     margin-right: 15px;
 }

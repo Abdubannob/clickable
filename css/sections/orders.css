@@ -252,6 +252,25 @@
     display: flex;
     align-items: center;
 }
+.service-order-top .channel-info .list{
+    display: flex;
+    align-items: center;
+}
+.service-order-top .channel-info li{
+    padding: 0 15px;
+    border-right: 1px solid #E9EBF3;
+    display: flex;
+    align-items: center;
+}
+.service-order-top .channel-info li:first-child{
+    padding-left: 0;
+}
+.service-order-top .channel-info li:last-child{
+    border-right: none;
+}
+.service-order-top .channel-info li img{
+    margin-right: 5px;
+}
 .service-order-footer {
     display: flex;
     justify-content: space-between;

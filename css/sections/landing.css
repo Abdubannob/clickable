@@ -134,6 +134,7 @@
 	line-height: 20px;
 	color: #333333;
 	padding: 13px 20px;
+	border-radius: 12px;
 }
 .section-two .accordion-collapse{
 	border: none;
@@ -149,6 +150,18 @@
 }
 .section-two .accordion-button:not(.collapsed)::after{
 	background-image: url(../../images/landing/colapse-minus.svg);
+}
+.accordion-button:not(.collapsed){
+	box-shadow: none;
+	border-radius: 12px;
+}
+.accordion-item:last-of-type .accordion-button.collapsed{
+	border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.accordion-item:first-of-type .accordion-button{
+	border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 /****************************
 /**** landing page big main carousel ****/

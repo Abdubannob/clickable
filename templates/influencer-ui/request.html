@@ -84,7 +84,7 @@
                     </div>
                 </div>
 
-                <div class="header-filter violet">
+                <div class="header-filter violet" id="headerfilter">
                     <div class="d-flex">
                     <div class="dropdown">
                         <button class="btn dropdown-toggle" type="button" id="Categories-dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -248,6 +248,7 @@
                         <li class="list-group-item" data-category="Social Networks1">Social Networks 1</li>
                     </ul>
                 </div>
+                <div class="content1"></div>
                 <div class="nav-title">
                     <h1>The most suitable ones for you</h1>
                     <a href="#">See all<img src="../../images/icons/arrow-narrow-right.svg" alt="alt" style="margin-left: 5px" /></a>
@@ -1024,5 +1025,19 @@ fetch('/api/items/')
       return li;
     });
   }); -->
+  <script>
+window.onscroll = function() {myFunction()};
+
+var headerfilter = document.getElementById("headerfilter");
+var sticky = headerfilter.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    headerfilter.classList.add("sticky")
+  } else {
+    headerfilter.classList.remove("sticky");
+  }
+}
+</script>
     </body>
 </html>

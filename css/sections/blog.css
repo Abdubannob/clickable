@@ -7,6 +7,7 @@
     background-size: cover;
     min-height: 233px;
     padding: 50px 0;
+	background-position-x: right;
 }
 .bg-blog h1{
 	font-weight: bold;
@@ -103,11 +104,6 @@
 	color: #757575;
 }
 
-@media (max-width: 575.98px) {
-	.blog{
-		padding: 40px 0px;
-	}
-}
 
 
 .blog-about{
@@ -209,4 +205,13 @@
 }
 .career-about .form-group{
 	margin-bottom: 20px;
+}
+
+@media (max-width: 575.98px) {
+	.blog{
+		padding: 40px 0px;
+	}
+	.blog-info .big-img img{
+		width: 100%;
+	}
 }

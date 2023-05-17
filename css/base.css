@@ -99,7 +99,7 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 140px 0 120px;
+    margin: 140px 20px 120px;
 }
 .add img.done {
     height: 120px;
@@ -218,6 +218,12 @@ span {
 
 @media (max-width: 575.98px) {
     .add-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 765.98px) {
+    .big img{
         width: 100%;
     }
 }

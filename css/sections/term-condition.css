@@ -92,4 +92,8 @@
 	.term-condi-left{
 		margin: auto;
 	}
+	.term-condition-left {
+		max-width: 220px;
+		margin: auto;
+	}
 }

@@ -4,9 +4,9 @@ nav {
     height: 60px;
     padding: 10px 20px;
 }
-/*nav.violet{
-  background-color: #707FDA;
-}*/
+nav span{
+  color: #282721;
+}
 
 nav a {
     color: white;
@@ -879,5 +879,17 @@ nav .btn.avatar img {
         margin-left: 0;
         width: 100%;
         padding-bottom: 20px;
+    }
+}
+@media (max-width: 480px) {
+    nav .avatar{
+        margin-left: 20px;
+    }
+    .navbar-brand{
+        width: 150px;
+        display: block;
+    }
+    .navbar-brand img{
+        width: 100%;
     }
 }

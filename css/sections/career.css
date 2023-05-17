@@ -4,6 +4,7 @@
 	background-size: cover;
 	min-height: 233px;
 	padding: 50px 0;
+    background-position-x: right;
 }
 .bg-career.career-done{
 	background-image: url(../../images/landing/career-done-banner.png);
@@ -186,4 +187,12 @@
 .career-share li img{
 	width: 24px;
 	height: 24px;
+}
+@media (max-width: 575.98px) {
+	.career-details .big-img img{
+		width: 100%;
+	}
+	.section-bg{
+		background-image: none;
+	}
 }

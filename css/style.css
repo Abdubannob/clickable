@@ -741,14 +741,18 @@ form .form-inline {
 }
 .top-navbar .avatar {
     padding: 0;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .top-navbar .avatar img {
     width: 40px;
     height: 40px;
 }
-.nav-right span {
+.nav-left span {
     display: none;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
 }
 
 .social-media-video-comment .item {
@@ -792,7 +796,7 @@ form .form-inline {
 }
 
 @media screen and (max-width: 900px) {
-    .nav-right span {
+    .nav-left span {
         display: block;
     }
     .nav-right ul {
@@ -810,6 +814,29 @@ form .form-inline {
         font-size: 40px;
         top: 15px;
         right: 35px;
+    }
+}
+@media (max-width: 767.98px) {
+    .main-section{
+        padding: 0 30px 30px;
+    }
+}
+@media (max-width: 480px) {
+    .nav-left{
+        width: 150px;
+    }
+    .nav-left img{
+        width: 100%;
+    }
+    .main-section{
+        padding: 0 6px 30px;
+    }
+    .banner-title .title p.text{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .nav-title-back img {
+        margin-right: 10px;
     }
 }
 /**************/
@@ -843,6 +870,7 @@ footer hr {
 .footer-link ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .footer-link li {
     padding: 0 15px;
@@ -1145,9 +1173,11 @@ p.load {
     .section {
         display: block;
     }
-    .container {
+    .container,
+    .topnav {
         padding: 0 20px;
     }
+    
     .marketplace-banner {
         background-image: none;
     }

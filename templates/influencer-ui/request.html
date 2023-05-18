@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="header-filter violet" id="headerfilter">
-                    <div class="d-flex">
+                    <div class="filter">
                     <div class="dropdown">
                         <button class="btn dropdown-toggle" type="button" id="Categories-dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span id="Categories-filterButtonText">Categories</span>
@@ -1025,19 +1025,6 @@ fetch('/api/items/')
       return li;
     });
   }); -->
-  <script>
-window.onscroll = function() {myFunction()};
 
-var headerfilter = document.getElementById("headerfilter");
-var sticky = headerfilter.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    headerfilter.classList.add("sticky")
-  } else {
-    headerfilter.classList.remove("sticky");
-  }
-}
-</script>
     </body>
 </html>

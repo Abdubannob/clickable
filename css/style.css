@@ -202,7 +202,7 @@ h1.title {
 .main-section {
     min-height: calc(100vh - 173px);
     position: relative;
-    padding: 0 50px 30px;
+    padding: 0 30px 30px;
     background-color: #f9f9ff;
 }
 .block-container {
@@ -210,6 +210,7 @@ h1.title {
     background-color: #ffffff;
     border-radius: 12px;
     margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(27, 30, 51, 0.1);
 }
 .block-container .title {
     font-weight: 500;
@@ -829,7 +830,7 @@ form .form-inline {
         width: 100%;
     }
     .main-section{
-        padding: 0 6px 30px;
+        padding: 0 20px 30px;
     }
     .banner-title .title p.text{
         font-size: 30px;

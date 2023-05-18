@@ -37,3 +37,16 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 })
 
 /***********************/
+
+window.onscroll = function() {myFunction()};
+
+var headerfilter = document.getElementById("headerfilter");
+var sticky = headerfilter.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    headerfilter.classList.add("sticky")
+  } else {
+    headerfilter.classList.remove("sticky");
+  }
+}

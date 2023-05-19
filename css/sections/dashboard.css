@@ -742,6 +742,9 @@
     line-height: 24px;
     color: #212121;
 }
+#main-splide .banner-body{
+    position: absolute; top: 24px; padding: 0 60px;
+}
 
 @media (max-width: 991.98px) {
     .deal-body {
@@ -789,6 +792,20 @@
     .deal-body .price h2 {
         margin-bottom: 10px;
     }
+    #main-splide .banner-body{
+        position: absolute; 
+        top: 20px; 
+        padding: 0 20px;
+    }
+    #main-splide h1{
+        font-size: 24px;
+        line-height: 28px;       
+    }
+    #main-splide p{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
 }
 @media (max-width: 480px){
     .dashboard .service-list .item{
@@ -808,5 +825,12 @@
     }
     .order-list .item{
         flex-wrap: wrap;
+    }
+    .dashboard-stats-info img{
+        margin-right: 15px;
+    }
+    .dashboard-stats-info h3{
+        font-size: 26px;
+        line-height: 30px;
     }
 } 

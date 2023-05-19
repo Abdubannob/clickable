@@ -344,12 +344,18 @@
 
     <script>
         document.querySelectorAll('.splide').forEach(carousel => new Splide( carousel, {
-          perPage: 3,
+          perPage: 1,
           perMove: 1,
+          trimSpace: false,
           fixedWidth: 340,
           gap: 20,
           arrows: false,
-          pagination: false 
+          pagination: false,
+          breakpoints: {
+                        480: {
+                            fixedWidth: 240,
+                        },
+                    },
         } ).mount());
     </script>
 

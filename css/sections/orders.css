@@ -1,6 +1,3 @@
-.service-order-list{
-    max-width: 1440px;
-}
 .orders-top {
     display: flex;
     align-items: center;
@@ -258,6 +255,7 @@
 .service-order-top .channel-info .list{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .service-order-top .channel-info li{
     padding: 0 15px;
@@ -548,13 +546,19 @@ p.url-copy-description {
     right: 0;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     .orders-top {
         flex-direction: column;
         align-items: flex-start;
     }
     .order-top-left {
         margin-bottom: 10px;
+    }
+    .service-order-footer .divider {
+        height: 1px;
+        width: 100%;
+        border-top: 1px solid #e9ebf3;
+        margin: 15px 0;
     }
 }
 
@@ -586,6 +590,13 @@ p.url-copy-description {
     .orders-body {
         flex-direction: column;
     }
+    .service-order-top-right{
+        flex-wrap: wrap;
+    }
+    .service-order-list .status{
+        margin-left: 0;
+    }
+
 }
 @media (max-width: 1370px) and (min-width: 1200px) {
     .share-image .splide__track {

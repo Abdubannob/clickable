@@ -204,6 +204,8 @@ h1.title {
     position: relative;
     padding: 0 30px 30px;
     background-color: #f9f9ff;
+    margin: auto;
+    max-width: 1960px;
 }
 .block-container {
     padding: 20px;
@@ -1204,6 +1206,24 @@ p.load {
         justify-content: center;
     }
 }
+@media (max-width: 768px) {
+    .banner-title .align-items-center{
+        flex-wrap: wrap;
+    }
+    .uploaded-url .item .d-flex{
+        flex-wrap: wrap;
+    }
+    .dashboard .main-img{
+        margin-bottom: 10px;
+    }
+    .drop-file{
+        flex-wrap: wrap;
+    }
+    .service-order-top-left{
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+}
 @media (max-width: 575.98px) {
     form .form-inline {
         grid-template-columns: 1fr;
@@ -1220,5 +1240,12 @@ p.load {
     }
     .footer-bottom p {
         margin-bottom: 6px;
+    }
+    .summary-url form{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .summary-url .btn{
+        float: right;
     }
 }

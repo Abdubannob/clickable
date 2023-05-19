@@ -892,4 +892,10 @@ nav .btn.avatar img {
     .navbar-brand img{
         width: 100%;
     }
+    nav .btn{
+        padding: 0 6px;
+    }
+    nav{
+        padding: 10px;
+    }
 }

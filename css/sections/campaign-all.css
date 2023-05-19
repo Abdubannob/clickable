@@ -257,4 +257,7 @@
 	.campaign-item .item-footer-left{
 		display: block;
 	}
+	.left-day{
+		margin-bottom: 10px;
+	}
 }

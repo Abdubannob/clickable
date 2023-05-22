@@ -54,9 +54,13 @@ nav .btn.avatar img {
 .sidebar .social.violet {
     background-color: #707fda;
 }
-.sidebar-bottom {
+.social .sidebar-bottom {
     width: 100px;
     margin-bottom: 30px;
+    background-color: #6a9586;
+}
+.social.violet .sidebar-bottom{
+    background-color: #707fda;
 }
 .sidebar-bottom li {
     margin-bottom: 5px;

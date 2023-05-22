@@ -38,15 +38,30 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 /***********************/
 
-window.onscroll = function() {myFunction()};
-
 var headerfilter = document.getElementById("headerfilter");
-var sticky = headerfilter.offsetTop;
+if (headerfilter) { // Check if element exists
+  var sticky = headerfilter.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    headerfilter.classList.add("sticky")
-  } else {
-    headerfilter.classList.remove("sticky");
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      headerfilter.classList.add("sticky");
+    } else {
+      headerfilter.classList.remove("sticky");
+    }
   }
+
+  window.onscroll = myFunction;
 }
+
+// window.onscroll = function() {myFunction()};
+
+// var headerfilter = document.getElementById("headerfilter");
+// var sticky = headerfilter.offsetTop;
+
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     headerfilter.classList.add("sticky")
+//   } else {
+//     headerfilter.classList.remove("sticky");
+//   }
+// }

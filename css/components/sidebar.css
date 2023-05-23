@@ -36,11 +36,11 @@ nav .btn.avatar img {
     height: 100%;
     z-index: 100;
     overflow: auto;
-    background-color: #6a9586;
+    background-color: #ffffff;
 }
 .sidebar
 .sidebar-body {
-    height: 100% !important;
+    height: 101% !important;
 }
 
 .sidebar .social {
@@ -94,16 +94,22 @@ nav .btn.avatar img {
     font-size: 14px;
     line-height: 16px;
 }
+.sidebar-bottom{
+    height: 84px;
+}
+.sidebar-bottom a:after{
+    content: none!important;
+}
 .sidebar-bottom a {
-    padding: 10px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+    padding: 10px !important;
+    text-decoration: none!important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    height: 84px!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    position: relative!important;
 }
 .sidebar .social a:after {
     position: absolute;
@@ -172,6 +178,7 @@ nav .btn.avatar img {
     width: 10px;
     height: 10px;
 }
+
 .sidebar .violet li:before,
 .sidebar .violet li:after {
     /*background: #707fda;*/

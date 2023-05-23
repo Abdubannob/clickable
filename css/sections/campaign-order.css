@@ -19,12 +19,18 @@
 .order-gallery .big-img {
     width: 100%;
     margin-left: 10px;
+    background-color: #000;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 .order-gallery .big-img img {
     width: 100%;
     max-height: 420px;
-    /* max-width: 730px; */
-    border-radius: 6px;
+    max-width: fit-content;
+    margin: auto;
+    display: block;
 }
 .order-gallery .small-img {
     display: grid;
@@ -239,6 +245,19 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+@media (max-width: 768px){
+    .order-gallery{
+        flex-direction: column-reverse;
+    }
+    .order-gallery .big-img{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .order-gallery .small-img{
+        display: flex;
+        overflow-x: auto;
+    }
 }
 @media (max-width: 585px) {
     .add-chanel.order-gallery .small-img {

@@ -36,8 +36,9 @@ nav .btn.avatar img {
     height: 100%;
     z-index: 100;
     overflow: auto;
-    background-color: #ffffff;
+    background-color: #6a9586;
 }
+.sidebar
 .sidebar-body {
     height: 100% !important;
 }
@@ -66,7 +67,9 @@ nav .btn.avatar img {
     margin-bottom: 5px;
     width: 100%;
 }
-
+.sidebar-bottom li:after{
+    bottom: 0;
+}
 .sidebar .social ul {
     display: flex;
     flex-direction: column;

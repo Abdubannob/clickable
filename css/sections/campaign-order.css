@@ -19,7 +19,6 @@
 .order-gallery .big-img {
     width: 100%;
     margin-left: 10px;
-    background-color: #000;
     border-radius: 12px;
     overflow: hidden;
     display: flex;
@@ -31,6 +30,7 @@
     max-width: fit-content;
     margin: auto;
     display: block;
+    border-radius: 6px;
 }
 .order-gallery .small-img {
     display: grid;

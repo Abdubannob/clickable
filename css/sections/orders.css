@@ -321,12 +321,32 @@
     font-size: 14px;
     line-height: 16px;
     color: #212121;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .service-order-footer .price h2 {
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
     color: #212121;
+}
+.service-order-footer-left{
+    max-width: 555px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-order-footer-right{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.service-order-footer-right .item{
+    margin-left: 20px;
+    max-width: 150px;
+    min-width: 150px;
 }
 
 .service-statistics .accordion-item {

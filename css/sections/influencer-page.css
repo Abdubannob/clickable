@@ -11,6 +11,7 @@
 }
 .influencer-page-info{
 	display: flex;
+	width: 100%;
 }
 .influencer-page-img img{
 	width: 140px;
@@ -80,25 +81,25 @@
 	color: #757575;
 }
 .influencer-page-rating .rate{
-	background-color: #ffffff;
+	background-color: #F0F9F6;
 	padding: 18px 25px;
-	border-radius: 100px;
+	border-radius: 18px;
 	margin-bottom: 20px;
 }
 .influencer-page-rating h2{
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 42px;
-	color: #707FDA;
+	color: #6A9586;
 }
 .influencer-page-rating p{
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 18px;
-	color: #707FDA;
+	color: #6A9586;
 
 }
-.influencer-page-rating .like-save .save {
+/*.influencer-page-rating .like-save .save {
     background-image: url(../../images/influencer-list/save.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -113,12 +114,10 @@
 }
 .influencer-page-rating .like-save .like.active {
     background-image: url(../../images/influencer-list/like-active.svg);
-}
-.influencer-page-rating .like-save .btn{
-	padding: 0;
-    width: 24px;
-    height: 24px;
-    margin-left: 20px;
+}*/
+.influencer-page-rating .like-save{
+	display: flex;
+    justify-content: space-around;
 }
 .influencer-page .nav-tab{
 	background-color: #ffffff;

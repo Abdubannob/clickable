@@ -79,8 +79,8 @@
                 </div>
             </div>
             <div class="influencer-page">
-                <div class="influencer-block">
-                    <div>
+                <div class="influencer-block box">
+                    <div class="box-body">
                         <div class="influencer-page-info">
                             <div class="influencer-page-img">
                                 <img class="rounded-circle" src="../../../images/influencer-list/influencer-page-img.png" alt="ava">
@@ -110,14 +110,18 @@
                         </div>
                         <p class="description">This is a description of the channel I use for social media influencing brand promotions...This is a description of the channel I use for social media influencing brand promotions... This is a description of the channel I use for social media influencing brand promotions. </p>
                     </div>
-                    <div class="influencer-page-rating">
+                    <div class="influencer-page-rating box-body">
                         <div class="rate">
                             <h2>4.7</h2>
                             <p>Rating</p>
                         </div>
                         <div class="like-save">
-                            <button class="like btn active"></button>
-                            <button class="save btn"></button>
+                            <div class="placement1">
+                                <div class="like"></div>
+                            </div>
+                            <div class="placement1">
+                                <div class="save"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -126,42 +130,10 @@
                 <div class="nav-title">
                     <h1>Services</h1>
                 </div>
-                <section id="splide" class="splide splide--slide splide--ltr splide--draggable is-active is-overflow is-initialized" aria-label="Splide" aria-roledescription="carousel">
-                    <div class="splide__track splide__track--slide splide__track--ltr splide__track--draggable" id="splide-track" aria-live="polite" aria-atomic="true" style="padding-left: 0px; padding-right: 0px;">
-                        <ul class="splide__list" id="splide-list" role="presentation" style="transform: translateX(0px);">
-                            <li class="splide__slide box service-card is-active is-visible" id="splide-slide01" role="group" aria-roledescription="slide" aria-label="1 of 6" style="margin-right: 20px; width: 460px;">
-                                <div class="top">
-                                    <a href="../service-details-brand.html"><img src="../../../images/dashboard/service-card.png" alt="service-card"></a>
-                                    <div class="top-right">
-                                        <h4>Order title quis consectetur lacus, diam.</h4>
-                                    </div>
-                                </div>
-                                <div class="box-body">
-                                    <div class="text">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
-                                    </div>
-                                    <hr>
-                                    <div class="items">
-                                        <div class="item">
-                                            <p>Price:</p>
-                                            <span>3000,00 AED</span>
-                                        </div>
-                                        <div class="item">
-                                            <p>Account</p>
-                                            <span>smotraTV</span>
-                                        </div>
-                                        <div class="item">
-                                            <p>Income:</p>
-                                            <span>13,234.00 AED</span>
-                                        </div>
-                                        <div class="item">
-                                            <p>Views:</p>
-                                            <span>2034</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="splide__slide box service-card brand is-visible is-next" id="splide-slide02" role="group" aria-roledescription="slide" aria-label="2 of 6" style="margin-right: 20px; width: 460px;">
+                <section id="splide" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide box service-card brand">
                                 <div class="top">
                                     <img src="../../../images/dashboard/service-card.png" alt="service-card">
                                     <div class="top-right">
@@ -193,7 +165,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="splide__slide box service-card" id="splide-slide03" role="group" aria-roledescription="slide" aria-label="3 of 6" style="margin-right: 20px; width: 460px;" aria-hidden="true">
+                            <li class="splide__slide box service-card brand">
                                 <div class="top">
                                     <img src="../../../images/dashboard/service-card.png" alt="service-card">
                                     <div class="top-right">
@@ -225,7 +197,8 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="splide__slide box service-card" id="splide-slide04" role="group" aria-roledescription="slide" aria-label="4 of 6" style="margin-right: 20px; width: 460px;" aria-hidden="true">
+
+                            <li class="splide__slide box service-card brand">
                                 <div class="top">
                                     <img src="../../../images/dashboard/service-card.png" alt="service-card">
                                     <div class="top-right">
@@ -257,7 +230,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="splide__slide box service-card" id="splide-slide05" role="group" aria-roledescription="slide" aria-label="5 of 6" style="margin-right: 20px; width: 460px;" aria-hidden="true">
+                            <li class="splide__slide box service-card brand">
                                 <div class="top">
                                     <img src="../../../images/dashboard/service-card.png" alt="service-card">
                                     <div class="top-right">
@@ -289,7 +262,39 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="splide__slide box service-card" id="splide-slide06" role="group" aria-roledescription="slide" aria-label="6 of 6" style="margin-right: 20px; width: 460px;" aria-hidden="true">
+                            <li class="splide__slide box service-card brand">
+                                <div class="top">
+                                    <img src="../../../images/dashboard/service-card.png" alt="service-card">
+                                    <div class="top-right">
+                                        <h4>Order title quis consectetur lacus, diam.</h4>
+                                    </div>
+                                </div>
+                                <div class="box-body">
+                                    <div class="text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent morbi lectus it amet, consectetur</p>
+                                    </div>
+                                    <hr>
+                                    <div class="items">
+                                        <div class="item">
+                                            <p>Price:</p>
+                                            <span>3000,00 AED</span>
+                                        </div>
+                                        <div class="item">
+                                            <p>Account</p>
+                                            <span>smotraTV</span>
+                                        </div>
+                                        <div class="item">
+                                            <p>Income:</p>
+                                            <span>13,234.00 AED</span>
+                                        </div>
+                                        <div class="item">
+                                            <p>Views:</p>
+                                            <span>2034</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide box service-card brand">
                                 <div class="top">
                                     <img src="../../../images/dashboard/service-card.png" alt="service-card">
                                     <div class="top-right">

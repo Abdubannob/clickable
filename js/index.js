@@ -53,15 +53,21 @@ if (headerfilter) { // Check if element exists
   window.onscroll = myFunction;
 }
 
-// window.onscroll = function() {myFunction()};
 
-// var headerfilter = document.getElementById("headerfilter");
-// var sticky = headerfilter.offsetTop;
+$(function () {
+    $(".heart").on("click", function () {
+        $(this).toggleClass("is-active");
+    });
+});
 
-// function myFunction() {
-//   if (window.pageYOffset >= sticky) {
-//     headerfilter.classList.add("sticky")
-//   } else {
-//     headerfilter.classList.remove("sticky");
-//   }
-// }
+$(function () {
+    $(".save").on("click", function () {
+        $(this).toggleClass("is-active");
+    });
+});
+
+$(function () {
+    $(".like").on("click", function () {
+        $(this).toggleClass("is-active");
+    });
+});

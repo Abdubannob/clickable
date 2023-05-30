@@ -121,6 +121,7 @@
 .service-card .top img {
     width: 100%;
     height: auto;
+    border-top-left-radius: 12px;
 }
 
 .service-card .top-right img.social-logo {

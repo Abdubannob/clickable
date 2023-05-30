@@ -1101,6 +1101,34 @@ footer hr {
     transition-duration: 0.1s;
     background-position: -20px 0;
 }
+.save {
+    width: 30px;
+    height: 30px;
+    background: url(../images/icons/save-with-active.svg) no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    background-size: cover;
+    transition: background-position 0.1s steps(1);
+    transition-duration: 0s;
+}
+.save.is-active {
+    transition-duration: 0.1s;
+    background-position: -30px 0;
+}
+.like {
+    width: 30px;
+    height: 30px;
+    background: url(../images/icons/like-with-active.svg) no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    background-size: cover;
+    transition: background-position 0.1s steps(1);
+    transition-duration: 0s;
+}
+.like.is-active {
+    transition-duration: 0.1s;
+    background-position: -30px 0;
+}
 .request-type {
     font-weight: 500;
     font-size: 16px;

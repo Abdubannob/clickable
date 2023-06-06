@@ -78,6 +78,7 @@
     background-color: #707fda;
 }
 .campaign-manager .manager {
+    max-width: 550px;
     display: flex;
     align-items: center;
     border-radius: 12px;
@@ -335,3 +336,96 @@
     line-height: 18px;
     color: #7e847f;
 }
+
+
+.youtube-icon{
+    display: flex;
+    align-items: center;
+
+}
+
+.youtube-icon{
+    height: 30px;
+    line-height: 16px;
+    border: none;
+    background-color: transparent;
+
+}
+
+
+.campaign-manager .manager button .youtube-img{
+    width: 25px;
+    margin-bottom: 4px;
+}
+
+.account-manager .manager button p{
+    font-size: 16px;
+    min-width: 300px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.account-manager .manager .account-info span{
+    padding-left: 5px;
+}
+
+.account-form-control {
+    display: flex;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.account-form-control button {
+    padding: 0 10px 0 0;
+    width: 10%;
+    border: none;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #F5F5F5;
+    font-weight: 500;
+    font-weight: 600;
+    color: #707fda;
+}
+
+
+
+.account-form-control input {
+    /* padding: 0 10px; */
+    width: 90%;
+    border: none;
+    border-radius: 0;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    background-color: #F5F5F5;
+}
+
+.account-manager .manager{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.account-manager .manager button{
+    width: 30px;
+    height: 30px;
+}
+
+.account-manager .manager button img{
+    width: 25px;
+    height: 25px;
+}
+
+
+.account-manager .manager .manager-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-info{
+    width: 100%;
+}
+

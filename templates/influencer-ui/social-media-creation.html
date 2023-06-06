@@ -33,32 +33,38 @@
     </nav>
     <div class="sidebar">
         <div class="sidebar-body d-flex" style="height: auto; min-height: -webkit-fill-available;">
-            <div class="social violet"><ul>
-                        <li>
-                            <p><a href="dashboard-influencer.html" class="dashboard">Dashboard</a></p>
-                        </li>
-                        <li>
-                            <p><a href="request.html" class="request">Requests</a></p>
-                        </li>
-                        <li>
-                            <p><a href="" class="service">Services</a></p>
-                        </li>
-                        <li>
-                            <p><a href="" class="channel">Channels</a></p>
-                        </li>
-                        <li>
-                            <p><a href="" class="order">Orders</a> <span class="sidebar-badge">2</span></p>
-                        </li>
-                        <li>
-                            <p><a href="" class="payment">Payments</a></p>
-                        </li>
-                        <div class="divider"></div>
-                        <li>
-                            <p><a href="edit-profile-influencer.html" class="setting">Settings</a></p>
-                        </li>
-                    </ul>
-                <button class="btn btn-sidebar" id="sidebtn"><img src="../../images/icons/sidebar-arrow.svg" alt="icon"></button>
-            </div>
+           
+<div class="social violet">
+    <ul>
+        <li class="">
+            <p><a href="/account/dashboard" class="dashboard">Dashboard</a></p>
+        </li>
+        <li class="">
+            <p><a href="/custom-service/marketplace/" class="request">Campaigns</a></p>
+        </li>
+        <li class="">
+            <p><a href="/service/list" class="service">Services</a></p>
+        </li>
+        <li class="active">
+            <p><a href="/channel/" class="channel">Channels</a></p>
+        </li>
+        <li class="">
+            <p><a href="/order/list" class="order">Orders</a><span style="display: none" class="sidebar-badge" id="new_order_count"></span></p>
+        </li>
+        <div class="divider"></div>
+        <li class="">
+            <p><a href="/account/edit-profile" class="setting">Settings</a></p>
+        </li>
+    </ul>
+    <button class="btn btn-sidebar" id="sidebtn">
+        <img src="/static/images/icons/sidebar-arrow.svg" alt="icon"/>
+    </button>
+    <div class="sidebar-bottom">
+        <li><a href="/account/logout" class="logout"></a></li>
+    </div>
+</div>
+        
+                    
         </div>
     </div>
     <div class="overlay"></div>
@@ -78,9 +84,30 @@
                 <div class="box-body">
                     <form class="violet">
                         <div class="form-group">
-                            <label for="youtube">Your Facebook channel link</label>
+                            <label for="youtube">Your social media channel link</label>
+                           <div class="account-form-control">
                             <input type="text" class="form-control" id="youtube" aria-describedby="youtube" placeholder="https://">
+                            <button>Add</button>
+                           </div>
                             <small id="emailHelp" class="form-text text-muted">Cursus in id nulla aliquet vivamus blandit.</small>
+                        </div>
+                        <div class="campaign-manager account-manager">
+                            <div class="manager">
+                                <div class="manager-content">
+                                  <a href="#">  <img  src="../../images/icons/youtube-account.svg" alt="ava" /></a>
+                                <div class="account-info">
+                                   <button class="youtube-icon"> <img class="youtube-img" src="../../images/dashboard/player.svg" alt="icon">
+                                    <p>Nature Soundscapes</p></button>
+                                    <span>112M Subscribers</span>
+                                </div>
+                                </div>
+                                <button class="btn p-0" type="button" data-bs-toggle="modal"
+                                                data-bs-target="#modal_17"><img
+                                                style="margin-right: 0;"
+                                                src="../../images/icons/x-icon.svg"
+                                                alt="x-icon"></button>
+                            </div>
+                            
                         </div>
                         <div class="form-group">
                             <label for="numberOfEmployees">Category</label>

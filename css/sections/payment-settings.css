@@ -84,7 +84,19 @@
 }
 
 .card-select .violet .check-card {
+    min-width: 600px;
     border: 1px solid #c7cbe0;
+}
+
+.name-email{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.name-email span{
+    font-weight: 400;
+    color: #757575;
 }
 
 .card-select .violet .check-card:focus,
@@ -261,4 +273,78 @@
     font-size: 14px;
     line-height: 20px;
     color: #000000;
+}
+
+@media (max-width: 1045px){
+    .card-select .violet .check-card {
+        min-width: 500px;
+        border: 1px solid #c7cbe0;
+    }
+    
+}
+
+@media (max-width: 650px){
+    .card-select .violet .check-card {
+        min-width: 500px;
+        border: 1px solid #c7cbe0;
+    }
+    
+}
+
+@media (max-width: 600px){
+    .card-select .violet .check-card {
+        min-width: 420px;
+        border: 1px solid #c7cbe0;
+    }
+    
+}
+
+@media (max-width: 528px){
+    .card-select .violet .check-card {
+        min-width: 350px;
+        border: 1px solid #c7cbe0;
+    }
+    .name-email{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+  
+    .name-email p{
+        font-size: 12px;
+        /* font-weight: 400; */
+        color: #757575;
+    }
+
+    .name-email span{
+        font-size: 12px;
+        font-weight: 400;
+        color: #757575;
+    }
+    
+}
+
+@media (max-width: 428px){
+    .card-select .violet .check-card {
+        min-width: 290px;
+        border: 1px solid #c7cbe0;
+    }
+    .name-email{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+  
+    .name-email p{
+        font-size: 12px;
+        /* font-weight: 400; */
+        color: #757575;
+    }
+
+    .name-email span{
+        font-size: 12px;
+        font-weight: 400;
+        color: #757575;
+    }
+    
 }

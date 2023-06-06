@@ -132,6 +132,18 @@
     padding: 11px 20px;
 }
 
+.btn-solid-white{
+    background-color: #707FDA;
+    color: #ffffff;
+}
+.btn-solid-white img{
+   /* display: none; */
+ 
+   filter:  brightness(0) invert(1);
+}
+
+.btn-solo
+
 .btn-solid-violet:hover {
     color: #ffffff;
 }
@@ -161,6 +173,10 @@
     background-image: url(../../images/influencer-list/accardion-expand.svg);
     background-repeat: no-repeat;
     transition: ease-in-out .3s;
+}
+
+.btn{
+    z-index: 999;
 }
 
 .custom-expand-btn.btn {
